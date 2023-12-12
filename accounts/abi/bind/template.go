@@ -93,7 +93,7 @@ import (
 	"fmt"
 	"reflect"
 
-	ethereum "github.com/ledgerwatch/erigon"
+	ethereum "github.com/idrecun/erigon"
 	"github.com/ledgerwatch/erigon/accounts/abi"
 	"github.com/ledgerwatch/erigon/accounts/abi/bind"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"

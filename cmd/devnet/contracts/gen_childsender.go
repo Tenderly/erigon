@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	ethereum "github.com/ledgerwatch/erigon"
+	ethereum "github.com/idrecun/erigon"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon/accounts/abi"
 	"github.com/ledgerwatch/erigon/accounts/abi/bind"

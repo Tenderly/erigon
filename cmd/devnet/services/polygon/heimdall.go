@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/ledgerwatch/erigon"
+	ethereum "github.com/idrecun/erigon"
 	"github.com/ledgerwatch/erigon-lib/chain"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon/accounts/abi/bind"

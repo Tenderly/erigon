@@ -5,7 +5,7 @@ import (
 	"errors"
 	"math/big"
 
-	ethereum "github.com/ledgerwatch/erigon"
+	ethereum "github.com/idrecun/erigon"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
 	"github.com/ledgerwatch/erigon/core/types"

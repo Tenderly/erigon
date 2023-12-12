@@ -27,7 +27,7 @@ import (
 	"time"
 
 	"github.com/holiman/uint256"
-	ethereum "github.com/ledgerwatch/erigon"
+	ethereum "github.com/idrecun/erigon"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon/accounts/abi"
