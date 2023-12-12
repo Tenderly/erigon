@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ugorji/go/codec"
+	"github.com/tenderly/go-codec/codec"
 )
 
 func TestOperatoLoaderByteArray(t *testing.T) {

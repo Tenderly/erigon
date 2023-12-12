@@ -257,6 +257,8 @@ require (
 	github.com/sosodev/duration v1.1.0 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/supranational/blst v0.3.11 // indirect
+	github.com/tenderly/go-codec v1.1.14-0.20231212094703-0bbb66a02189 // indirect
+	github.com/tenderly/go-codec/codec v1.1.14-0.20231212094703-0bbb66a02189 // indirect
 	github.com/tenderly/go-verkle v0.0.0-20231212093521-fbf9e5153193 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect

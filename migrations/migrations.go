@@ -12,7 +12,7 @@ import (
 	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/idrecun/erigon/eth/stagedsync/stages"
 	"github.com/ledgerwatch/log/v3"
-	"github.com/ugorji/go/codec"
+	"github.com/tenderly/go-codec/codec"
 )
 
 // migrations apply sequentially in order of this array, skips applied migrations
