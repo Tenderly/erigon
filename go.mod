@@ -11,6 +11,8 @@ require (
 
 replace github.com/idrecun/erigon/erigon-lib => ./erigon-lib
 
+replace github.com/gballet/go-verkle v0.0.0-20221121182333-31427a1f2d35 => github.com/tenderly/go-verkle v0.0.0-20231212093521-fbf9e5153193
+
 require (
 	gfx.cafe/util/go/generic v0.0.0-20230721185457-c559e86c829c
 	github.com/99designs/gqlgen v0.17.40
