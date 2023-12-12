@@ -6,8 +6,8 @@ import (
 	"os"
 
 	"github.com/golang/snappy"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
+	"github.com/idrecun/erigon/cl/phase1/core/state"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/pierrec/lz4"
 	"github.com/spf13/afero"
 )

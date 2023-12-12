@@ -7,11 +7,11 @@ import (
 	"sort"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	len2 "github.com/ledgerwatch/erigon-lib/common/length"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	len2 "github.com/idrecun/erigon/erigon-lib/common/length"
 
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/turbo/rlphacks"
+	"github.com/idrecun/erigon/core/types/accounts"
+	"github.com/idrecun/erigon/turbo/rlphacks"
 )
 
 type StarkStatsBuilder struct {

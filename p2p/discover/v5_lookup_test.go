@@ -9,8 +9,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/p2p/discover/v5wire"
-	"github.com/ledgerwatch/erigon/p2p/enode"
+	"github.com/idrecun/erigon/p2p/discover/v5wire"
+	"github.com/idrecun/erigon/p2p/enode"
 	"github.com/ledgerwatch/log/v3"
 )
 

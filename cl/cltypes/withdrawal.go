@@ -3,11 +3,11 @@ package cltypes
 import (
 	"fmt"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/length"
-	"github.com/ledgerwatch/erigon-lib/types/ssz"
-	"github.com/ledgerwatch/erigon/cl/merkle_tree"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/idrecun/erigon/cl/merkle_tree"
+	"github.com/idrecun/erigon/core/types"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/length"
+	"github.com/idrecun/erigon/erigon-lib/types/ssz"
 )
 
 type Withdrawal struct {

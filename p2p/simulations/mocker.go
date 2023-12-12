@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/p2p/simulations/adapters"
+	"github.com/idrecun/erigon/p2p/enode"
+	"github.com/idrecun/erigon/p2p/simulations/adapters"
 	"github.com/ledgerwatch/log/v3"
 )
 

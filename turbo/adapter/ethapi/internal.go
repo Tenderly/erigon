@@ -2,9 +2,9 @@ package ethapi
 
 // This file stores proxy-objects for `internal` package
 import (
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/idrecun/erigon/core/types"
 )
 
 // nolint

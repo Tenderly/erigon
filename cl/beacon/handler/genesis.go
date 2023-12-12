@@ -3,10 +3,10 @@ package handler
 import (
 	"net/http"
 
-	"github.com/ledgerwatch/erigon-lib/common"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cl/beacon/beaconhttp"
-	"github.com/ledgerwatch/erigon/cl/fork"
+	"github.com/idrecun/erigon/cl/beacon/beaconhttp"
+	"github.com/idrecun/erigon/cl/fork"
+	"github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 )
 
 type genesisResponse struct {

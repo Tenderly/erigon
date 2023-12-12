@@ -7,24 +7,24 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/ledgerwatch/erigon-lib/metrics"
-	"github.com/ledgerwatch/erigon/cl/abstract"
+	"github.com/idrecun/erigon/cl/abstract"
+	"github.com/idrecun/erigon/erigon-lib/metrics"
 
-	"github.com/ledgerwatch/erigon/cl/transition/impl/eth2/statechange"
+	"github.com/idrecun/erigon/cl/transition/impl/eth2/statechange"
 	"golang.org/x/exp/slices"
 
-	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
+	"github.com/idrecun/erigon/cl/cltypes/solid"
+	"github.com/idrecun/erigon/cl/phase1/core/state"
+	"github.com/idrecun/erigon/erigon-lib/common"
 
 	"github.com/Giulio2002/bls"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/fork"
-	"github.com/ledgerwatch/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/idrecun/erigon/cl/clparams"
+	"github.com/idrecun/erigon/cl/cltypes"
+	"github.com/idrecun/erigon/cl/fork"
+	"github.com/idrecun/erigon/cl/utils"
+	"github.com/idrecun/erigon/core/types"
 )
 
 func (I *impl) ProcessProposerSlashing(s abstract.BeaconState, propSlashing *cltypes.ProposerSlashing) error {

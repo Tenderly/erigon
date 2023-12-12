@@ -3,10 +3,10 @@ package jsonrpc
 import (
 	"context"
 	"fmt"
-	"github.com/ledgerwatch/erigon-lib/common/hexutil"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
 	"strconv"
 
-	"github.com/ledgerwatch/erigon/turbo/rpchelper"
+	"github.com/idrecun/erigon/turbo/rpchelper"
 )
 
 // NetAPI the interface for the net_ RPC commands

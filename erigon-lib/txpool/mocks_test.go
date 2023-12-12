@@ -5,10 +5,10 @@ package txpool
 
 import (
 	"context"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces/remote"
-	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon-lib/txpool/txpoolcfg"
-	types2 "github.com/ledgerwatch/erigon-lib/types"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
+	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/idrecun/erigon/erigon-lib/txpool/txpoolcfg"
+	types2 "github.com/idrecun/erigon/erigon-lib/types"
 	"sync"
 )
 

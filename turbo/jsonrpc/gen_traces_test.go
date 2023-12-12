@@ -9,17 +9,17 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/kv/kvcache"
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/cli/httpcfg"
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/rpcdaemontest"
-	"github.com/ledgerwatch/erigon/eth/tracers"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/rpc/rpccfg"
+	"github.com/idrecun/erigon/cmd/rpcdaemon/cli/httpcfg"
+	"github.com/idrecun/erigon/cmd/rpcdaemon/rpcdaemontest"
+	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/kv/kvcache"
+	"github.com/idrecun/erigon/eth/tracers"
+	"github.com/idrecun/erigon/rpc"
+	"github.com/idrecun/erigon/rpc/rpccfg"
 
 	// Force-load native and js packages, to trigger registration
-	_ "github.com/ledgerwatch/erigon/eth/tracers/js"
-	_ "github.com/ledgerwatch/erigon/eth/tracers/native"
+	_ "github.com/idrecun/erigon/eth/tracers/js"
+	_ "github.com/idrecun/erigon/eth/tracers/native"
 )
 
 /*

@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ledgerwatch/erigon/cl/fork"
+	"github.com/idrecun/erigon/cl/fork"
 	"github.com/ledgerwatch/log/v3"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/peer"

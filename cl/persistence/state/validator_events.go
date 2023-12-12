@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"errors"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
+	"github.com/idrecun/erigon/cl/cltypes/solid"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 )
 
 // THIS IS EXPERMIENTAL, IT MAY CHANGE

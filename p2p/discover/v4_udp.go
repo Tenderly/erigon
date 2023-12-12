@@ -29,11 +29,11 @@ import (
 	"time"
 
 	lru "github.com/hashicorp/golang-lru/v2"
-	"github.com/ledgerwatch/erigon/common/debug"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/p2p/discover/v4wire"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/p2p/netutil"
+	"github.com/idrecun/erigon/common/debug"
+	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/p2p/discover/v4wire"
+	"github.com/idrecun/erigon/p2p/enode"
+	"github.com/idrecun/erigon/p2p/netutil"
 	"github.com/ledgerwatch/log/v3"
 )
 

@@ -8,13 +8,13 @@ import (
 	"net/http"
 	"sync"
 
-	communication2 "github.com/ledgerwatch/erigon/cl/sentinel/communication"
-	"github.com/ledgerwatch/erigon/cl/sentinel/communication/ssz_snappy"
-	"github.com/ledgerwatch/erigon/cl/sentinel/httpreqresp"
+	communication2 "github.com/idrecun/erigon/cl/sentinel/communication"
+	"github.com/idrecun/erigon/cl/sentinel/communication/ssz_snappy"
+	"github.com/idrecun/erigon/cl/sentinel/httpreqresp"
 
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/fork"
+	"github.com/idrecun/erigon/cl/clparams"
+	"github.com/idrecun/erigon/cl/cltypes"
+	"github.com/idrecun/erigon/cl/fork"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

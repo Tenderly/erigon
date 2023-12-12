@@ -19,7 +19,7 @@ package bitutil
 import (
 	"bytes"
 
-	"github.com/ledgerwatch/erigon/common/bitutil"
+	"github.com/idrecun/erigon/common/bitutil"
 )
 
 // Fuzz implements a go-fuzz fuzzer method to test various encoding method

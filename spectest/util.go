@@ -2,16 +2,16 @@ package spectest
 
 import (
 	"fmt"
-	clparams2 "github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
-	"github.com/ledgerwatch/erigon/cl/utils"
+	clparams2 "github.com/idrecun/erigon/cl/clparams"
+	"github.com/idrecun/erigon/cl/cltypes"
+	"github.com/idrecun/erigon/cl/phase1/core/state"
+	"github.com/idrecun/erigon/cl/utils"
 	"io/fs"
 	"os"
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/ledgerwatch/erigon-lib/types/ssz"
+	"github.com/idrecun/erigon/erigon-lib/types/ssz"
 )
 
 func ReadMeta(root fs.FS, name string, obj any) error {

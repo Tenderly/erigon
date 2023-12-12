@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"time"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/core/state"
+	"github.com/idrecun/erigon/core/state"
 )
 
 var routes map[string]string

@@ -19,11 +19,11 @@ package eth
 import (
 	"math/big"
 
-	"github.com/ledgerwatch/erigon-lib/chain"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/kv"
+	"github.com/idrecun/erigon/erigon-lib/chain"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/core/rawdb"
+	"github.com/idrecun/erigon/core/rawdb"
 )
 
 const (

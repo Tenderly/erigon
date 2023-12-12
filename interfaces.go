@@ -23,10 +23,10 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	types2 "github.com/ledgerwatch/erigon-lib/types"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	types2 "github.com/idrecun/erigon/erigon-lib/types"
 
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/idrecun/erigon/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

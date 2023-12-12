@@ -30,7 +30,7 @@ Please make sure your contributions adhere to our coding guidelines:
 Before you submit a feature request, please check and make sure that it isn't 
 possible through some other means. The JavaScript-enabled console is a powerful 
 feature in the right hands. Please check our 
-[Wiki page](https://github.com/ledgerwatch/erigon/wiki) for more info
+[Wiki page](https://github.com/idrecun/erigon/wiki) for more info
 and help.
 
 ## Configuration, dependencies, and tests

@@ -3,16 +3,16 @@ package graph
 import (
 	"encoding/hex"
 	"fmt"
-	hexutil2 "github.com/ledgerwatch/erigon-lib/common/hexutil"
+	hexutil2 "github.com/idrecun/erigon/erigon-lib/common/hexutil"
 	"reflect"
 	"strconv"
 
 	"github.com/holiman/uint256"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/hexutility"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
 
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/idrecun/erigon/core/types"
 )
 
 func convertDataToStringP(abstractMap map[string]interface{}, field string) *string {

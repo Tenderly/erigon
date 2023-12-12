@@ -22,9 +22,9 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/idrecun/erigon/crypto"
 )
 
 func TestBloom(t *testing.T) {

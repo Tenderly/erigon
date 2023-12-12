@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/datadir"
+	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/datadir"
 	"github.com/spf13/cobra"
 
-	"github.com/ledgerwatch/erigon/cmd/utils"
-	"github.com/ledgerwatch/erigon/common/paths"
-	"github.com/ledgerwatch/erigon/p2p/sentry"
-	"github.com/ledgerwatch/erigon/turbo/debug"
-	"github.com/ledgerwatch/erigon/turbo/logging"
-	node2 "github.com/ledgerwatch/erigon/turbo/node"
+	"github.com/idrecun/erigon/cmd/utils"
+	"github.com/idrecun/erigon/common/paths"
+	"github.com/idrecun/erigon/p2p/sentry"
+	"github.com/idrecun/erigon/turbo/debug"
+	"github.com/idrecun/erigon/turbo/logging"
+	node2 "github.com/idrecun/erigon/turbo/node"
 )
 
 // generate the messages

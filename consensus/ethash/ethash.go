@@ -33,12 +33,12 @@ import (
 
 	"github.com/edsrzf/mmap-go"
 	"github.com/hashicorp/golang-lru/v2/simplelru"
-	"github.com/ledgerwatch/erigon/consensus/ethash/ethashcfg"
+	"github.com/idrecun/erigon/consensus/ethash/ethashcfg"
 
-	"github.com/ledgerwatch/erigon/common/debug"
-	cmath "github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/idrecun/erigon/common/debug"
+	cmath "github.com/idrecun/erigon/common/math"
+	"github.com/idrecun/erigon/consensus"
+	"github.com/idrecun/erigon/rpc"
 	"github.com/ledgerwatch/log/v3"
 )
 

@@ -17,11 +17,11 @@
 package nodecfg
 
 import (
-	"github.com/ledgerwatch/erigon-lib/direct"
+	"github.com/idrecun/erigon/erigon-lib/direct"
 
-	"github.com/ledgerwatch/erigon/p2p"
-	"github.com/ledgerwatch/erigon/p2p/nat"
-	"github.com/ledgerwatch/erigon/rpc/rpccfg"
+	"github.com/idrecun/erigon/p2p"
+	"github.com/idrecun/erigon/p2p/nat"
+	"github.com/idrecun/erigon/rpc/rpccfg"
 )
 
 const (

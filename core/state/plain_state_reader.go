@@ -3,12 +3,12 @@ package state
 import (
 	"bytes"
 	"encoding/binary"
-	"github.com/ledgerwatch/erigon-lib/kv/dbutils"
+	"github.com/idrecun/erigon/erigon-lib/kv/dbutils"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/kv"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/core/types/accounts"
+	"github.com/idrecun/erigon/core/types/accounts"
 )
 
 var _ StateReader = (*PlainStateReader)(nil)

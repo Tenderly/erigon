@@ -5,9 +5,9 @@ import (
 	"sync"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/ledgerwatch/erigon/cl/beacon/beaconhttp"
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/phase1/forkchoice"
+	"github.com/idrecun/erigon/cl/beacon/beaconhttp"
+	"github.com/idrecun/erigon/cl/clparams"
+	"github.com/idrecun/erigon/cl/phase1/forkchoice"
 )
 
 type ValidatorApiHandler struct {

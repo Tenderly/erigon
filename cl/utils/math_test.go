@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/idrecun/erigon/cl/utils"
 )
 
 func TestIsPowerOf2(t *testing.T) {

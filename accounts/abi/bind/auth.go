@@ -21,10 +21,10 @@ import (
 	"errors"
 	"math/big"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/crypto"
 )
 
 // ErrNoChainID is returned whenever the user failed to specify a chain id.

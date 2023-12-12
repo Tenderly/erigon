@@ -34,7 +34,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ledgerwatch/erigon-lib/common/dbg"
+	"github.com/idrecun/erigon/erigon-lib/common/dbg"
 	"github.com/ledgerwatch/log/v3"
 )
 

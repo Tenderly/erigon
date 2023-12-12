@@ -3,9 +3,9 @@ package freezer
 import (
 	"bytes"
 	"fmt"
-	"github.com/ledgerwatch/erigon/cl/sentinel/communication/ssz_snappy"
+	"github.com/idrecun/erigon/cl/sentinel/communication/ssz_snappy"
 
-	"github.com/ledgerwatch/erigon-lib/types/ssz"
+	"github.com/idrecun/erigon/erigon-lib/types/ssz"
 )
 
 type marshalerHashable interface {

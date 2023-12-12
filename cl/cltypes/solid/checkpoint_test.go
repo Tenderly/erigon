@@ -3,11 +3,11 @@ package solid_test
 import (
 	"testing"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
+	"github.com/idrecun/erigon/cl/cltypes/solid"
 )
 
 var testCheckpoint = solid.NewCheckpointFromParameters(libcommon.HexToHash("0x3"), 69)

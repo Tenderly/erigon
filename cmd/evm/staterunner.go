@@ -26,16 +26,16 @@ import (
 
 	"github.com/c2h5oh/datasize"
 	mdbx2 "github.com/erigontech/mdbx-go/mdbx"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/kv/mdbx"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/kv/mdbx"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/vm"
-	"github.com/ledgerwatch/erigon/eth/tracers/logger"
-	"github.com/ledgerwatch/erigon/tests"
-	"github.com/ledgerwatch/erigon/turbo/trie"
+	"github.com/idrecun/erigon/core/state"
+	"github.com/idrecun/erigon/core/vm"
+	"github.com/idrecun/erigon/eth/tracers/logger"
+	"github.com/idrecun/erigon/tests"
+	"github.com/idrecun/erigon/turbo/trie"
 )
 
 var stateTestCommand = cli.Command{

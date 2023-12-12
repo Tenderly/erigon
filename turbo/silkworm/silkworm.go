@@ -3,8 +3,8 @@ package silkworm
 import (
 	"errors"
 	"github.com/erigontech/silkworm-go"
-	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/consensus"
+	"github.com/idrecun/erigon/consensus"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"math/big"
 )
 

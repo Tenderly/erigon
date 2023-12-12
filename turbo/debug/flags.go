@@ -24,7 +24,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ledgerwatch/erigon-lib/metrics"
+	"github.com/idrecun/erigon/erigon-lib/metrics"
 
 	"github.com/ledgerwatch/log/v3"
 	"github.com/pelletier/go-toml"
@@ -32,8 +32,8 @@ import (
 	"github.com/urfave/cli/v2"
 	"gopkg.in/yaml.v2"
 
-	"github.com/ledgerwatch/erigon/common/fdlimit"
-	"github.com/ledgerwatch/erigon/turbo/logging"
+	"github.com/idrecun/erigon/common/fdlimit"
+	"github.com/idrecun/erigon/turbo/logging"
 )
 
 var (

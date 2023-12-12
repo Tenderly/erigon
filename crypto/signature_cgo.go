@@ -23,8 +23,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/secp256k1"
+	"github.com/idrecun/erigon/common/math"
+	"github.com/tenderly/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

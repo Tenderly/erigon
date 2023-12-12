@@ -3,13 +3,13 @@ package jsonrpc
 import (
 	"fmt"
 
-	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/kv"
+	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/consensus/bor"
-	"github.com/ledgerwatch/erigon/consensus/bor/valset"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/idrecun/erigon/consensus"
+	"github.com/idrecun/erigon/consensus/bor"
+	"github.com/idrecun/erigon/consensus/bor/valset"
+	"github.com/idrecun/erigon/rpc"
 )
 
 // BorAPI Bor specific routines

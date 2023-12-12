@@ -39,21 +39,21 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common"
 	"io"
 	"os"
 	"strings"
 	"text/tabwriter"
 
-	"github.com/ledgerwatch/erigon/turbo/logging"
+	"github.com/idrecun/erigon/turbo/logging"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/p2p"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/p2p/simulations"
-	"github.com/ledgerwatch/erigon/p2p/simulations/adapters"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/p2p"
+	"github.com/idrecun/erigon/p2p/enode"
+	"github.com/idrecun/erigon/p2p/simulations"
+	"github.com/idrecun/erigon/p2p/simulations/adapters"
+	"github.com/idrecun/erigon/rpc"
 )
 
 var client *simulations.Client

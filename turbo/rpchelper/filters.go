@@ -12,18 +12,18 @@ import (
 	"sync/atomic"
 	"time"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces/grpcutil"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces/remote"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces/txpool"
-	txpool2 "github.com/ledgerwatch/erigon-lib/txpool"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces/grpcutil"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces/txpool"
+	txpool2 "github.com/idrecun/erigon/erigon-lib/txpool"
 	"github.com/ledgerwatch/log/v3"
 	"google.golang.org/grpc"
 
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/eth/filters"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/eth/filters"
+	"github.com/idrecun/erigon/rlp"
 )
 
 type Filters struct {

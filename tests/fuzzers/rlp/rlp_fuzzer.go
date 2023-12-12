@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/rlp"
 )
 
 func decodeEncode(input []byte, val interface{}, i int) {

@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/consensus/bor/finality/flags"
-	"github.com/ledgerwatch/erigon/consensus/bor/finality/whitelist"
-	"github.com/ledgerwatch/erigon/consensus/bor/heimdall"
-	"github.com/ledgerwatch/erigon/turbo/services"
+	"github.com/idrecun/erigon/consensus/bor/finality/flags"
+	"github.com/idrecun/erigon/consensus/bor/finality/whitelist"
+	"github.com/idrecun/erigon/consensus/bor/heimdall"
+	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/idrecun/erigon/turbo/services"
 	"github.com/ledgerwatch/log/v3"
 )
 

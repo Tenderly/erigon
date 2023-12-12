@@ -2,7 +2,7 @@ package span
 
 import (
 	"github.com/google/btree"
-	"github.com/ledgerwatch/erigon/consensus/bor/valset"
+	"github.com/idrecun/erigon/consensus/bor/valset"
 )
 
 // Span represents a current bor span

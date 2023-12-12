@@ -21,14 +21,14 @@ import (
 	"io"
 	"math/big"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/direct"
-	proto_sentry "github.com/ledgerwatch/erigon-lib/gointerfaces/sentry"
-	rlp2 "github.com/ledgerwatch/erigon-lib/rlp"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/direct"
+	proto_sentry "github.com/idrecun/erigon/erigon-lib/gointerfaces/sentry"
+	rlp2 "github.com/idrecun/erigon/erigon-lib/rlp"
 
-	"github.com/ledgerwatch/erigon/core/forkid"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/core/forkid"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/rlp"
 )
 
 var ProtocolToString = map[uint]string{

@@ -3,10 +3,10 @@ package state_test
 import (
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
-	state2 "github.com/ledgerwatch/erigon/cl/phase1/core/state"
+	"github.com/idrecun/erigon/cl/cltypes/solid"
+	state2 "github.com/idrecun/erigon/cl/phase1/core/state"
 
-	"github.com/ledgerwatch/erigon/cl/clparams"
+	"github.com/idrecun/erigon/cl/clparams"
 	"github.com/stretchr/testify/require"
 )
 

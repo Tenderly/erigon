@@ -5,7 +5,7 @@ import (
 	"io"
 
 	"github.com/ledgerwatch/log/v3"
-	"github.com/ugorji/go/codec"
+	"github.com/tenderly/go-codec/codec"
 )
 
 var logger = log.New("package", "cbor")

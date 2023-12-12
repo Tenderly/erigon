@@ -24,15 +24,15 @@ import (
 	"net"
 	"os"
 
-	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/turbo/logging"
+	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/turbo/logging"
 
-	"github.com/ledgerwatch/erigon/cmd/utils"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/p2p/discover"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/p2p/nat"
-	"github.com/ledgerwatch/erigon/p2p/netutil"
+	"github.com/idrecun/erigon/cmd/utils"
+	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/p2p/discover"
+	"github.com/idrecun/erigon/p2p/enode"
+	"github.com/idrecun/erigon/p2p/nat"
+	"github.com/idrecun/erigon/p2p/netutil"
 )
 
 func main() {

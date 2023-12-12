@@ -20,8 +20,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/ledgerwatch/erigon-lib/diagnostics"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces/sentinel"
+	"github.com/idrecun/erigon/erigon-lib/diagnostics"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces/sentinel"
 	"google.golang.org/grpc"
 )
 

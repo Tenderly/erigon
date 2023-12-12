@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/ledgerwatch/erigon-lib/types/ssz"
-	"github.com/ledgerwatch/erigon/cl/phase1/forkchoice/fork_graph"
+	"github.com/idrecun/erigon/cl/phase1/forkchoice/fork_graph"
+	"github.com/idrecun/erigon/erigon-lib/types/ssz"
 	"github.com/ledgerwatch/log/v3"
 )
 

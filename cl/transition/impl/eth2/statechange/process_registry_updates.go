@@ -3,12 +3,12 @@ package statechange
 import (
 	"sort"
 
-	"github.com/ledgerwatch/erigon/cl/abstract"
+	"github.com/idrecun/erigon/cl/abstract"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
+	"github.com/idrecun/erigon/cl/cltypes/solid"
+	"github.com/idrecun/erigon/cl/phase1/core/state"
 
-	"github.com/ledgerwatch/erigon/cl/clparams"
+	"github.com/idrecun/erigon/cl/clparams"
 )
 
 // computeActivationExitEpoch is Implementation of compute_activation_exit_epoch. Defined in https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/beacon-chain.md#compute_activation_exit_epoch.

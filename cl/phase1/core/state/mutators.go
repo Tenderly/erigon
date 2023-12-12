@@ -1,6 +1,6 @@
 package state
 
-import "github.com/ledgerwatch/erigon/cl/abstract"
+import "github.com/idrecun/erigon/cl/abstract"
 
 func IncreaseBalance(b abstract.BeaconState, index, delta uint64) error {
 	currentBalance, err := b.ValidatorBalance(int(index))

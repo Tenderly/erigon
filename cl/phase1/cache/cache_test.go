@@ -3,8 +3,8 @@ package cache_test
 import (
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
-	"github.com/ledgerwatch/erigon/cl/phase1/cache"
+	"github.com/idrecun/erigon/cl/cltypes/solid"
+	"github.com/idrecun/erigon/cl/phase1/cache"
 	"github.com/stretchr/testify/require"
 )
 

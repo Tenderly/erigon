@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ledgerwatch/erigon-lib/common"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/ledgerwatch/erigon/consensus/bor/finality/rawdb"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/idrecun/erigon/consensus/bor/finality/rawdb"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/idrecun/erigon/erigon-lib/kv/memdb"
 	"github.com/stretchr/testify/require"
 
 	"pgregory.net/rapid"

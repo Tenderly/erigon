@@ -25,14 +25,14 @@ import (
 	"sync"
 
 	"github.com/c2h5oh/datasize"
-	"github.com/ledgerwatch/erigon-lib/common/datadir"
-	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/cli/httpcfg"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/paths"
-	"github.com/ledgerwatch/erigon/p2p"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/rpc/rpccfg"
+	"github.com/idrecun/erigon/cmd/rpcdaemon/cli/httpcfg"
+	"github.com/idrecun/erigon/common"
+	"github.com/idrecun/erigon/common/paths"
+	"github.com/idrecun/erigon/erigon-lib/common/datadir"
+	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/idrecun/erigon/p2p"
+	"github.com/idrecun/erigon/p2p/enode"
+	"github.com/idrecun/erigon/rpc/rpccfg"
 	"github.com/ledgerwatch/log/v3"
 )
 
