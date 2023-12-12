@@ -34,6 +34,7 @@ import (
 	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
 	rlp2 "github.com/idrecun/erigon/erigon-lib/rlp"
 	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/go-verkle"
 )
 
 var (

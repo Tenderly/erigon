@@ -15,6 +15,7 @@ import (
 	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/idrecun/erigon/turbo/trie/vtree"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/go-verkle"
 )
 
 func int256ToVerkleFormat(x *uint256.Int, buffer []byte) {

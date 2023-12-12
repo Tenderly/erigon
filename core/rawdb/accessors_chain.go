@@ -39,6 +39,7 @@ import (
 	"github.com/idrecun/erigon/ethdb/cbor"
 	"github.com/idrecun/erigon/rlp"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/go-verkle"
 )
 
 const (
