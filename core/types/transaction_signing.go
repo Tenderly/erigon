@@ -25,7 +25,7 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/idrecun/erigon/erigon-lib/chain"
 	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/ledgerwatch/secp256k1"
+	"github.com/tenderly/secp256k1"
 
 	"github.com/idrecun/erigon/common/u256"
 	"github.com/idrecun/erigon/crypto"

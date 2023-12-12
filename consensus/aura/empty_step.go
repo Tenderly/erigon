@@ -5,7 +5,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ledgerwatch/secp256k1"
+	"github.com/tenderly/secp256k1"
 
 	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 

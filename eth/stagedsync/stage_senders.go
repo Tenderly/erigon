@@ -21,7 +21,7 @@ import (
 	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/idrecun/erigon/turbo/services"
 	"github.com/ledgerwatch/log/v3"
-	"github.com/ledgerwatch/secp256k1"
+	"github.com/tenderly/secp256k1"
 
 	"github.com/idrecun/erigon/common/debug"
 	"github.com/idrecun/erigon/core/rawdb"

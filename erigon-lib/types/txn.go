@@ -28,7 +28,7 @@ import (
 
 	gokzg4844 "github.com/crate-crypto/go-kzg-4844"
 	"github.com/holiman/uint256"
-	"github.com/ledgerwatch/secp256k1"
+	"github.com/tenderly/secp256k1"
 	"golang.org/x/crypto/sha3"
 
 	"github.com/idrecun/erigon/erigon-lib/common"

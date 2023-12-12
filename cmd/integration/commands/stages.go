@@ -22,8 +22,8 @@ import (
 	"github.com/idrecun/erigon/turbo/builder"
 	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
 	"github.com/ledgerwatch/log/v3"
-	"github.com/ledgerwatch/secp256k1"
 	"github.com/spf13/cobra"
+	"github.com/tenderly/secp256k1"
 	"golang.org/x/exp/slices"
 
 	"github.com/idrecun/erigon/cmd/hack/tool/fromdb"
