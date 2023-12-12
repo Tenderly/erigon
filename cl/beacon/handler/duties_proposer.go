@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/ledgerwatch/erigon/cl/beacon/beaconhttp"
-	shuffling2 "github.com/ledgerwatch/erigon/cl/phase1/core/state/shuffling"
+	"github.com/idrecun/erigon/cl/beacon/beaconhttp"
+	shuffling2 "github.com/idrecun/erigon/cl/phase1/core/state/shuffling"
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 )

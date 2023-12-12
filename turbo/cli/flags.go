@@ -10,7 +10,7 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/rpc/rpccfg"
+	"github.com/idrecun/erigon/rpc/rpccfg"
 
 	"github.com/c2h5oh/datasize"
 	"github.com/ledgerwatch/erigon-lib/etl"
@@ -20,11 +20,11 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/cli/httpcfg"
-	"github.com/ledgerwatch/erigon/cmd/utils"
-	"github.com/ledgerwatch/erigon/eth/ethconfig"
-	"github.com/ledgerwatch/erigon/ethdb/prune"
-	"github.com/ledgerwatch/erigon/node/nodecfg"
+	"github.com/idrecun/erigon/cmd/rpcdaemon/cli/httpcfg"
+	"github.com/idrecun/erigon/cmd/utils"
+	"github.com/idrecun/erigon/eth/ethconfig"
+	"github.com/idrecun/erigon/ethdb/prune"
+	"github.com/idrecun/erigon/node/nodecfg"
 )
 
 var (

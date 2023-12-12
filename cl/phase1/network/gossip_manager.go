@@ -6,15 +6,15 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common"
 	"sync"
 
-	"github.com/ledgerwatch/erigon/cl/freezer"
-	"github.com/ledgerwatch/erigon/cl/phase1/forkchoice"
-	"github.com/ledgerwatch/erigon/cl/sentinel/peers"
+	"github.com/idrecun/erigon/cl/freezer"
+	"github.com/idrecun/erigon/cl/phase1/forkchoice"
+	"github.com/idrecun/erigon/cl/sentinel/peers"
 
+	"github.com/idrecun/erigon/cl/clparams"
+	"github.com/idrecun/erigon/cl/cltypes"
+	"github.com/idrecun/erigon/cl/utils"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/sentinel"
 	"github.com/ledgerwatch/erigon-lib/types/ssz"
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/utils"
 	"github.com/ledgerwatch/log/v3"
 )
 

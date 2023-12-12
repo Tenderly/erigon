@@ -29,9 +29,9 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/idrecun/erigon/common"
+	"github.com/idrecun/erigon/common/math"
+	"github.com/idrecun/erigon/crypto"
 )
 
 const jsondata = `

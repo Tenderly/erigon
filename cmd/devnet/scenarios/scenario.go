@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"unicode"
 
-	"github.com/ledgerwatch/erigon/cmd/devnet/devnet"
+	"github.com/idrecun/erigon/cmd/devnet/devnet"
 	"github.com/ledgerwatch/log/v3"
 )
 

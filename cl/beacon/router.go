@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/ledgerwatch/erigon/cl/beacon/beacon_router_configuration"
-	"github.com/ledgerwatch/erigon/cl/beacon/handler"
-	"github.com/ledgerwatch/erigon/cl/beacon/validatorapi"
+	"github.com/idrecun/erigon/cl/beacon/beacon_router_configuration"
+	"github.com/idrecun/erigon/cl/beacon/handler"
+	"github.com/idrecun/erigon/cl/beacon/validatorapi"
 	"github.com/ledgerwatch/log/v3"
 )
 

@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ledgerwatch/erigon/common/mclock"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/p2p/enr"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/common/mclock"
+	"github.com/idrecun/erigon/p2p/enode"
+	"github.com/idrecun/erigon/p2p/enr"
+	"github.com/idrecun/erigon/rlp"
 )
 
 // Packet is implemented by all message types.

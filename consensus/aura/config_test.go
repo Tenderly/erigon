@@ -8,7 +8,7 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/idrecun/erigon/params"
 )
 
 func TestGnosisBlockRewardContractTransitions(t *testing.T) {

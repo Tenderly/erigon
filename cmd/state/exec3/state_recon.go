@@ -16,15 +16,15 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv"
 	libstate "github.com/ledgerwatch/erigon-lib/state"
 
-	"github.com/ledgerwatch/erigon/cmd/state/exec22"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/core/vm"
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
-	"github.com/ledgerwatch/erigon/turbo/services"
+	"github.com/idrecun/erigon/cmd/state/exec22"
+	"github.com/idrecun/erigon/consensus"
+	"github.com/idrecun/erigon/core"
+	"github.com/idrecun/erigon/core/state"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/core/types/accounts"
+	"github.com/idrecun/erigon/core/vm"
+	"github.com/idrecun/erigon/core/vm/evmtypes"
+	"github.com/idrecun/erigon/turbo/services"
 )
 
 type ScanWorker struct {

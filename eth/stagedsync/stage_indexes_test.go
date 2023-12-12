@@ -22,10 +22,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/ethdb/prune"
+	"github.com/idrecun/erigon/common"
+	"github.com/idrecun/erigon/common/math"
+	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/ethdb/prune"
 )
 
 func TestIndexGenerator_GenerateIndex_SimpleCase(t *testing.T) {

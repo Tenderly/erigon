@@ -3,10 +3,10 @@ package cltypes
 import (
 	"fmt"
 
+	"github.com/idrecun/erigon/cl/merkle_tree"
+	ssz2 "github.com/idrecun/erigon/cl/ssz"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/types/ssz"
-	"github.com/ledgerwatch/erigon/cl/merkle_tree"
-	ssz2 "github.com/ledgerwatch/erigon/cl/ssz"
 )
 
 // Change to EL engine

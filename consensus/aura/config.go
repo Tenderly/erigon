@@ -26,8 +26,8 @@ import (
 	"github.com/ledgerwatch/erigon-lib/chain"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/common/u256"
-	"github.com/ledgerwatch/erigon/consensus"
+	"github.com/idrecun/erigon/common/u256"
+	"github.com/idrecun/erigon/consensus"
 )
 
 // Draws an validator nonce modulo number of validators.

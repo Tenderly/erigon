@@ -17,13 +17,13 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv/temporal/historyv2"
 	libstate "github.com/ledgerwatch/erigon-lib/state"
 
-	"github.com/ledgerwatch/erigon/cmd/state/exec22"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/state/temporal"
-	"github.com/ledgerwatch/erigon/eth/ethconfig"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
-	"github.com/ledgerwatch/erigon/ethdb/prune"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/idrecun/erigon/cmd/state/exec22"
+	"github.com/idrecun/erigon/core/state"
+	"github.com/idrecun/erigon/core/state/temporal"
+	"github.com/idrecun/erigon/eth/ethconfig"
+	"github.com/idrecun/erigon/eth/stagedsync/stages"
+	"github.com/idrecun/erigon/ethdb/prune"
+	"github.com/idrecun/erigon/params"
 )
 
 func TestExec(t *testing.T) {

@@ -11,11 +11,11 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"google.golang.org/grpc"
 
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/eth/protocols/eth"
-	"github.com/ledgerwatch/erigon/p2p"
-	"github.com/ledgerwatch/erigon/rlp"
-	"github.com/ledgerwatch/erigon/turbo/stages/headerdownload"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/eth/protocols/eth"
+	"github.com/idrecun/erigon/p2p"
+	"github.com/idrecun/erigon/rlp"
+	"github.com/idrecun/erigon/turbo/stages/headerdownload"
 )
 
 func (cs *MultiClient) PropagateNewBlockHashes(ctx context.Context, announces []headerdownload.Announce) {

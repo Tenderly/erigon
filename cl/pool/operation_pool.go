@@ -1,7 +1,7 @@
 package pool
 
 import (
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state/lru"
+	"github.com/idrecun/erigon/cl/phase1/core/state/lru"
 )
 
 var operationsMultiplier = 20 // Cap the amount of cached element to max_operations_per_block * operations_multiplier

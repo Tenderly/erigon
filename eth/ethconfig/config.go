@@ -34,14 +34,14 @@ import (
 	"github.com/ledgerwatch/erigon-lib/downloader/downloadercfg"
 	"github.com/ledgerwatch/erigon-lib/txpool/txpoolcfg"
 
-	"github.com/ledgerwatch/erigon/cl/beacon/beacon_router_configuration"
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/consensus/ethash/ethashcfg"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/eth/ethconfig/estimate"
-	"github.com/ledgerwatch/erigon/eth/gasprice/gaspricecfg"
-	"github.com/ledgerwatch/erigon/ethdb/prune"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/idrecun/erigon/cl/beacon/beacon_router_configuration"
+	"github.com/idrecun/erigon/cl/clparams"
+	"github.com/idrecun/erigon/consensus/ethash/ethashcfg"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/eth/ethconfig/estimate"
+	"github.com/idrecun/erigon/eth/gasprice/gaspricecfg"
+	"github.com/idrecun/erigon/ethdb/prune"
+	"github.com/idrecun/erigon/params"
 )
 
 // AggregationStep number of transactions in smallest static file

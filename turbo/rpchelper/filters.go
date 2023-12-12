@@ -21,9 +21,9 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"google.golang.org/grpc"
 
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/eth/filters"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/eth/filters"
+	"github.com/idrecun/erigon/rlp"
 )
 
 type Filters struct {

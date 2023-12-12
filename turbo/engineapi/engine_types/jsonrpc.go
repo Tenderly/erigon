@@ -7,12 +7,12 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/common/hexutil"
 
+	"github.com/idrecun/erigon/core/types"
 	"github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/execution"
 	types2 "github.com/ledgerwatch/erigon-lib/gointerfaces/types"
-	"github.com/ledgerwatch/erigon/core/types"
 )
 
 // ExecutionPayload represents an execution payload (aka block)

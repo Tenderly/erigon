@@ -8,6 +8,7 @@ import (
 	"math"
 	"sort"
 
+	"github.com/idrecun/erigon/eth/ethconfig"
 	"github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/dbg"
 	"github.com/ledgerwatch/erigon-lib/common/length"
@@ -15,12 +16,11 @@ import (
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/remote"
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/recsplit"
-	"github.com/ledgerwatch/erigon/eth/ethconfig"
 
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rlp"
-	"github.com/ledgerwatch/erigon/turbo/services"
+	"github.com/idrecun/erigon/core/rawdb"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/rlp"
+	"github.com/idrecun/erigon/turbo/services"
 )
 
 type RemoteBlockReader struct {

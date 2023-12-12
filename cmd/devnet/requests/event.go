@@ -8,9 +8,9 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common/hexutil"
 
 	ethereum "github.com/idrecun/erigon"
+	"github.com/idrecun/erigon/core/types"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
-	"github.com/ledgerwatch/erigon/core/types"
 )
 
 func Compare(expected types.Log, actual types.Log) ([]error, bool) {

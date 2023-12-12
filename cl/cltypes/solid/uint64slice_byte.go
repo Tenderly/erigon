@@ -5,11 +5,11 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
+	"github.com/idrecun/erigon/cl/merkle_tree"
+	"github.com/idrecun/erigon/cl/utils"
 	"github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/length"
 	"github.com/ledgerwatch/erigon-lib/types/ssz"
-	"github.com/ledgerwatch/erigon/cl/merkle_tree"
-	"github.com/ledgerwatch/erigon/cl/utils"
 )
 
 const treeCacheDepthUint64Slice = 0

@@ -27,10 +27,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/p2p/enr"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/common/math"
+	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/p2p/enr"
+	"github.com/idrecun/erigon/rlp"
 )
 
 // RPC packet types

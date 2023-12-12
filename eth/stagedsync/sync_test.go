@@ -10,7 +10,7 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
+	"github.com/idrecun/erigon/eth/stagedsync/stages"
 )
 
 func TestStagesSuccess(t *testing.T) {

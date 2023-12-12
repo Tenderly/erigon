@@ -23,8 +23,8 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/math"
 
-	"github.com/ledgerwatch/erigon/core/vm/stack"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/idrecun/erigon/core/vm/stack"
+	"github.com/idrecun/erigon/params"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

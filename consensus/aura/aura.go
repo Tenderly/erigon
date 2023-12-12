@@ -31,13 +31,13 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/consensus/clique"
-	"github.com/ledgerwatch/erigon/consensus/ethash"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rlp"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/idrecun/erigon/consensus"
+	"github.com/idrecun/erigon/consensus/clique"
+	"github.com/idrecun/erigon/consensus/ethash"
+	"github.com/idrecun/erigon/core/state"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/rlp"
+	"github.com/idrecun/erigon/rpc"
 )
 
 const DEBUG_LOG_FROM = 999_999_999

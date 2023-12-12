@@ -28,14 +28,14 @@ import (
 
 	"github.com/ledgerwatch/log/v3"
 
+	"github.com/idrecun/erigon/common/debug"
+	"github.com/idrecun/erigon/common/mclock"
+	"github.com/idrecun/erigon/event"
+	"github.com/idrecun/erigon/p2p/enode"
+	"github.com/idrecun/erigon/p2p/enr"
+	"github.com/idrecun/erigon/rlp"
 	"github.com/ledgerwatch/erigon-lib/diagnostics"
 	"github.com/ledgerwatch/erigon-lib/metrics"
-	"github.com/ledgerwatch/erigon/common/debug"
-	"github.com/ledgerwatch/erigon/common/mclock"
-	"github.com/ledgerwatch/erigon/event"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/p2p/enr"
-	"github.com/ledgerwatch/erigon/rlp"
 )
 
 var (

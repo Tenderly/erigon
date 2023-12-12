@@ -12,8 +12,8 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv/bitmapdb"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/core/state/temporal"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
+	"github.com/idrecun/erigon/core/state/temporal"
+	"github.com/idrecun/erigon/eth/stagedsync/stages"
 	"github.com/ledgerwatch/log/v3"
 )
 

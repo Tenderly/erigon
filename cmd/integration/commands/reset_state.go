@@ -8,21 +8,21 @@ import (
 	"os"
 	"text/tabwriter"
 
-	"github.com/ledgerwatch/erigon/turbo/backup"
+	"github.com/idrecun/erigon/turbo/backup"
 
+	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
 	"github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/kvcfg"
 	"github.com/ledgerwatch/erigon-lib/kv/rawdbv3"
 	"github.com/ledgerwatch/erigon-lib/state"
-	"github.com/ledgerwatch/erigon/turbo/snapshotsync/freezeblocks"
 	"github.com/spf13/cobra"
 
-	"github.com/ledgerwatch/erigon/core/rawdb/rawdbhelpers"
-	reset2 "github.com/ledgerwatch/erigon/core/rawdb/rawdbreset"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
-	"github.com/ledgerwatch/erigon/ethdb/prune"
-	"github.com/ledgerwatch/erigon/turbo/debug"
+	"github.com/idrecun/erigon/core/rawdb/rawdbhelpers"
+	reset2 "github.com/idrecun/erigon/core/rawdb/rawdbreset"
+	"github.com/idrecun/erigon/eth/stagedsync/stages"
+	"github.com/idrecun/erigon/ethdb/prune"
+	"github.com/idrecun/erigon/turbo/debug"
 )
 
 var cmdResetState = &cobra.Command{

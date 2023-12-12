@@ -25,9 +25,9 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/cmp"
 
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/ethdb"
+	"github.com/idrecun/erigon/core/types/accounts"
+	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/ethdb"
 )
 
 var (

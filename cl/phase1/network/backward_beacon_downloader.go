@@ -10,9 +10,9 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"golang.org/x/net/context"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/persistence/beacon_indicies"
-	"github.com/ledgerwatch/erigon/cl/rpc"
+	"github.com/idrecun/erigon/cl/cltypes"
+	"github.com/idrecun/erigon/cl/persistence/beacon_indicies"
+	"github.com/idrecun/erigon/cl/rpc"
 )
 
 // Whether the reverse downloader arrived at expected height or condition.

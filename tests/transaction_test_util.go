@@ -27,9 +27,9 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
 
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/idrecun/erigon/common/math"
+	"github.com/idrecun/erigon/core"
+	"github.com/idrecun/erigon/core/types"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.

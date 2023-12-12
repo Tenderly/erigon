@@ -4,12 +4,12 @@ import (
 	"fmt"
 
 	"github.com/Giulio2002/bls"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
-	"github.com/ledgerwatch/erigon/cl/fork"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
-	"github.com/ledgerwatch/erigon/cl/pool"
+	"github.com/idrecun/erigon/cl/cltypes/solid"
+	"github.com/idrecun/erigon/cl/fork"
+	"github.com/idrecun/erigon/cl/phase1/core/state"
+	"github.com/idrecun/erigon/cl/pool"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes"
+	"github.com/idrecun/erigon/cl/cltypes"
 )
 
 func (f *ForkChoiceStore) OnAttesterSlashing(attesterSlashing *cltypes.AttesterSlashing, test bool) error {

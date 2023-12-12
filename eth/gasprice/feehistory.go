@@ -25,10 +25,10 @@ import (
 	"sync/atomic"
 
 	"github.com/holiman/uint256"
+	"github.com/idrecun/erigon/consensus/misc"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/rpc"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/consensus/misc"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rpc"
 	"github.com/ledgerwatch/log/v3"
 )
 

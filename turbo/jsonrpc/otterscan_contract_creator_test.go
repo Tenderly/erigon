@@ -3,8 +3,8 @@ package jsonrpc
 import (
 	"testing"
 
+	"github.com/idrecun/erigon/cmd/rpcdaemon/rpcdaemontest"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/rpcdaemontest"
 	"github.com/stretchr/testify/require"
 )
 

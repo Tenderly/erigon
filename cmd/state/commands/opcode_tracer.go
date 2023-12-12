@@ -22,17 +22,17 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv/kvcfg"
 	"github.com/ledgerwatch/erigon-lib/kv/mdbx"
 
-	"github.com/ledgerwatch/erigon/common/debug"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/consensus/ethash"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/core/vm"
-	"github.com/ledgerwatch/erigon/eth/ethconfig"
-	"github.com/ledgerwatch/erigon/turbo/rpchelper"
-	"github.com/ledgerwatch/erigon/turbo/snapshotsync/freezeblocks"
+	"github.com/idrecun/erigon/common/debug"
+	"github.com/idrecun/erigon/consensus"
+	"github.com/idrecun/erigon/consensus/ethash"
+	"github.com/idrecun/erigon/core"
+	"github.com/idrecun/erigon/core/rawdb"
+	"github.com/idrecun/erigon/core/state"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/core/vm"
+	"github.com/idrecun/erigon/eth/ethconfig"
+	"github.com/idrecun/erigon/turbo/rpchelper"
+	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
 )
 
 var (

@@ -32,9 +32,9 @@ import (
 	"github.com/goccy/go-json"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/idrecun/erigon/common"
+	"github.com/idrecun/erigon/consensus"
+	"github.com/idrecun/erigon/core/types"
 )
 
 const (

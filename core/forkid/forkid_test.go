@@ -24,8 +24,8 @@ import (
 	"github.com/ledgerwatch/erigon-lib/chain"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/params"
+	"github.com/idrecun/erigon/rlp"
 )
 
 // TestCreation tests that different genesis and fork rule combinations result in

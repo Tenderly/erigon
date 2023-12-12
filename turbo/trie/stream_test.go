@@ -25,9 +25,9 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/idrecun/erigon/common"
+	"github.com/idrecun/erigon/core/types/accounts"
+	"github.com/idrecun/erigon/crypto"
 )
 
 func TestHashWithModificationsEmpty(t *testing.T) {

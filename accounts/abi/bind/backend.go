@@ -24,7 +24,7 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
 	ethereum "github.com/idrecun/erigon"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/idrecun/erigon/core/types"
 )
 
 var (

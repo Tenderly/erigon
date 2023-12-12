@@ -3,10 +3,10 @@ package solid
 import (
 	"encoding/json"
 
+	"github.com/idrecun/erigon/cl/merkle_tree"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/types/clonable"
 	"github.com/ledgerwatch/erigon-lib/types/ssz"
-	"github.com/ledgerwatch/erigon/cl/merkle_tree"
 )
 
 type encodableHashableSSZ interface {

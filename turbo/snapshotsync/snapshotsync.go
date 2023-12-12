@@ -20,8 +20,8 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv/rawdbv3"
 	"github.com/ledgerwatch/erigon-lib/state"
 
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/turbo/services"
+	"github.com/idrecun/erigon/core/rawdb"
+	"github.com/idrecun/erigon/turbo/services"
 	"github.com/ledgerwatch/log/v3"
 )
 

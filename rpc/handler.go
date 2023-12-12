@@ -26,8 +26,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/idrecun/erigon/rpc/rpccfg"
 	jsoniter "github.com/json-iterator/go"
-	"github.com/ledgerwatch/erigon/rpc/rpccfg"
 	"github.com/ledgerwatch/log/v3"
 )
 

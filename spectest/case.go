@@ -1,8 +1,8 @@
 package spectest
 
 import (
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/transition/machine"
+	"github.com/idrecun/erigon/cl/clparams"
+	"github.com/idrecun/erigon/cl/transition/machine"
 	"io/fs"
 	"os"
 	"strings"

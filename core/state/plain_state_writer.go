@@ -8,8 +8,8 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/turbo/shards"
+	"github.com/idrecun/erigon/core/types/accounts"
+	"github.com/idrecun/erigon/turbo/shards"
 )
 
 var _ WriterWithChangeSets = (*PlainStateWriter)(nil)

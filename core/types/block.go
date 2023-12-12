@@ -34,8 +34,8 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
 	rlp2 "github.com/ledgerwatch/erigon-lib/rlp"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/common"
+	"github.com/idrecun/erigon/rlp"
 )
 
 var (

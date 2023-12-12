@@ -3,8 +3,8 @@ package bor
 import (
 	"math/big"
 
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/consensus"
+	"github.com/idrecun/erigon/rlp"
 )
 
 //go:generate mockgen -destination=./genesis_contract_mock.go -package=bor . GenesisContract

@@ -13,9 +13,9 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/ledgerwatch/erigon/consensus/ethash"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/consensus/ethash"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/rlp"
 )
 
 // MiningAPIVersion

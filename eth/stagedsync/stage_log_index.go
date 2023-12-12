@@ -20,9 +20,9 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"golang.org/x/exp/slices"
 
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/ethdb/cbor"
-	"github.com/ledgerwatch/erigon/ethdb/prune"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/ethdb/cbor"
+	"github.com/idrecun/erigon/ethdb/prune"
 )
 
 const (

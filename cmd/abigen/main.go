@@ -30,13 +30,13 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ledgerwatch/erigon/accounts/abi"
-	"github.com/ledgerwatch/erigon/accounts/abi/bind"
-	"github.com/ledgerwatch/erigon/cmd/utils"
-	"github.com/ledgerwatch/erigon/common/compiler"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/params"
-	cli2 "github.com/ledgerwatch/erigon/turbo/cli"
+	"github.com/idrecun/erigon/accounts/abi"
+	"github.com/idrecun/erigon/accounts/abi/bind"
+	"github.com/idrecun/erigon/cmd/utils"
+	"github.com/idrecun/erigon/common/compiler"
+	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/params"
+	cli2 "github.com/idrecun/erigon/turbo/cli"
 )
 
 var (

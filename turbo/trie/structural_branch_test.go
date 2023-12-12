@@ -27,9 +27,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/eth/integrity"
-	"github.com/ledgerwatch/erigon/turbo/trie"
+	"github.com/idrecun/erigon/common"
+	"github.com/idrecun/erigon/eth/integrity"
+	"github.com/idrecun/erigon/turbo/trie"
 )
 
 func TestIHCursor(t *testing.T) {

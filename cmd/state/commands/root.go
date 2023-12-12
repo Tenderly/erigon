@@ -6,17 +6,17 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/idrecun/erigon/core/types"
 	chain2 "github.com/ledgerwatch/erigon-lib/chain"
 	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/core/types"
 	"github.com/spf13/cobra"
 
-	"github.com/ledgerwatch/erigon/turbo/debug"
-	"github.com/ledgerwatch/erigon/turbo/logging"
+	"github.com/idrecun/erigon/turbo/debug"
+	"github.com/idrecun/erigon/turbo/logging"
 
-	"github.com/ledgerwatch/erigon/cmd/utils"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/idrecun/erigon/cmd/utils"
+	"github.com/idrecun/erigon/core"
+	"github.com/idrecun/erigon/params"
 )
 
 var (

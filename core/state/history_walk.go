@@ -12,8 +12,8 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/bitmapdb"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/ethdb"
+	"github.com/idrecun/erigon/common"
+	"github.com/idrecun/erigon/ethdb"
 )
 
 // startKey is the concatenation of address and incarnation (BigEndian 8 byte)

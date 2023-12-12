@@ -10,7 +10,7 @@ import (
 
 	types2 "github.com/ledgerwatch/erigon-lib/gointerfaces/types"
 
-	"github.com/ledgerwatch/erigon/eth/filters"
+	"github.com/idrecun/erigon/eth/filters"
 	"github.com/ledgerwatch/log/v3"
 )
 

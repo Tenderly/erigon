@@ -20,7 +20,7 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/core/types/accounts"
+	"github.com/idrecun/erigon/core/types/accounts"
 )
 
 func ReadAccount(db kv.Getter, addr libcommon.Address, acc *accounts.Account) (bool, error) {

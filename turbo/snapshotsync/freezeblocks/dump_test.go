@@ -14,15 +14,15 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	types2 "github.com/ledgerwatch/erigon-lib/types"
 
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/ethdb/prune"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/rlp"
-	"github.com/ledgerwatch/erigon/turbo/snapshotsync/freezeblocks"
-	"github.com/ledgerwatch/erigon/turbo/stages/mock"
+	"github.com/idrecun/erigon/common/math"
+	"github.com/idrecun/erigon/core"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/ethdb/prune"
+	"github.com/idrecun/erigon/params"
+	"github.com/idrecun/erigon/rlp"
+	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
+	"github.com/idrecun/erigon/turbo/stages/mock"
 )
 
 func nonceRange(from, to int) []uint64 {

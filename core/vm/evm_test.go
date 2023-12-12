@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/idrecun/erigon/core/vm/evmtypes"
+	"github.com/idrecun/erigon/params"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
-	"github.com/ledgerwatch/erigon/params"
 
 	"github.com/holiman/uint256"
 	"pgregory.net/rapid"

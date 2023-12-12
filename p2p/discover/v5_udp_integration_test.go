@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ledgerwatch/erigon/p2p/discover/v5wire"
+	"github.com/idrecun/erigon/p2p/discover/v5wire"
 	"github.com/ledgerwatch/log/v3"
 )
 

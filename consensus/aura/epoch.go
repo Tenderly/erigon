@@ -6,7 +6,7 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/core/rawdb"
+	"github.com/idrecun/erigon/core/rawdb"
 )
 
 type NonTransactionalEpochReader struct {

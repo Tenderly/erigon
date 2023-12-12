@@ -9,8 +9,8 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/math"
+	"github.com/idrecun/erigon/common"
+	"github.com/idrecun/erigon/common/math"
 )
 
 var _ = (*stEnvMarshaling)(nil)

@@ -5,18 +5,18 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
-	"github.com/ledgerwatch/erigon/cl/phase1/forkchoice"
-	"github.com/ledgerwatch/erigon/cl/phase1/forkchoice/fork_graph"
-	"github.com/ledgerwatch/erigon/cl/pool"
+	"github.com/idrecun/erigon/cl/cltypes/solid"
+	"github.com/idrecun/erigon/cl/phase1/core/state"
+	"github.com/idrecun/erigon/cl/phase1/forkchoice"
+	"github.com/idrecun/erigon/cl/phase1/forkchoice/fork_graph"
+	"github.com/idrecun/erigon/cl/pool"
 	"github.com/spf13/afero"
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/idrecun/erigon/cl/clparams"
+	"github.com/idrecun/erigon/cl/cltypes"
+	"github.com/idrecun/erigon/cl/utils"
 	"github.com/stretchr/testify/require"
 )
 

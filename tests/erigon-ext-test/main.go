@@ -3,9 +3,9 @@ package main
 import (
 	geth_params "github.com/ethereum/go-ethereum/params"
 	// geth_crypto "github.com/ethereum/go-ethereum/crypto"
+	erigon_crypto "github.com/idrecun/erigon/crypto"
+	erigon_params "github.com/idrecun/erigon/params"
 	erigon_lib_common "github.com/ledgerwatch/erigon-lib/common"
-	erigon_crypto "github.com/ledgerwatch/erigon/crypto"
-	erigon_params "github.com/ledgerwatch/erigon/params"
 )
 
 func main() {

@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ledgerwatch/erigon/cmd/observer/database"
-	"github.com/ledgerwatch/erigon/cmd/observer/utils"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/p2p/enr"
+	"github.com/idrecun/erigon/cmd/observer/database"
+	"github.com/idrecun/erigon/cmd/observer/utils"
+	"github.com/idrecun/erigon/p2p/enode"
+	"github.com/idrecun/erigon/p2p/enr"
 )
 
 func MakeNodeAddr(node *enode.Node) database.NodeAddr {

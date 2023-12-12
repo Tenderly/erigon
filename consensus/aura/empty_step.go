@@ -9,8 +9,8 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/rlp"
 )
 
 // A message broadcast by authorities when it's their turn to seal a block but there are no

@@ -22,7 +22,7 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/core/vm"
+	"github.com/idrecun/erigon/core/vm"
 )
 
 const (

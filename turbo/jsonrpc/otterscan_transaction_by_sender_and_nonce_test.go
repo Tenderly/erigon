@@ -3,9 +3,9 @@ package jsonrpc
 import (
 	"testing"
 
+	"github.com/idrecun/erigon/cmd/rpcdaemon/rpcdaemontest"
+	"github.com/idrecun/erigon/rpc/rpccfg"
 	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/rpcdaemontest"
-	"github.com/ledgerwatch/erigon/rpc/rpccfg"
 	"github.com/stretchr/testify/require"
 )
 

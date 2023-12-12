@@ -28,16 +28,16 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv/rawdbv3"
 	libstate "github.com/ledgerwatch/erigon-lib/state"
 
-	"github.com/ledgerwatch/erigon/cmd/hack/tool/fromdb"
-	"github.com/ledgerwatch/erigon/cmd/utils"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/rawdb/blockio"
-	"github.com/ledgerwatch/erigon/eth/ethconfig"
-	"github.com/ledgerwatch/erigon/eth/ethconfig/estimate"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
-	"github.com/ledgerwatch/erigon/turbo/debug"
-	"github.com/ledgerwatch/erigon/turbo/logging"
-	"github.com/ledgerwatch/erigon/turbo/snapshotsync/freezeblocks"
+	"github.com/idrecun/erigon/cmd/hack/tool/fromdb"
+	"github.com/idrecun/erigon/cmd/utils"
+	"github.com/idrecun/erigon/core/rawdb"
+	"github.com/idrecun/erigon/core/rawdb/blockio"
+	"github.com/idrecun/erigon/eth/ethconfig"
+	"github.com/idrecun/erigon/eth/ethconfig/estimate"
+	"github.com/idrecun/erigon/eth/stagedsync/stages"
+	"github.com/idrecun/erigon/turbo/debug"
+	"github.com/idrecun/erigon/turbo/logging"
+	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
 )
 
 func joinFlags(lists ...[]cli.Flag) (res []cli.Flag) {

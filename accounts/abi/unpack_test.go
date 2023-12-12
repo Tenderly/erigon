@@ -30,7 +30,7 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/idrecun/erigon/common"
 )
 
 // TestUnpack tests the general pack/unpack tests in packing_test.go

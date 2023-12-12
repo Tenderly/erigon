@@ -10,11 +10,11 @@ import (
 	proto_sentry "github.com/ledgerwatch/erigon-lib/gointerfaces/sentry"
 	"google.golang.org/grpc"
 
-	"github.com/ledgerwatch/erigon/eth/protocols/eth"
-	"github.com/ledgerwatch/erigon/p2p/sentry"
-	"github.com/ledgerwatch/erigon/rlp"
-	"github.com/ledgerwatch/erigon/turbo/stages/bodydownload"
-	"github.com/ledgerwatch/erigon/turbo/stages/headerdownload"
+	"github.com/idrecun/erigon/eth/protocols/eth"
+	"github.com/idrecun/erigon/p2p/sentry"
+	"github.com/idrecun/erigon/rlp"
+	"github.com/idrecun/erigon/turbo/stages/bodydownload"
+	"github.com/idrecun/erigon/turbo/stages/headerdownload"
 )
 
 // Methods of sentry called by Core

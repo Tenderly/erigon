@@ -10,8 +10,8 @@ import (
 	proto_txpool "github.com/ledgerwatch/erigon-lib/gointerfaces/txpool"
 	"github.com/ledgerwatch/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/idrecun/erigon/core/rawdb"
+	"github.com/idrecun/erigon/core/types"
 )
 
 // NetAPI the interface for the net_ RPC commands

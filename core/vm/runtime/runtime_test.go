@@ -24,18 +24,18 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/idrecun/erigon/accounts/abi"
+	"github.com/idrecun/erigon/common"
+	"github.com/idrecun/erigon/consensus"
+	"github.com/idrecun/erigon/core"
+	"github.com/idrecun/erigon/core/asm"
+	"github.com/idrecun/erigon/core/state"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/core/vm"
+	"github.com/idrecun/erigon/eth/tracers/logger"
 	"github.com/ledgerwatch/erigon-lib/chain"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/ledgerwatch/erigon/accounts/abi"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/asm"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/core/vm"
-	"github.com/ledgerwatch/erigon/eth/tracers/logger"
 )
 
 func TestDefaults(t *testing.T) {

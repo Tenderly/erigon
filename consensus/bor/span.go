@@ -1,10 +1,10 @@
 package bor
 
 import (
+	"github.com/idrecun/erigon/consensus"
+	"github.com/idrecun/erigon/consensus/bor/heimdall/span"
+	"github.com/idrecun/erigon/consensus/bor/valset"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/consensus/bor/heimdall/span"
-	"github.com/ledgerwatch/erigon/consensus/bor/valset"
 )
 
 //go:generate mockgen -destination=./span_mock.go -package=bor . Spanner

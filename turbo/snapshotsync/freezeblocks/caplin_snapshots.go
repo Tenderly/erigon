@@ -12,6 +12,10 @@ import (
 	"sync"
 	"sync/atomic"
 
+	"github.com/idrecun/erigon/cl/cltypes"
+	"github.com/idrecun/erigon/cl/persistence"
+	"github.com/idrecun/erigon/cl/persistence/format/snapshot_format"
+	"github.com/idrecun/erigon/eth/ethconfig"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/background"
 	"github.com/ledgerwatch/erigon-lib/common/cmp"
@@ -20,10 +24,6 @@ import (
 	"github.com/ledgerwatch/erigon-lib/downloader/snaptype"
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/recsplit"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/persistence"
-	"github.com/ledgerwatch/erigon/cl/persistence/format/snapshot_format"
-	"github.com/ledgerwatch/erigon/eth/ethconfig"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/pierrec/lz4"
 )

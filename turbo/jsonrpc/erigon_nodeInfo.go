@@ -3,7 +3,7 @@ package jsonrpc
 import (
 	"context"
 
-	"github.com/ledgerwatch/erigon/p2p"
+	"github.com/idrecun/erigon/p2p"
 )
 
 const (

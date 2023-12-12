@@ -23,9 +23,9 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/common"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/rlp"
 )
 
 // Tests that the custom union field encoder and decoder works correctly.

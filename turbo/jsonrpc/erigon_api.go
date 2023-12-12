@@ -6,14 +6,14 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/eth/filters"
+	"github.com/idrecun/erigon/eth/filters"
 
 	"github.com/ledgerwatch/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/p2p"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/turbo/rpchelper"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/p2p"
+	"github.com/idrecun/erigon/rpc"
+	"github.com/idrecun/erigon/turbo/rpchelper"
 )
 
 // ErigonAPI Erigon specific routines

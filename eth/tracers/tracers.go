@@ -23,7 +23,7 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/core/vm"
+	"github.com/idrecun/erigon/core/vm"
 )
 
 // Context contains some contextual infos for a transaction execution that is not

@@ -3,8 +3,8 @@ package generics
 import (
 	"sync/atomic"
 
+	"github.com/idrecun/erigon/core/types"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/core/types"
 )
 
 func Empty[T any]() (t T) {

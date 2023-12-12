@@ -34,15 +34,15 @@ import (
 	proto_sentry "github.com/ledgerwatch/erigon-lib/gointerfaces/sentry"
 	proto_types "github.com/ledgerwatch/erigon-lib/gointerfaces/types"
 
-	"github.com/ledgerwatch/erigon/cmd/utils"
-	"github.com/ledgerwatch/erigon/common/debug"
-	"github.com/ledgerwatch/erigon/core/forkid"
-	"github.com/ledgerwatch/erigon/eth/protocols/eth"
-	"github.com/ledgerwatch/erigon/p2p"
-	"github.com/ledgerwatch/erigon/p2p/dnsdisc"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/cmd/utils"
+	"github.com/idrecun/erigon/common/debug"
+	"github.com/idrecun/erigon/core/forkid"
+	"github.com/idrecun/erigon/eth/protocols/eth"
+	"github.com/idrecun/erigon/p2p"
+	"github.com/idrecun/erigon/p2p/dnsdisc"
+	"github.com/idrecun/erigon/p2p/enode"
+	"github.com/idrecun/erigon/params"
+	"github.com/idrecun/erigon/rlp"
 )
 
 const (

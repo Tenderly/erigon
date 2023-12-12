@@ -4,12 +4,12 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set/v2"
+	"github.com/idrecun/erigon/consensus/ethash/ethashcfg"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/consensus/ethash/ethashcfg"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/idrecun/erigon/consensus"
+	"github.com/idrecun/erigon/core/types"
 )
 
 type FakeEthash struct {

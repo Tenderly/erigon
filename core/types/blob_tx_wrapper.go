@@ -16,7 +16,7 @@ import (
 	libkzg "github.com/ledgerwatch/erigon-lib/crypto/kzg"
 	types2 "github.com/ledgerwatch/erigon-lib/types"
 
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/rlp"
 )
 
 const (

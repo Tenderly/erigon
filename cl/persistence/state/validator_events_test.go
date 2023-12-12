@@ -3,8 +3,8 @@ package state_accessors
 import (
 	"testing"
 
+	"github.com/idrecun/erigon/cl/cltypes/solid"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
 	"github.com/stretchr/testify/require"
 )
 

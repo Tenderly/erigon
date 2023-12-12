@@ -4,7 +4,7 @@ Erigon is an implementation of Ethereum (execution layer with embeddable consens
 frontier. [Archive Node](https://ethereum.org/en/developers/docs/nodes-and-clients/archive-nodes/#what-is-an-archive-node)
 by default.
 
-![Build status](https://github.com/ledgerwatch/erigon/actions/workflows/ci.yml/badge.svg)
+![Build status](https://github.com/idrecun/erigon/actions/workflows/ci.yml/badge.svg)
 
 ![Coverage](https://gist.githubusercontent.com/revitteth/ee38e9beb22353eef6b88f2ad6ed7aa9/raw/badge.svg)
 
@@ -84,7 +84,7 @@ make erigon
 ./build/bin/erigon
 ```
 
-You can check [the list of releases](https://github.com/ledgerwatch/erigon/releases) for release notes.
+You can check [the list of releases](https://github.com/idrecun/erigon/releases) for release notes.
 
 For building the bleeding edge development branch:
 
@@ -486,7 +486,7 @@ sudo -u ${ERIGON_USER} DOCKER_UID=$(id -u ${ERIGON_USER}) DOCKER_GID=$(id -g ${E
 
 Makefile creates the initial directories for erigon, prometheus and grafana. The PID namespace is shared between erigon
 and rpcdaemon which is required to open Erigon's DB from another process (RPCDaemon local-mode).
-See: https://github.com/ledgerwatch/erigon/pull/2392/files
+See: https://github.com/idrecun/erigon/pull/2392/files
 
 If your docker installation requires the docker daemon to run as root (which is by default), you will need to prefix
 the command above with `sudo`. However, it is sometimes recommended running docker (and therefore its containers) as a
@@ -636,7 +636,7 @@ https://github.com/mathMakesArt/Erigon-on-RPi-4
 
 ### How to change db pagesize
 
-[post](https://github.com/ledgerwatch/erigon/blob/devel/cmd/integration/Readme.md#copy-data-to-another-db)
+[post](https://github.com/idrecun/erigon/blob/devel/cmd/integration/Readme.md#copy-data-to-another-db)
 
 
 Getting in touch
@@ -691,7 +691,7 @@ Next tools show correct memory usage of Erigon:
 
 ### Blocks Execution is slow on cloud-network-drives
 
-Please read https://github.com/ledgerwatch/erigon/issues/1516#issuecomment-811958891
+Please read https://github.com/idrecun/erigon/issues/1516#issuecomment-811958891
 In short: network-disks are bad for blocks execution - because blocks execution reading data from db non-parallel
 non-batched way.
 

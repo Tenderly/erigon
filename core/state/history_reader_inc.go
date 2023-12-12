@@ -8,7 +8,7 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv"
 	libstate "github.com/ledgerwatch/erigon-lib/state"
 
-	"github.com/ledgerwatch/erigon/core/types/accounts"
+	"github.com/idrecun/erigon/core/types/accounts"
 )
 
 type RequiredStateError struct {

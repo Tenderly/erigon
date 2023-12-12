@@ -23,11 +23,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/rlp"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/p2p/simulations/pipes"
+	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/p2p/simulations/pipes"
 )
 
 func TestProtocolHandshake(t *testing.T) {

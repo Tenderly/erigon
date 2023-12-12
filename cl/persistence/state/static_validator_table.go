@@ -5,9 +5,9 @@ import (
 	"io"
 	"sync"
 
+	"github.com/idrecun/erigon/cl/cltypes/solid"
+	"github.com/idrecun/erigon/ethdb/cbor"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
-	"github.com/ledgerwatch/erigon/ethdb/cbor"
 )
 
 // class Validator(Container):

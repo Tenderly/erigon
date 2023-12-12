@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/idrecun/erigon/cl/clparams"
+	"github.com/idrecun/erigon/cl/cltypes"
+	"github.com/idrecun/erigon/cl/persistence"
+	"github.com/idrecun/erigon/cl/persistence/beacon_indicies"
+	"github.com/idrecun/erigon/cl/persistence/format/snapshot_format"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/persistence"
-	"github.com/ledgerwatch/erigon/cl/persistence/beacon_indicies"
-	"github.com/ledgerwatch/erigon/cl/persistence/format/snapshot_format"
 	"github.com/pierrec/lz4"
 )
 

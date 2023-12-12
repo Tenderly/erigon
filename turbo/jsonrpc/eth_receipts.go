@@ -21,20 +21,20 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv/order"
 	"github.com/ledgerwatch/erigon-lib/kv/rawdbv3"
 
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/consensus/misc"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/core/vm"
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
-	"github.com/ledgerwatch/erigon/eth/filters"
-	"github.com/ledgerwatch/erigon/ethdb/cbor"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/turbo/rpchelper"
-	"github.com/ledgerwatch/erigon/turbo/services"
-	"github.com/ledgerwatch/erigon/turbo/transactions"
+	"github.com/idrecun/erigon/consensus"
+	"github.com/idrecun/erigon/consensus/misc"
+	"github.com/idrecun/erigon/core"
+	"github.com/idrecun/erigon/core/rawdb"
+	"github.com/idrecun/erigon/core/state"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/core/vm"
+	"github.com/idrecun/erigon/core/vm/evmtypes"
+	"github.com/idrecun/erigon/eth/filters"
+	"github.com/idrecun/erigon/ethdb/cbor"
+	"github.com/idrecun/erigon/rpc"
+	"github.com/idrecun/erigon/turbo/rpchelper"
+	"github.com/idrecun/erigon/turbo/services"
+	"github.com/idrecun/erigon/turbo/transactions"
 )
 
 const PendingBlockNumber int64 = -2
@@ -644,7 +644,7 @@ func (api *APIImpl) GetTransactionReceipt(ctx context.Context, txnHash common.Ha
 		return nil, err
 	}
 	if block == nil {
-		return nil, nil // not error, see https://github.com/ledgerwatch/erigon/issues/1645
+		return nil, nil // not error, see https://github.com/idrecun/erigon/issues/1645
 	}
 
 	var txnIndex uint64

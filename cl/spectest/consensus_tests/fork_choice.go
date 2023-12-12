@@ -3,20 +3,20 @@ package consensus_tests
 import (
 	"context"
 	"fmt"
-	"github.com/ledgerwatch/erigon/spectest"
+	"github.com/idrecun/erigon/spectest"
 	"io/fs"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cl/abstract"
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
-	"github.com/ledgerwatch/erigon/cl/phase1/forkchoice"
-	"github.com/ledgerwatch/erigon/cl/phase1/forkchoice/fork_graph"
-	"github.com/ledgerwatch/erigon/cl/pool"
+	"github.com/idrecun/erigon/cl/abstract"
+	"github.com/idrecun/erigon/cl/clparams"
+	"github.com/idrecun/erigon/cl/cltypes/solid"
+	"github.com/idrecun/erigon/cl/phase1/forkchoice"
+	"github.com/idrecun/erigon/cl/phase1/forkchoice/fork_graph"
+	"github.com/idrecun/erigon/cl/pool"
 	"github.com/spf13/afero"
 
+	"github.com/idrecun/erigon/cl/cltypes"
 	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

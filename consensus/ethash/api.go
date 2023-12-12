@@ -22,7 +22,7 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/idrecun/erigon/core/types"
 )
 
 var errEthashStopped = errors.New("ethash stopped")

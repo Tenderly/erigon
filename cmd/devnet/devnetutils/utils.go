@@ -13,7 +13,7 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/idrecun/erigon/crypto"
 	"github.com/ledgerwatch/log/v3"
 )
 

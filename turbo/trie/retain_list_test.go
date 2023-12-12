@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
+	"github.com/idrecun/erigon/core/types/accounts"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
 	"github.com/stretchr/testify/require"
 )
 

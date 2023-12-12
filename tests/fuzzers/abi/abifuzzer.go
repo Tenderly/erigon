@@ -22,7 +22,7 @@ import (
 	"strings"
 
 	fuzz "github.com/google/gofuzz"
-	"github.com/ledgerwatch/erigon/accounts/abi"
+	"github.com/idrecun/erigon/accounts/abi"
 )
 
 var (

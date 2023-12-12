@@ -24,23 +24,23 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/idrecun/erigon/core"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/core/vm"
+	"github.com/idrecun/erigon/core/vm/evmtypes"
+	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/params"
+	"github.com/idrecun/erigon/tests"
+	"github.com/idrecun/erigon/turbo/stages/mock"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/core/vm"
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/tests"
-	"github.com/ledgerwatch/erigon/turbo/stages/mock"
 	"github.com/stretchr/testify/require"
 
 	"github.com/holiman/uint256"
 
 	// Force-load native and js packages, to trigger registration
-	"github.com/ledgerwatch/erigon/eth/tracers"
-	_ "github.com/ledgerwatch/erigon/eth/tracers/js"
-	_ "github.com/ledgerwatch/erigon/eth/tracers/native"
+	"github.com/idrecun/erigon/eth/tracers"
+	_ "github.com/idrecun/erigon/eth/tracers/js"
+	_ "github.com/idrecun/erigon/eth/tracers/native"
 )
 
 func TestPrestateTracerCreate2(t *testing.T) {

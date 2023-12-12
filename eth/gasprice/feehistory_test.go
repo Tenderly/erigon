@@ -21,10 +21,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/eth/gasprice"
-	"github.com/ledgerwatch/erigon/eth/gasprice/gaspricecfg"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/turbo/jsonrpc"
+	"github.com/idrecun/erigon/eth/gasprice"
+	"github.com/idrecun/erigon/eth/gasprice/gaspricecfg"
+	"github.com/idrecun/erigon/rpc"
+	"github.com/idrecun/erigon/turbo/jsonrpc"
 )
 
 func TestFeeHistory(t *testing.T) {

@@ -14,9 +14,9 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/eth/ethconfig"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/idrecun/erigon/common/math"
+	"github.com/idrecun/erigon/eth/ethconfig"
+	"github.com/idrecun/erigon/params"
 )
 
 func createTestSegmentFile(t *testing.T, from, to uint64, name snaptype.Type, dir string, logger log.Logger) {

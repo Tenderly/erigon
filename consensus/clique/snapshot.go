@@ -33,8 +33,8 @@ import (
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/idrecun/erigon/common"
+	"github.com/idrecun/erigon/core/types"
 )
 
 // Vote represents a single vote that an authorized signer made to modify the

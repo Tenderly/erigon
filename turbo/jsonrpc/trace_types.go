@@ -7,7 +7,7 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
 
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/idrecun/erigon/core/types"
 )
 
 // TODO:(tjayrush)

@@ -4,7 +4,7 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/core/vm"
+	"github.com/idrecun/erigon/core/vm"
 )
 
 // Helper implementation of vm.Tracer; since the interface is big and most

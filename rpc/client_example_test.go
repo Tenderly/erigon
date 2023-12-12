@@ -22,7 +22,7 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common/hexutil"
 	"time"
 
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/idrecun/erigon/rpc"
 	"github.com/ledgerwatch/log/v3"
 )
 

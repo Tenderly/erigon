@@ -22,7 +22,7 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/idrecun/erigon/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

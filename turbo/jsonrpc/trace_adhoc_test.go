@@ -10,9 +10,9 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/cli/httpcfg"
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/rpcdaemontest"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/idrecun/erigon/cmd/rpcdaemon/cli/httpcfg"
+	"github.com/idrecun/erigon/cmd/rpcdaemon/rpcdaemontest"
+	"github.com/idrecun/erigon/rpc"
 )
 
 func TestEmptyQuery(t *testing.T) {

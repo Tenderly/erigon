@@ -6,13 +6,13 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/common/eth2shuffle"
 
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state/raw"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state/shuffling"
+	"github.com/idrecun/erigon/cl/phase1/core/state"
+	"github.com/idrecun/erigon/cl/phase1/core/state/raw"
+	"github.com/idrecun/erigon/cl/phase1/core/state/shuffling"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/idrecun/erigon/cl/clparams"
+	"github.com/idrecun/erigon/cl/utils"
 )
 
 func BenchmarkLambdaShuffledIndex(b *testing.B) {

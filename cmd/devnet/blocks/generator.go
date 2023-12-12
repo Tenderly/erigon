@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/accounts/abi/bind"
-	"github.com/ledgerwatch/erigon/accounts/abi/bind/backends"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/turbo/stages/mock"
+	"github.com/idrecun/erigon/accounts/abi/bind"
+	"github.com/idrecun/erigon/accounts/abi/bind/backends"
+	"github.com/idrecun/erigon/core"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/turbo/stages/mock"
 )
 
 type TxFn func(_ *core.BlockGen, backend bind.ContractBackend) (types.Transaction, bool)

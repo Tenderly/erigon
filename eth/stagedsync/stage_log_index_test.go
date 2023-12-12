@@ -13,9 +13,9 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/ethdb/prune"
+	"github.com/idrecun/erigon/core/rawdb"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/ethdb/prune"
 
 	"github.com/stretchr/testify/require"
 )

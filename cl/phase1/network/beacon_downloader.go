@@ -7,8 +7,8 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"golang.org/x/net/context"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/rpc"
+	"github.com/idrecun/erigon/cl/cltypes"
+	"github.com/idrecun/erigon/cl/rpc"
 )
 
 // Input: the currently highest slot processed and the list of blocks we want to know process

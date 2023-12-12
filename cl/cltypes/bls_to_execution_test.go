@@ -4,8 +4,8 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/idrecun/erigon/cl/cltypes"
+	"github.com/idrecun/erigon/cl/utils"
 	"github.com/stretchr/testify/require"
 )
 

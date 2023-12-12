@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/p2p/discover/v4wire"
-	"github.com/ledgerwatch/erigon/p2p/enr"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/p2p/discover/v4wire"
+	"github.com/idrecun/erigon/p2p/enr"
+	"github.com/idrecun/erigon/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

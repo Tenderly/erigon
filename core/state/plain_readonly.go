@@ -31,8 +31,8 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv/kvcfg"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/core/state/historyv2read"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
+	"github.com/idrecun/erigon/core/state/historyv2read"
+	"github.com/idrecun/erigon/core/types/accounts"
 )
 
 type storageItem struct {

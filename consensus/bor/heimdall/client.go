@@ -13,10 +13,10 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/metrics"
 
-	"github.com/ledgerwatch/erigon/consensus/bor/clerk"
-	"github.com/ledgerwatch/erigon/consensus/bor/heimdall/checkpoint"
-	"github.com/ledgerwatch/erigon/consensus/bor/heimdall/milestone"
-	"github.com/ledgerwatch/erigon/consensus/bor/heimdall/span"
+	"github.com/idrecun/erigon/consensus/bor/clerk"
+	"github.com/idrecun/erigon/consensus/bor/heimdall/checkpoint"
+	"github.com/idrecun/erigon/consensus/bor/heimdall/milestone"
+	"github.com/idrecun/erigon/consensus/bor/heimdall/span"
 	"github.com/ledgerwatch/log/v3"
 )
 

@@ -5,11 +5,11 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
+	"github.com/idrecun/erigon/cl/merkle_tree"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/length"
 	"github.com/ledgerwatch/erigon-lib/types/clonable"
 	"github.com/ledgerwatch/erigon-lib/types/ssz"
-	"github.com/ledgerwatch/erigon/cl/merkle_tree"
 )
 
 // Constants to represent the size and layout of a Checkpoint

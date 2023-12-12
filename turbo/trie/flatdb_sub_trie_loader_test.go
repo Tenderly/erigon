@@ -9,8 +9,8 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
+	"github.com/idrecun/erigon/common"
+	"github.com/idrecun/erigon/core/types/accounts"
 )
 
 func TestCreateLoadingPrefixes(t *testing.T) {

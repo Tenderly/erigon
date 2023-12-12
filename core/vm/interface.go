@@ -23,7 +23,7 @@ import (
 	"github.com/ledgerwatch/erigon-lib/chain"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
+	"github.com/idrecun/erigon/core/vm/evmtypes"
 )
 
 // CallContext provides a basic interface for the EVM calling conventions. The EVM

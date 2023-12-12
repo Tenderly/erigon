@@ -10,7 +10,7 @@ import (
 	types2 "github.com/ledgerwatch/erigon-lib/gointerfaces/types"
 	"google.golang.org/grpc"
 
-	"github.com/ledgerwatch/erigon/turbo/shards"
+	"github.com/idrecun/erigon/turbo/shards"
 )
 
 var (

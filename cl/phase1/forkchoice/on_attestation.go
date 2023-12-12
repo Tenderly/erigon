@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
-	"github.com/ledgerwatch/erigon/cl/phase1/cache"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
+	"github.com/idrecun/erigon/cl/cltypes/solid"
+	"github.com/idrecun/erigon/cl/phase1/cache"
+	"github.com/idrecun/erigon/cl/phase1/core/state"
 	"github.com/ledgerwatch/log/v3"
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"

@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"fmt"
 
+	"github.com/idrecun/erigon/core/types/accounts"
+	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/rlp"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
 	"github.com/ledgerwatch/erigon-lib/common/length"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

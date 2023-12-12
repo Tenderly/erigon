@@ -19,16 +19,16 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv"
 	types2 "github.com/ledgerwatch/erigon-lib/types"
 
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/core/vm"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/turbo/services"
+	"github.com/idrecun/erigon/consensus"
+	"github.com/idrecun/erigon/core"
+	"github.com/idrecun/erigon/core/rawdb"
+	"github.com/idrecun/erigon/core/state"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/core/types/accounts"
+	"github.com/idrecun/erigon/core/vm"
+	"github.com/idrecun/erigon/eth/stagedsync/stages"
+	"github.com/idrecun/erigon/params"
+	"github.com/idrecun/erigon/turbo/services"
 )
 
 type MiningExecCfg struct {

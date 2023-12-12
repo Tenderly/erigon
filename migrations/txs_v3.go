@@ -14,7 +14,7 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/core/rawdb"
+	"github.com/idrecun/erigon/core/rawdb"
 )
 
 var TxsV3 = Migration{

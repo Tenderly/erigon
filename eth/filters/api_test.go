@@ -23,7 +23,7 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/idrecun/erigon/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common/length"
 	"github.com/ledgerwatch/erigon-lib/types/ssz"
 
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/idrecun/erigon/cl/utils"
 )
 
 // MerkleizeVector uses our optimized routine to hash a list of 32-byte

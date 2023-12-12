@@ -22,7 +22,7 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/idrecun/erigon/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

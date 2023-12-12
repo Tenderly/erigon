@@ -23,7 +23,7 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
 
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/idrecun/erigon/rlp"
 )
 
 // go:generate gencodec -type Log -field-override logMarshaling -out gen_log_json.go

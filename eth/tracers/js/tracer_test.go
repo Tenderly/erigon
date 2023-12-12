@@ -28,11 +28,11 @@ import (
 	"github.com/ledgerwatch/erigon-lib/chain"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/vm"
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
-	"github.com/ledgerwatch/erigon/eth/tracers"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/idrecun/erigon/core/state"
+	"github.com/idrecun/erigon/core/vm"
+	"github.com/idrecun/erigon/core/vm/evmtypes"
+	"github.com/idrecun/erigon/eth/tracers"
+	"github.com/idrecun/erigon/params"
 )
 
 type account struct{}

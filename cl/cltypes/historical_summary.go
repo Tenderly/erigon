@@ -3,9 +3,9 @@ package cltypes
 import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
+	"github.com/idrecun/erigon/cl/merkle_tree"
+	ssz2 "github.com/idrecun/erigon/cl/ssz"
 	"github.com/ledgerwatch/erigon-lib/common/length"
-	"github.com/ledgerwatch/erigon/cl/merkle_tree"
-	ssz2 "github.com/ledgerwatch/erigon/cl/ssz"
 )
 
 type HistoricalSummary struct {

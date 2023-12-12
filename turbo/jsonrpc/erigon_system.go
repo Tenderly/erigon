@@ -7,11 +7,11 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/common"
 
-	borfinality "github.com/ledgerwatch/erigon/consensus/bor/finality"
-	"github.com/ledgerwatch/erigon/consensus/bor/finality/whitelist"
-	"github.com/ledgerwatch/erigon/core/forkid"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/turbo/rpchelper"
+	borfinality "github.com/idrecun/erigon/consensus/bor/finality"
+	"github.com/idrecun/erigon/consensus/bor/finality/whitelist"
+	"github.com/idrecun/erigon/core/forkid"
+	"github.com/idrecun/erigon/rpc"
+	"github.com/idrecun/erigon/turbo/rpchelper"
 )
 
 // Forks is a data type to record a list of forks passed by this node

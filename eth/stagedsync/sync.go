@@ -10,7 +10,7 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
+	"github.com/idrecun/erigon/eth/stagedsync/stages"
 )
 
 type Sync struct {

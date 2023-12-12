@@ -5,10 +5,10 @@ import (
 	"errors"
 	"io"
 
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state/raw"
-	ssz2 "github.com/ledgerwatch/erigon/cl/ssz"
+	"github.com/idrecun/erigon/cl/clparams"
+	"github.com/idrecun/erigon/cl/cltypes"
+	"github.com/idrecun/erigon/cl/phase1/core/state/raw"
+	ssz2 "github.com/idrecun/erigon/cl/ssz"
 )
 
 type MinimalBeaconState struct {

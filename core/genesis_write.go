@@ -40,16 +40,16 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv/mdbx"
 	"github.com/ledgerwatch/erigon-lib/kv/rawdbv3"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/consensus/ethash"
-	"github.com/ledgerwatch/erigon/consensus/merge"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/eth/ethconfig"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/turbo/trie"
+	"github.com/idrecun/erigon/common"
+	"github.com/idrecun/erigon/consensus/ethash"
+	"github.com/idrecun/erigon/consensus/merge"
+	"github.com/idrecun/erigon/core/rawdb"
+	"github.com/idrecun/erigon/core/state"
+	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/eth/ethconfig"
+	"github.com/idrecun/erigon/params"
+	"github.com/idrecun/erigon/turbo/trie"
 )
 
 // CommitGenesisBlock writes or updates the genesis block in db.

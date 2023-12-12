@@ -24,9 +24,9 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/eth/ethconfig/estimate"
+	"github.com/idrecun/erigon/common/math"
+	"github.com/idrecun/erigon/core/types/accounts"
+	"github.com/idrecun/erigon/eth/ethconfig/estimate"
 )
 
 type HashStateCfg struct {

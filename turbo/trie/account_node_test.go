@@ -10,8 +10,8 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/idrecun/erigon/core/types/accounts"
+	"github.com/idrecun/erigon/crypto"
 )
 
 func TestGetAccount(t *testing.T) {

@@ -3,9 +3,9 @@ package shards
 import (
 	"sync"
 
+	"github.com/idrecun/erigon/core/types"
 	"github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/remote"
-	"github.com/ledgerwatch/erigon/core/types"
 )
 
 type RpcEventType uint64

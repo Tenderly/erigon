@@ -3,9 +3,9 @@ package misc
 import (
 	"github.com/ledgerwatch/log/v3"
 
+	"github.com/idrecun/erigon/consensus"
+	"github.com/idrecun/erigon/params"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/params"
 )
 
 func ApplyBeaconRootEip4788(parentBeaconBlockRoot *libcommon.Hash, syscall consensus.SystemCall) {

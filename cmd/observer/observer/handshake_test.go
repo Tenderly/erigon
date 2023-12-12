@@ -9,9 +9,9 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/direct"
 
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/p2p/enode"
+	"github.com/idrecun/erigon/params"
 )
 
 func TestHandshake(t *testing.T) {
