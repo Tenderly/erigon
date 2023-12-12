@@ -2,7 +2,7 @@ module example.com/erigon-ext-test
 
 go 1.20
 
-require github.com/ledgerwatch/erigon $COMMIT_SHA
+require github.com/idrecun/erigon $COMMIT_SHA
 
 replace github.com/ledgerwatch/erigon-lib => github.com/idrecun/erigon/erigon-lib $COMMIT_SHA
 
