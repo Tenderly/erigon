@@ -2,7 +2,6 @@ package vtree
 
 import (
 	"github.com/crate-crypto/go-ipa/bandersnatch/fr"
-	"github.com/gballet/go-verkle"
 	"github.com/holiman/uint256"
 )
 

@@ -28,7 +28,7 @@ import (
 
 	"github.com/idrecun/erigon/erigon-lib/kv/dbutils"
 
-	"github.com/gballet/go-verkle"
+	"github.com/idrecun/erigon/core/types"
 	"github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/idrecun/erigon/erigon-lib/common/cmp"
 	"github.com/idrecun/erigon/erigon-lib/common/dbg"
@@ -36,11 +36,9 @@ import (
 	"github.com/idrecun/erigon/erigon-lib/common/length"
 	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/idrecun/erigon/erigon-lib/kv/rawdbv3"
-	"github.com/ledgerwatch/log/v3"
-
-	"github.com/idrecun/erigon/core/types"
 	"github.com/idrecun/erigon/ethdb/cbor"
 	"github.com/idrecun/erigon/rlp"
+	"github.com/ledgerwatch/log/v3"
 )
 
 const (

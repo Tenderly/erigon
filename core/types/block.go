@@ -29,12 +29,10 @@ import (
 
 	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
 
-	"github.com/gballet/go-verkle"
+	"github.com/idrecun/erigon/common"
 	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
 	rlp2 "github.com/idrecun/erigon/erigon-lib/rlp"
-
-	"github.com/idrecun/erigon/common"
 	"github.com/idrecun/erigon/rlp"
 )
 
