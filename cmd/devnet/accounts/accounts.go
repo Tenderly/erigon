@@ -5,7 +5,7 @@ import (
 
 	"github.com/idrecun/erigon/core"
 	"github.com/idrecun/erigon/crypto"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 )
 
 const DevAddress = "0x67b1d87101671b127f5f8714789C7192f7ad340e"

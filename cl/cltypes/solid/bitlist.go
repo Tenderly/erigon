@@ -6,8 +6,8 @@ import (
 
 	"github.com/idrecun/erigon/cl/merkle_tree"
 	"github.com/idrecun/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon-lib/common/hexutility"
-	"github.com/ledgerwatch/erigon-lib/types/clonable"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	"github.com/idrecun/erigon/erigon-lib/types/clonable"
 )
 
 // BitList is like a dynamic binary string. It's like a flipbook of 1s and 0s!

@@ -5,8 +5,8 @@ import (
 
 	"github.com/idrecun/erigon/cl/clparams"
 	"github.com/idrecun/erigon/cl/merkle_tree"
-	"github.com/ledgerwatch/erigon-lib/common"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
 )
 

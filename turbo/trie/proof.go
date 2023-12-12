@@ -6,10 +6,10 @@ import (
 
 	"github.com/idrecun/erigon/core/types/accounts"
 	"github.com/idrecun/erigon/crypto"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	"github.com/idrecun/erigon/erigon-lib/common/length"
 	"github.com/idrecun/erigon/rlp"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/hexutility"
-	"github.com/ledgerwatch/erigon-lib/common/length"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

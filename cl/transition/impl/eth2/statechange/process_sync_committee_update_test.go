@@ -3,7 +3,7 @@ package statechange_test
 import (
 	"encoding/binary"
 	"github.com/idrecun/erigon/cl/transition/impl/eth2/statechange"
-	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common"
 	"testing"
 
 	"github.com/idrecun/erigon/cl/clparams"

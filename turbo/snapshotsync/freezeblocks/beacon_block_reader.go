@@ -11,8 +11,8 @@ import (
 	"github.com/idrecun/erigon/cl/persistence"
 	"github.com/idrecun/erigon/cl/persistence/beacon_indicies"
 	"github.com/idrecun/erigon/cl/persistence/format/snapshot_format"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/kv"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/pierrec/lz4"
 )
 

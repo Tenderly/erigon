@@ -27,7 +27,7 @@ import (
 
 	"github.com/goccy/go-json"
 	"github.com/idrecun/erigon/consensus/ethash/ethashcfg"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 
 	"github.com/idrecun/erigon/turbo/testlog"
 

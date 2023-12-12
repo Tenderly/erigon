@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 
 	"github.com/idrecun/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon-lib/common/hexutility"
-	"github.com/ledgerwatch/erigon-lib/types/clonable"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	"github.com/idrecun/erigon/erigon-lib/types/clonable"
 )
 
 const JustificationBitsLength = 4

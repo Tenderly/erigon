@@ -3,7 +3,7 @@ package exec3
 import (
 	"github.com/holiman/uint256"
 	"github.com/idrecun/erigon/core/vm"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 )
 
 type CallTracer struct {

@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	"github.com/idrecun/erigon/consensus/bor/finality/generics"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/kv"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
 )
 

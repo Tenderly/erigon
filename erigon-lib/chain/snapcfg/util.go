@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ledgerwatch/erigon-lib/chain/networkname"
+	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
 	snapshothashes "github.com/ledgerwatch/erigon-snapshot"
 	"github.com/ledgerwatch/erigon-snapshot/webseed"
 	"github.com/pelletier/go-toml/v2"

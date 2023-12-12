@@ -4,7 +4,7 @@ import (
 	"github.com/idrecun/erigon/cl/cltypes/solid"
 	"github.com/idrecun/erigon/cl/merkle_tree"
 	ssz2 "github.com/idrecun/erigon/cl/ssz"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 )
 
 /*

@@ -3,17 +3,17 @@ package stagedsync_test
 import (
 	"context"
 	"encoding/binary"
-	"github.com/ledgerwatch/erigon-lib/kv/dbutils"
+	"github.com/idrecun/erigon/erigon-lib/kv/dbutils"
 	"testing"
 
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	"github.com/idrecun/erigon/erigon-lib/common/length"
+	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/idrecun/erigon/erigon-lib/kv/memdb"
 	"github.com/idrecun/erigon/eth/ethconfig"
 	"github.com/idrecun/erigon/eth/stagedsync"
 	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/hexutility"
-	"github.com/ledgerwatch/erigon-lib/common/length"
-	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon-lib/kv/memdb"
 
 	"github.com/idrecun/erigon/common"
 	"github.com/idrecun/erigon/core/types/accounts"

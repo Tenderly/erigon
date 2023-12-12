@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/kv/memdb"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/kv/memdb"
 
 	"github.com/idrecun/erigon/accounts/abi"
 	"github.com/idrecun/erigon/consensus/aura"

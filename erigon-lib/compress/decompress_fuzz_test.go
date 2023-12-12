@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ledgerwatch/erigon-lib/common/cmp"
+	"github.com/idrecun/erigon/erigon-lib/common/cmp"
 	"github.com/ledgerwatch/log/v3"
 )
 

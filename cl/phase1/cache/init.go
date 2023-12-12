@@ -2,7 +2,7 @@ package cache
 
 import (
 	"github.com/idrecun/erigon/cl/phase1/core/state/lru"
-	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common"
 )
 
 func init() {

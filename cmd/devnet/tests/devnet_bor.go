@@ -10,8 +10,8 @@ import (
 	"github.com/idrecun/erigon/cmd/devnet/services/polygon"
 	"github.com/idrecun/erigon/cmd/utils"
 	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
 	"github.com/idrecun/erigon/params"
-	"github.com/ledgerwatch/erigon-lib/chain/networkname"
 	"github.com/ledgerwatch/log/v3"
 )
 

@@ -7,7 +7,7 @@ import (
 	"github.com/idrecun/erigon/cmd/sentinel/sentinelflags"
 	"github.com/idrecun/erigon/cmd/utils"
 
-	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common"
 
 	"github.com/urfave/cli/v2"
 

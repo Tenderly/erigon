@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/idrecun/erigon/cl/abstract"
-	"github.com/ledgerwatch/erigon-lib/metrics"
+	"github.com/idrecun/erigon/erigon-lib/metrics"
 
 	"github.com/idrecun/erigon/cl/clparams"
 	"github.com/idrecun/erigon/cl/cltypes"

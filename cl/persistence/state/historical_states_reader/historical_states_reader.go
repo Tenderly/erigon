@@ -17,10 +17,10 @@ import (
 	"github.com/idrecun/erigon/cl/phase1/core/state"
 	"github.com/idrecun/erigon/cl/phase1/core/state/lru"
 	"github.com/idrecun/erigon/cl/utils"
+	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
 	"github.com/klauspost/compress/zstd"
-	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/spf13/afero"
 	"golang.org/x/exp/slices"
 )

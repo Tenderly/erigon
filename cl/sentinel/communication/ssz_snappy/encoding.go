@@ -25,8 +25,8 @@ import (
 	"github.com/golang/snappy"
 	"github.com/idrecun/erigon/cl/clparams"
 	"github.com/idrecun/erigon/cl/fork"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/types/ssz"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/types/ssz"
 )
 
 var writerPool = sync.Pool{

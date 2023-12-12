@@ -22,8 +22,8 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/ledgerwatch/erigon-lib/common/hexutil"
-	"github.com/ledgerwatch/erigon-lib/kv/dbutils"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/idrecun/erigon/erigon-lib/kv/dbutils"
 	"io"
 	"math/big"
 	"math/rand"
@@ -35,9 +35,9 @@ import (
 	"github.com/idrecun/erigon/turbo/services"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon-lib/chain"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/kv"
+	"github.com/idrecun/erigon/erigon-lib/chain"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 
 	"github.com/idrecun/erigon/common"
 	"github.com/idrecun/erigon/common/debug"

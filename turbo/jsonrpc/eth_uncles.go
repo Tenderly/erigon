@@ -2,9 +2,9 @@ package jsonrpc
 
 import (
 	"context"
-	"github.com/ledgerwatch/erigon-lib/common/hexutil"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
 
-	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
 
 	"github.com/idrecun/erigon/core/rawdb"

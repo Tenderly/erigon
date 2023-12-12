@@ -6,7 +6,7 @@ import (
 
 	"github.com/idrecun/erigon/cl/beacon/beaconhttp"
 	"github.com/idrecun/erigon/cl/persistence/beacon_indicies"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 )
 
 func (a *ApiHandler) getHeaders(r *http.Request) (*beaconResponse, error) {

@@ -15,8 +15,8 @@ import (
 	"github.com/idrecun/erigon/cl/persistence/beacon_indicies"
 	"github.com/idrecun/erigon/cl/phase1/execution_client"
 	"github.com/idrecun/erigon/cl/sentinel/peers"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/kv"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/spf13/afero"
 )
 

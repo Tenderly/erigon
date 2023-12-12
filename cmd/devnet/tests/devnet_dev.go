@@ -6,7 +6,7 @@ import (
 	"github.com/idrecun/erigon/cmd/devnet/devnet"
 	account_services "github.com/idrecun/erigon/cmd/devnet/services/accounts"
 	"github.com/idrecun/erigon/core/types"
-	"github.com/ledgerwatch/erigon-lib/chain/networkname"
+	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
 	"github.com/ledgerwatch/log/v3"
 )
 

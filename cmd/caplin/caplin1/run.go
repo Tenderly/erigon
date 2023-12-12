@@ -16,9 +16,9 @@ import (
 	"github.com/idrecun/erigon/cl/cltypes/solid"
 	"github.com/idrecun/erigon/cl/freezer"
 	freezer2 "github.com/idrecun/erigon/cl/freezer"
+	proto_downloader "github.com/idrecun/erigon/erigon-lib/gointerfaces/downloader"
 	"github.com/idrecun/erigon/eth/ethconfig"
 	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
-	proto_downloader "github.com/ledgerwatch/erigon-lib/gointerfaces/downloader"
 
 	"github.com/idrecun/erigon/cl/persistence"
 	persistence2 "github.com/idrecun/erigon/cl/persistence"
@@ -38,10 +38,10 @@ import (
 
 	"github.com/Giulio2002/bls"
 	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon-lib/common/datadir"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces/sentinel"
-	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon-lib/kv/mdbx"
+	"github.com/idrecun/erigon/erigon-lib/common/datadir"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces/sentinel"
+	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/idrecun/erigon/erigon-lib/kv/mdbx"
 	"github.com/ledgerwatch/log/v3"
 )
 

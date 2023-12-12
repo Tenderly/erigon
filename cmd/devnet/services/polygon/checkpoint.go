@@ -19,9 +19,9 @@ import (
 	"github.com/idrecun/erigon/consensus/bor/heimdall/checkpoint"
 	"github.com/idrecun/erigon/core/types"
 	"github.com/idrecun/erigon/crypto"
-	"github.com/ledgerwatch/erigon-lib/chain/networkname"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/hexutility"
+	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
 )
 
 type CheckpointBlock struct {

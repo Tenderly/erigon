@@ -6,7 +6,7 @@ import (
 	gokzg4844 "github.com/crate-crypto/go-kzg-4844"
 	"github.com/idrecun/erigon/cl/merkle_tree"
 	ssz2 "github.com/idrecun/erigon/cl/ssz"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 )
 
 type Blob gokzg4844.Blob

@@ -1,8 +1,8 @@
 package cltypes
 
 import (
-	"github.com/ledgerwatch/erigon-lib/types/clonable"
-	"github.com/ledgerwatch/erigon-lib/types/ssz"
+	"github.com/idrecun/erigon/erigon-lib/types/clonable"
+	"github.com/idrecun/erigon/erigon-lib/types/ssz"
 
 	ssz2 "github.com/idrecun/erigon/cl/ssz"
 )

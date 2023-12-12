@@ -7,7 +7,7 @@ import (
 	"github.com/idrecun/erigon/core"
 	"github.com/idrecun/erigon/core/types"
 	"github.com/idrecun/erigon/core/vm"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 )
 
 type ChainContext struct {

@@ -21,8 +21,8 @@ import (
 	"hash"
 	"sync"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/length"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/length"
 	"golang.org/x/crypto/sha3"
 
 	"github.com/idrecun/erigon/crypto"

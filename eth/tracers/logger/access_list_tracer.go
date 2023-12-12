@@ -20,8 +20,8 @@ import (
 	"sort"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	types2 "github.com/ledgerwatch/erigon-lib/types"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	types2 "github.com/idrecun/erigon/erigon-lib/types"
 
 	"github.com/idrecun/erigon/core/vm"
 	"github.com/idrecun/erigon/core/vm/evmtypes"

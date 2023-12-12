@@ -12,6 +12,10 @@ import (
 	"github.com/idrecun/erigon/cmd/utils"
 	"github.com/idrecun/erigon/core/types"
 	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/erigon-lib/common/datadir"
+	"github.com/idrecun/erigon/erigon-lib/direct"
+	"github.com/idrecun/erigon/erigon-lib/downloader/downloadercfg"
+	"github.com/idrecun/erigon/erigon-lib/txpool/txpoolcfg"
 	"github.com/idrecun/erigon/eth"
 	"github.com/idrecun/erigon/eth/ethconfig"
 	"github.com/idrecun/erigon/node"
@@ -19,10 +23,6 @@ import (
 	"github.com/idrecun/erigon/p2p"
 	"github.com/idrecun/erigon/p2p/nat"
 	"github.com/idrecun/erigon/params"
-	"github.com/ledgerwatch/erigon-lib/common/datadir"
-	"github.com/ledgerwatch/erigon-lib/direct"
-	"github.com/ledgerwatch/erigon-lib/downloader/downloadercfg"
-	"github.com/ledgerwatch/erigon-lib/txpool/txpoolcfg"
 	"github.com/ledgerwatch/log/v3"
 )
 

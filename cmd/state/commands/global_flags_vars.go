@@ -3,7 +3,7 @@ package commands
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/ledgerwatch/erigon-lib/kv"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 
 	"github.com/idrecun/erigon/cmd/utils"
 	"github.com/idrecun/erigon/common/paths"

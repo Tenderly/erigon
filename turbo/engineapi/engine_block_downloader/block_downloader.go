@@ -5,7 +5,7 @@ import (
 	"context"
 	"encoding/binary"
 	"fmt"
-	"github.com/ledgerwatch/erigon-lib/kv/dbutils"
+	"github.com/idrecun/erigon/erigon-lib/kv/dbutils"
 	"math/big"
 	"sync"
 	"sync/atomic"
@@ -15,17 +15,17 @@ import (
 
 	"github.com/idrecun/erigon/core/rawdb"
 	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/erigon-lib/chain"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/etl"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces/execution"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/idrecun/erigon/rlp"
 	"github.com/idrecun/erigon/turbo/adapter"
 	"github.com/idrecun/erigon/turbo/execution/eth1/eth1_chain_reader.go"
 	"github.com/idrecun/erigon/turbo/services"
 	"github.com/idrecun/erigon/turbo/stages/bodydownload"
 	"github.com/idrecun/erigon/turbo/stages/headerdownload"
-	"github.com/ledgerwatch/erigon-lib/chain"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/etl"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces/execution"
-	"github.com/ledgerwatch/erigon-lib/kv"
 )
 
 const (

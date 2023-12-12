@@ -8,7 +8,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	common "github.com/ledgerwatch/erigon-lib/common"
+	common "github.com/idrecun/erigon/erigon-lib/common"
 	consensus "github.com/idrecun/erigon/consensus"
 	span "github.com/idrecun/erigon/consensus/bor/heimdall/span"
 	valset "github.com/idrecun/erigon/consensus/bor/valset"

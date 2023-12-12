@@ -23,8 +23,8 @@ import (
 	"math/big"
 	"reflect"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/length"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/length"
 
 	"github.com/idrecun/erigon/crypto"
 )

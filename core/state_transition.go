@@ -20,9 +20,9 @@ import (
 	"fmt"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/txpool/txpoolcfg"
-	types2 "github.com/ledgerwatch/erigon-lib/types"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/txpool/txpoolcfg"
+	types2 "github.com/idrecun/erigon/erigon-lib/types"
 
 	cmath "github.com/idrecun/erigon/common/math"
 	"github.com/idrecun/erigon/common/u256"

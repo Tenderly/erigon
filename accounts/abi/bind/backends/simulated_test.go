@@ -35,9 +35,9 @@ import (
 	"github.com/idrecun/erigon/core/rawdb"
 	"github.com/idrecun/erigon/core/types"
 	"github.com/idrecun/erigon/crypto"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/idrecun/erigon/params"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/kv"
 )
 
 func TestSimulatedBackend(t *testing.T) {

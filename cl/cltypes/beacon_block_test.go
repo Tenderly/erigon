@@ -8,7 +8,7 @@ import (
 	"github.com/idrecun/erigon/cl/clparams"
 	"github.com/idrecun/erigon/cl/cltypes/solid"
 	"github.com/idrecun/erigon/core/types"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/assert"
 )
 

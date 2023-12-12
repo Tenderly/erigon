@@ -23,8 +23,8 @@ import (
 	"testing"
 
 	"github.com/idrecun/erigon/core/state/temporal"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/datadir"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/datadir"
 	"golang.org/x/crypto/sha3"
 
 	"github.com/idrecun/erigon/common/u256"

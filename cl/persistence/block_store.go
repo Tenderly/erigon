@@ -9,7 +9,7 @@ import (
 	"github.com/idrecun/erigon/cl/phase1/network"
 	"github.com/idrecun/erigon/cl/rpc"
 	"github.com/idrecun/erigon/cl/sentinel/peers"
-	"github.com/ledgerwatch/erigon-lib/kv"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/tidwall/btree"
 )
 

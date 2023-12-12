@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ledgerwatch/erigon-lib/chain"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/chain"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 
 	"github.com/idrecun/erigon/consensus"
 	"github.com/idrecun/erigon/core/types"

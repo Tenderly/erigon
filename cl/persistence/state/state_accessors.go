@@ -8,10 +8,10 @@ import (
 	"github.com/idrecun/erigon/cl/cltypes/solid"
 	"github.com/idrecun/erigon/cl/persistence/base_encoding"
 	"github.com/idrecun/erigon/cl/phase1/core/state"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/klauspost/compress/zstd"
-	"github.com/ledgerwatch/erigon-lib/kv"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 )
 
 // InitializeValidatorTable initializes the validator table in the database.

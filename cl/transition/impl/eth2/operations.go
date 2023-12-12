@@ -8,14 +8,14 @@ import (
 	"time"
 
 	"github.com/idrecun/erigon/cl/abstract"
-	"github.com/ledgerwatch/erigon-lib/metrics"
+	"github.com/idrecun/erigon/erigon-lib/metrics"
 
 	"github.com/idrecun/erigon/cl/transition/impl/eth2/statechange"
 	"golang.org/x/exp/slices"
 
 	"github.com/idrecun/erigon/cl/cltypes/solid"
 	"github.com/idrecun/erigon/cl/phase1/core/state"
-	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common"
 
 	"github.com/Giulio2002/bls"
 	"github.com/ledgerwatch/log/v3"

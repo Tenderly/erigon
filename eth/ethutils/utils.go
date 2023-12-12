@@ -1,7 +1,7 @@
 package ethutils
 
 import (
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
 
 	"github.com/idrecun/erigon/consensus"

@@ -11,7 +11,7 @@ import (
 	"github.com/idrecun/erigon/consensus/bor/finality/generics"
 	"github.com/idrecun/erigon/consensus/bor/finality/whitelist"
 	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon-lib/metrics"
+	"github.com/idrecun/erigon/erigon-lib/metrics"
 )
 
 var (

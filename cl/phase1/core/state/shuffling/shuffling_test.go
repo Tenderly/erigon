@@ -4,7 +4,7 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/ledgerwatch/erigon-lib/common/eth2shuffle"
+	"github.com/idrecun/erigon/erigon-lib/common/eth2shuffle"
 
 	"github.com/idrecun/erigon/cl/phase1/core/state"
 	"github.com/idrecun/erigon/cl/phase1/core/state/raw"

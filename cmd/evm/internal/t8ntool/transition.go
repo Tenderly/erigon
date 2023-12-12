@@ -29,7 +29,7 @@ import (
 
 	"github.com/holiman/uint256"
 	"github.com/idrecun/erigon/core/state/temporal"
-	"github.com/ledgerwatch/erigon-lib/common/datadir"
+	"github.com/idrecun/erigon/erigon-lib/common/datadir"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/urfave/cli/v2"
 
@@ -41,18 +41,18 @@ import (
 	"github.com/idrecun/erigon/core/types"
 	"github.com/idrecun/erigon/core/vm"
 	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/erigon-lib/chain"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	"github.com/idrecun/erigon/erigon-lib/common/length"
+	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/idrecun/erigon/erigon-lib/kv/kvcfg"
 	"github.com/idrecun/erigon/eth/stagedsync"
 	trace_logger "github.com/idrecun/erigon/eth/tracers/logger"
 	"github.com/idrecun/erigon/rlp"
 	"github.com/idrecun/erigon/tests"
 	"github.com/idrecun/erigon/turbo/jsonrpc"
 	"github.com/idrecun/erigon/turbo/trie"
-	"github.com/ledgerwatch/erigon-lib/chain"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/hexutility"
-	"github.com/ledgerwatch/erigon-lib/common/length"
-	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon-lib/kv/kvcfg"
 )
 
 const (

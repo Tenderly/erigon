@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/idrecun/erigon/consensus/bor/heimdall"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
 	"github.com/ledgerwatch/log/v3"
 	proto "github.com/maticnetwork/polyproto/heimdall"
 	"google.golang.org/grpc"

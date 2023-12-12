@@ -4,7 +4,7 @@ import (
 	"errors"
 	"github.com/erigontech/silkworm-go"
 	"github.com/idrecun/erigon/consensus"
-	"github.com/ledgerwatch/erigon-lib/kv"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"math/big"
 )
 

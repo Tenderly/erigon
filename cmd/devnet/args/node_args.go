@@ -16,7 +16,7 @@ import (
 
 	"github.com/idrecun/erigon/cmd/devnet/accounts"
 	"github.com/idrecun/erigon/cmd/devnet/requests"
-	"github.com/ledgerwatch/erigon-lib/chain/networkname"
+	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
 )
 
 type NodeArgs struct {

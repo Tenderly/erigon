@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 
 	ssz2 "github.com/idrecun/erigon/cl/ssz"
-	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/types/ssz"
+	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/types/ssz"
 )
 
 type IterableSSZ[T any] interface {

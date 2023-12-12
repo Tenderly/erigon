@@ -23,10 +23,10 @@ import (
 	"github.com/idrecun/erigon/consensus/ethash"
 	"github.com/idrecun/erigon/core"
 	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/idrecun/erigon/eth/stagedsync"
 	"github.com/idrecun/erigon/params"
 	"github.com/idrecun/erigon/turbo/stages/mock"
-	"github.com/ledgerwatch/erigon-lib/kv"
 )
 
 // Tests that simple header verification works, for both good and bad blocks.

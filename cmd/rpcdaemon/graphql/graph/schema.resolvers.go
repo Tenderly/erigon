@@ -13,8 +13,8 @@ import (
 
 	"github.com/idrecun/erigon/cmd/rpcdaemon/graphql/graph/model"
 	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
 	"github.com/idrecun/erigon/rpc"
-	"github.com/ledgerwatch/erigon-lib/common/hexutil"
 )
 
 // SendRawTransaction is the resolver for the sendRawTransaction field.

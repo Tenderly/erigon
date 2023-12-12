@@ -2,7 +2,7 @@ package commands
 
 import (
 	"github.com/idrecun/erigon/cmd/state/verify"
-	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/spf13/cobra"
 )
 

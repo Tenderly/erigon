@@ -3,9 +3,9 @@ package rpchelper
 import (
 	"sync"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces/remote"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
 
 	types2 "github.com/idrecun/erigon/core/types"
 )

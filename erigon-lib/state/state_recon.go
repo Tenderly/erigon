@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/ledgerwatch/erigon-lib/compress"
-	"github.com/ledgerwatch/erigon-lib/recsplit"
-	"github.com/ledgerwatch/erigon-lib/recsplit/eliasfano32"
+	"github.com/idrecun/erigon/erigon-lib/compress"
+	"github.com/idrecun/erigon/erigon-lib/recsplit"
+	"github.com/idrecun/erigon/erigon-lib/recsplit/eliasfano32"
 )
 
 // Algorithms for reconstituting the state from state history

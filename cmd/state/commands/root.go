@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 
 	"github.com/idrecun/erigon/core/types"
-	chain2 "github.com/ledgerwatch/erigon-lib/chain"
-	"github.com/ledgerwatch/erigon-lib/common"
+	chain2 "github.com/idrecun/erigon/erigon-lib/chain"
+	"github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/spf13/cobra"
 
 	"github.com/idrecun/erigon/turbo/debug"

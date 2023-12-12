@@ -30,12 +30,12 @@ import (
 
 	"github.com/idrecun/erigon/common/debug"
 	"github.com/idrecun/erigon/common/mclock"
+	"github.com/idrecun/erigon/erigon-lib/diagnostics"
+	"github.com/idrecun/erigon/erigon-lib/metrics"
 	"github.com/idrecun/erigon/event"
 	"github.com/idrecun/erigon/p2p/enode"
 	"github.com/idrecun/erigon/p2p/enr"
 	"github.com/idrecun/erigon/rlp"
-	"github.com/ledgerwatch/erigon-lib/diagnostics"
-	"github.com/ledgerwatch/erigon-lib/metrics"
 )
 
 var (

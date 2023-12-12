@@ -6,8 +6,8 @@ import (
 	"github.com/idrecun/erigon/consensus/bor/finality/flags"
 	"github.com/idrecun/erigon/consensus/bor/finality/rawdb"
 	"github.com/idrecun/erigon/core/types"
-	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/metrics"
+	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/metrics"
 )
 
 type milestone struct {

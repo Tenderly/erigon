@@ -16,7 +16,7 @@ import (
 	"github.com/spf13/afero"
 
 	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

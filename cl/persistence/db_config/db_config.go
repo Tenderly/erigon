@@ -5,8 +5,8 @@ import (
 	"context"
 	"math"
 
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/idrecun/erigon/ethdb/cbor"
-	"github.com/ledgerwatch/erigon-lib/kv"
 )
 
 type DatabaseConfiguration struct{ PruneDepth uint64 }

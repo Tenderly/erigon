@@ -19,7 +19,7 @@ package state
 
 import (
 	"github.com/holiman/uint256"
-	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common"
 
 	"github.com/idrecun/erigon/core/types/accounts"
 )

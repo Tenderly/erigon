@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon-lib/direct"
+	"github.com/idrecun/erigon/erigon-lib/direct"
 
 	"github.com/idrecun/erigon/crypto"
 	"github.com/idrecun/erigon/p2p/enode"

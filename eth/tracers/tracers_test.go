@@ -20,7 +20,7 @@ import (
 	"crypto/ecdsa"
 	"crypto/rand"
 	"encoding/json"
-	"github.com/ledgerwatch/erigon-lib/common/hexutil"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
 	"math/big"
 	"testing"
 
@@ -29,10 +29,10 @@ import (
 	"github.com/idrecun/erigon/core/vm"
 	"github.com/idrecun/erigon/core/vm/evmtypes"
 	"github.com/idrecun/erigon/crypto"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/idrecun/erigon/params"
 	"github.com/idrecun/erigon/tests"
 	"github.com/idrecun/erigon/turbo/stages/mock"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/stretchr/testify/require"
 
 	"github.com/holiman/uint256"

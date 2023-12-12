@@ -4,8 +4,8 @@ import (
 	"strconv"
 
 	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon-lib/chain"
-	"github.com/ledgerwatch/erigon-lib/kv"
+	"github.com/idrecun/erigon/erigon-lib/chain"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 )
 
 func Check(e error) {

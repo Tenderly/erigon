@@ -9,8 +9,8 @@ import (
 
 	"github.com/idrecun/erigon/accounts/abi"
 	"github.com/idrecun/erigon/core/types"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/length"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/length"
 )
 
 // UnpackLog unpacks log

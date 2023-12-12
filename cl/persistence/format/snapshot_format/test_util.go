@@ -4,7 +4,7 @@ import (
 	"io"
 
 	"github.com/idrecun/erigon/cl/cltypes"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 )
 
 type MockBlockReader struct {

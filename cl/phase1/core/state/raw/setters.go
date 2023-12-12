@@ -4,7 +4,7 @@ import (
 	"github.com/idrecun/erigon/cl/clparams"
 	"github.com/idrecun/erigon/cl/cltypes"
 	"github.com/idrecun/erigon/cl/cltypes/solid"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 )
 
 func (b *BeaconState) SetVersion(version clparams.StateVersion) {

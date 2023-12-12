@@ -24,7 +24,7 @@ import (
 
 	"github.com/idrecun/erigon/common"
 	"github.com/idrecun/erigon/common/math"
-	common2 "github.com/ledgerwatch/erigon-lib/common"
+	common2 "github.com/idrecun/erigon/erigon-lib/common"
 )
 
 // packBytesSlice packs the given bytes as [L, V] as the canonical representation

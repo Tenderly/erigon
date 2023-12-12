@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/idrecun/erigon/core/forkid"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
+	proto_sentry "github.com/idrecun/erigon/erigon-lib/gointerfaces/sentry"
 	"github.com/idrecun/erigon/eth/protocols/eth"
 	"github.com/idrecun/erigon/p2p"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces"
-	proto_sentry "github.com/ledgerwatch/erigon-lib/gointerfaces/sentry"
 )
 
 func readAndValidatePeerStatusMessage(

@@ -12,8 +12,8 @@ import (
 	"github.com/idrecun/erigon/cmd/devnet/blocks"
 	"github.com/idrecun/erigon/cmd/devnet/contracts"
 	"github.com/idrecun/erigon/cmd/devnet/devnet"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/idrecun/erigon/rpc"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
 )
 
 type Faucet struct {

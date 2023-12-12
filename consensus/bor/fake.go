@@ -5,7 +5,7 @@ import (
 	"github.com/idrecun/erigon/consensus/ethash"
 	"github.com/idrecun/erigon/core/state"
 	"github.com/idrecun/erigon/core/types"
-	"github.com/ledgerwatch/erigon-lib/chain"
+	"github.com/idrecun/erigon/erigon-lib/chain"
 	"github.com/ledgerwatch/log/v3"
 )
 

@@ -13,8 +13,8 @@ import (
 	"github.com/idrecun/erigon/cl/fork"
 	"github.com/idrecun/erigon/cl/phase1/core/state"
 	"github.com/idrecun/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/hexutility"
+	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
 )
 
 func (v *ValidatorApiHandler) GetEthV1NodeSyncing(r *http.Request) (any, error) {

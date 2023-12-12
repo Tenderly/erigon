@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
 	"github.com/idrecun/erigon/p2p"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces/remote"
 
 	"github.com/idrecun/erigon/turbo/rpchelper"
 )

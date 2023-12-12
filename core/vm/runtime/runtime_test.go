@@ -32,10 +32,10 @@ import (
 	"github.com/idrecun/erigon/core/state"
 	"github.com/idrecun/erigon/core/types"
 	"github.com/idrecun/erigon/core/vm"
+	"github.com/idrecun/erigon/erigon-lib/chain"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/kv/memdb"
 	"github.com/idrecun/erigon/eth/tracers/logger"
-	"github.com/ledgerwatch/erigon-lib/chain"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/kv/memdb"
 )
 
 func TestDefaults(t *testing.T) {

@@ -10,8 +10,8 @@ import (
 	"github.com/idrecun/erigon/cl/cltypes"
 	"github.com/idrecun/erigon/cl/persistence/beacon_indicies"
 	"github.com/idrecun/erigon/cl/utils"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/kv"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 )
 
 func (a *ApiHandler) rootFromStateId(ctx context.Context, tx kv.Tx, stateId *segmentID) (root libcommon.Hash, httpStatusErr int, err error) {

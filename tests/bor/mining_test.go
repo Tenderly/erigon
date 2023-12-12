@@ -16,18 +16,18 @@ import (
 	"github.com/idrecun/erigon/common/fdlimit"
 	"github.com/idrecun/erigon/core/types"
 	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
 	"github.com/idrecun/erigon/eth"
 	"github.com/idrecun/erigon/node"
 	"github.com/idrecun/erigon/params"
 	"github.com/idrecun/erigon/tests/bor/helper"
-	"github.com/ledgerwatch/erigon-lib/chain/networkname"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon-lib/gointerfaces"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
 
-	"github.com/ledgerwatch/erigon-lib/gointerfaces/remote"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces/txpool"
-	txpool_proto "github.com/ledgerwatch/erigon-lib/gointerfaces/txpool"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces/txpool"
+	txpool_proto "github.com/idrecun/erigon/erigon-lib/gointerfaces/txpool"
 )
 
 const (

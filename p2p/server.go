@@ -34,7 +34,7 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"github.com/ledgerwatch/erigon-lib/diagnostics"
+	"github.com/idrecun/erigon/erigon-lib/diagnostics"
 	"github.com/ledgerwatch/log/v3"
 
 	"github.com/idrecun/erigon/common"

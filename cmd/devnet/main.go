@@ -22,8 +22,8 @@ import (
 	"github.com/idrecun/erigon/cmd/devnet/requests"
 	"github.com/idrecun/erigon/cmd/devnet/scenarios"
 	"github.com/idrecun/erigon/cmd/devnet/tests"
-	"github.com/ledgerwatch/erigon-lib/chain/networkname"
-	"github.com/ledgerwatch/erigon-lib/common/metrics"
+	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
+	"github.com/idrecun/erigon/erigon-lib/common/metrics"
 	"github.com/ledgerwatch/log/v3"
 
 	"github.com/idrecun/erigon/cmd/utils/flags"

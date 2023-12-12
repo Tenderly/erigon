@@ -5,8 +5,8 @@ package types
 import (
 	"testing"
 
-	"github.com/ledgerwatch/erigon-lib/common/hexutility"
-	"github.com/ledgerwatch/erigon-lib/common/u256"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	"github.com/idrecun/erigon/erigon-lib/common/u256"
 )
 
 func FuzzPooledTransactions66(f *testing.F) {

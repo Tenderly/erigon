@@ -4,7 +4,7 @@ import (
 	"github.com/idrecun/erigon/cl/cltypes/solid"
 	"github.com/idrecun/erigon/cl/phase1/core/state/lru"
 	"github.com/idrecun/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common"
 )
 
 var attestationIndiciesCache *lru.Cache[common.Hash, []uint64]

@@ -8,7 +8,7 @@ import (
 	"github.com/idrecun/erigon/cl/cltypes"
 	"github.com/idrecun/erigon/cl/persistence/format/chunk_encoding"
 	"github.com/idrecun/erigon/core/types"
-	"github.com/ledgerwatch/erigon-lib/common/length"
+	"github.com/idrecun/erigon/erigon-lib/common/length"
 )
 
 // WriteEth1BlockForSnapshot writes an execution block to the given writer in the format expected by the snapshot.

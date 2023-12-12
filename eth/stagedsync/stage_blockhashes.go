@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/idrecun/erigon/core/rawdb/blockio"
+	"github.com/idrecun/erigon/erigon-lib/chain"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/idrecun/erigon/eth/stagedsync/stages"
-	"github.com/ledgerwatch/erigon-lib/chain"
-	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
 )
 

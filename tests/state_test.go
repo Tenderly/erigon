@@ -28,7 +28,7 @@ import (
 	"testing"
 
 	"github.com/idrecun/erigon/core/state/temporal"
-	"github.com/ledgerwatch/erigon-lib/common/datadir"
+	"github.com/idrecun/erigon/erigon-lib/common/datadir"
 	"github.com/ledgerwatch/log/v3"
 
 	"github.com/idrecun/erigon/core/vm"

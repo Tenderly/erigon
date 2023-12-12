@@ -22,8 +22,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/fixedgas"
+	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/fixedgas"
 )
 
 // Config is the core config which determines the blockchain settings.

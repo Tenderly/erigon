@@ -3,7 +3,7 @@ package network
 import (
 	"context"
 	"fmt"
-	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common"
 	"sync"
 
 	"github.com/idrecun/erigon/cl/freezer"
@@ -13,8 +13,8 @@ import (
 	"github.com/idrecun/erigon/cl/clparams"
 	"github.com/idrecun/erigon/cl/cltypes"
 	"github.com/idrecun/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces/sentinel"
-	"github.com/ledgerwatch/erigon-lib/types/ssz"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces/sentinel"
+	"github.com/idrecun/erigon/erigon-lib/types/ssz"
 	"github.com/ledgerwatch/log/v3"
 )
 

@@ -1,8 +1,8 @@
 package snap
 
 import (
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/idrecun/erigon/eth/ethconfig"
-	"github.com/ledgerwatch/erigon-lib/kv"
 )
 
 var (

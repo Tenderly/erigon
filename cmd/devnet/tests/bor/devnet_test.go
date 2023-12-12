@@ -11,7 +11,7 @@ import (
 	"github.com/idrecun/erigon/cmd/devnet/requests"
 	"github.com/idrecun/erigon/cmd/devnet/services"
 	"github.com/idrecun/erigon/cmd/devnet/tests"
-	"github.com/ledgerwatch/erigon-lib/chain/networkname"
+	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
 	"github.com/stretchr/testify/require"
 )
 

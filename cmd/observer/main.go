@@ -10,8 +10,8 @@ import (
 	"github.com/idrecun/erigon/cmd/observer/observer"
 	"github.com/idrecun/erigon/cmd/observer/reports"
 	"github.com/idrecun/erigon/cmd/utils"
+	"github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/idrecun/erigon/params"
-	"github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
 )
 

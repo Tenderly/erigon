@@ -2,7 +2,7 @@ package trie
 
 import (
 	"github.com/idrecun/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common"
 )
 
 type keyTransformFunc func([]byte) []byte

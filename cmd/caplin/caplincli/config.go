@@ -14,7 +14,7 @@ import (
 	"github.com/idrecun/erigon/cmd/sentinel/sentinelflags"
 	"github.com/idrecun/erigon/cmd/utils"
 	"github.com/idrecun/erigon/common"
-	"github.com/ledgerwatch/erigon-lib/common/datadir"
+	"github.com/idrecun/erigon/erigon-lib/common/datadir"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/urfave/cli/v2"
 )

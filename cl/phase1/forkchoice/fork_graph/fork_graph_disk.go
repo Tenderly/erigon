@@ -10,7 +10,7 @@ import (
 	"github.com/idrecun/erigon/cl/cltypes/solid"
 	"github.com/idrecun/erigon/cl/phase1/core/state"
 	"github.com/idrecun/erigon/cl/transition"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/pierrec/lz4"
 	"github.com/spf13/afero"

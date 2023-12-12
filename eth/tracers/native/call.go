@@ -24,9 +24,9 @@ import (
 
 	"github.com/holiman/uint256"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/hexutil"
-	"github.com/ledgerwatch/erigon-lib/common/hexutility"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
 
 	"github.com/idrecun/erigon/accounts/abi"
 	"github.com/idrecun/erigon/core/vm"

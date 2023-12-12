@@ -5,7 +5,7 @@ import (
 
 	"github.com/idrecun/erigon/cl/clparams"
 	"github.com/idrecun/erigon/cl/clparams/initial_state"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/assert"
 )
 

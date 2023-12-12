@@ -7,7 +7,7 @@ import (
 	"github.com/idrecun/erigon/cl/clparams"
 	"github.com/idrecun/erigon/cl/phase1/core/state"
 	"github.com/idrecun/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/require"
 )
 

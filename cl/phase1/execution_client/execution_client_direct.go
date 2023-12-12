@@ -6,9 +6,9 @@ import (
 
 	"github.com/idrecun/erigon/cl/cltypes"
 	"github.com/idrecun/erigon/core/types"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/gointerfaces/execution"
 	"github.com/idrecun/erigon/turbo/execution/eth1/eth1_chain_reader.go"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/gointerfaces/execution"
 )
 
 type ExecutionClientDirect struct {

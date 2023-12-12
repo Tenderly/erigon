@@ -19,7 +19,7 @@ package kvcfg
 import (
 	"context"
 
-	"github.com/ledgerwatch/erigon-lib/kv"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 )
 
 type ConfigKey []byte

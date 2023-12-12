@@ -9,9 +9,9 @@ import (
 	"github.com/idrecun/erigon/cmd/devnet/devnet"
 	"github.com/idrecun/erigon/cmd/devnet/requests"
 	"github.com/idrecun/erigon/core/types"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/idrecun/erigon/rpc"
 	"github.com/idrecun/erigon/turbo/jsonrpc"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
 )
 
 func TransactOpts(ctx context.Context, sender libcommon.Address) (*bind.TransactOpts, error) {

@@ -1,12 +1,12 @@
 package trie
 
 import (
-	"github.com/ledgerwatch/erigon-lib/common/hexutil"
+	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
 	"testing"
 
 	"github.com/holiman/uint256"
 	"github.com/idrecun/erigon/core/types/accounts"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/require"
 )
 

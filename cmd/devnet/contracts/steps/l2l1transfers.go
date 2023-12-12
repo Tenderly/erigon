@@ -15,10 +15,10 @@ import (
 	"github.com/idrecun/erigon/cmd/devnet/requests"
 	"github.com/idrecun/erigon/cmd/devnet/scenarios"
 	"github.com/idrecun/erigon/cmd/devnet/services"
+	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/idrecun/erigon/rpc"
 	"github.com/idrecun/erigon/turbo/adapter/ethapi"
-	"github.com/ledgerwatch/erigon-lib/chain/networkname"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
 )
 
 func init() {

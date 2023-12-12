@@ -11,8 +11,8 @@ import (
 
 	"github.com/idrecun/erigon/cmd/utils"
 	"github.com/idrecun/erigon/core"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/idrecun/erigon/node"
-	"github.com/ledgerwatch/erigon-lib/kv"
 )
 
 var initCommand = cli.Command{

@@ -22,8 +22,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/cmp"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/cmp"
 
 	"github.com/idrecun/erigon/core/types/accounts"
 	"github.com/idrecun/erigon/crypto"

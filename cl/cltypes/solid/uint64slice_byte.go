@@ -7,9 +7,9 @@ import (
 
 	"github.com/idrecun/erigon/cl/merkle_tree"
 	"github.com/idrecun/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/length"
-	"github.com/ledgerwatch/erigon-lib/types/ssz"
+	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/length"
+	"github.com/idrecun/erigon/erigon-lib/types/ssz"
 )
 
 const treeCacheDepthUint64Slice = 0

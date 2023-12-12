@@ -16,8 +16,8 @@ import (
 	"github.com/idrecun/erigon/cl/persistence/beacon_indicies"
 	"github.com/idrecun/erigon/cl/persistence/db_config"
 	"github.com/idrecun/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon-lib/common/datadir"
-	"github.com/ledgerwatch/erigon-lib/downloader/snaptype"
+	"github.com/idrecun/erigon/erigon-lib/common/datadir"
+	"github.com/idrecun/erigon/erigon-lib/downloader/snaptype"
 
 	"github.com/ledgerwatch/log/v3"
 )

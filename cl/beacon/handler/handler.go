@@ -11,8 +11,8 @@ import (
 	"github.com/idrecun/erigon/cl/persistence"
 	"github.com/idrecun/erigon/cl/phase1/forkchoice"
 	"github.com/idrecun/erigon/cl/pool"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
-	"github.com/ledgerwatch/erigon-lib/kv"
 )
 
 type ApiHandler struct {

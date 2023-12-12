@@ -17,7 +17,7 @@
 package nodecfg
 
 import (
-	"github.com/ledgerwatch/erigon-lib/direct"
+	"github.com/idrecun/erigon/erigon-lib/direct"
 
 	"github.com/idrecun/erigon/p2p"
 	"github.com/idrecun/erigon/p2p/nat"

@@ -27,10 +27,10 @@ import (
 	"github.com/idrecun/erigon/core/types"
 	"github.com/idrecun/erigon/core/types/accounts"
 	"github.com/idrecun/erigon/crypto"
+	"github.com/idrecun/erigon/erigon-lib/chain"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	types2 "github.com/idrecun/erigon/erigon-lib/types"
 	"github.com/idrecun/erigon/turbo/trie"
-	"github.com/ledgerwatch/erigon-lib/chain"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	types2 "github.com/ledgerwatch/erigon-lib/types"
 )
 
 type revision struct {

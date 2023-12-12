@@ -4,10 +4,10 @@ import (
 	"context"
 
 	"github.com/idrecun/erigon/cmd/hack/tool"
+	"github.com/idrecun/erigon/erigon-lib/chain"
+	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/idrecun/erigon/erigon-lib/kv/kvcfg"
 	"github.com/idrecun/erigon/ethdb/prune"
-	"github.com/ledgerwatch/erigon-lib/chain"
-	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon-lib/kv/kvcfg"
 )
 
 func ChainConfig(db kv.RoDB) (cc *chain.Config) {

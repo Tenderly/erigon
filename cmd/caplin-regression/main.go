@@ -4,7 +4,7 @@ import (
 	"flag"
 	"github.com/idrecun/erigon/cl/cltypes"
 	"github.com/idrecun/erigon/cl/phase1/forkchoice"
-	"github.com/ledgerwatch/erigon-lib/metrics"
+	"github.com/idrecun/erigon/erigon-lib/metrics"
 
 	"github.com/idrecun/erigon/turbo/debug"
 

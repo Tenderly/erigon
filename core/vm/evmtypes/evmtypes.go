@@ -5,9 +5,9 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ledgerwatch/erigon-lib/chain"
-	"github.com/ledgerwatch/erigon-lib/common"
-	types2 "github.com/ledgerwatch/erigon-lib/types"
+	"github.com/idrecun/erigon/erigon-lib/chain"
+	"github.com/idrecun/erigon/erigon-lib/common"
+	types2 "github.com/idrecun/erigon/erigon-lib/types"
 
 	"github.com/idrecun/erigon/core/types"
 )

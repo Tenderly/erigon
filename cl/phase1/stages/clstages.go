@@ -19,10 +19,10 @@ import (
 	"github.com/idrecun/erigon/cl/phase1/execution_client"
 	"github.com/idrecun/erigon/cl/phase1/forkchoice"
 	"github.com/idrecun/erigon/core/types"
+	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/common/dbg"
+	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
-	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/common/dbg"
-	"github.com/ledgerwatch/erigon-lib/kv"
 
 	network2 "github.com/idrecun/erigon/cl/phase1/network"
 	"github.com/idrecun/erigon/cl/rpc"

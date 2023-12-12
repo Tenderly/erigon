@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"math/big"
 
-	hexutil2 "github.com/ledgerwatch/erigon-lib/common/hexutil"
+	hexutil2 "github.com/idrecun/erigon/erigon-lib/common/hexutil"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 
 	"github.com/idrecun/erigon/common/math"
 	"github.com/idrecun/erigon/core/types"

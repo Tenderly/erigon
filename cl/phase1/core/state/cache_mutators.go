@@ -6,7 +6,7 @@ import (
 	"github.com/idrecun/erigon/cl/clparams"
 	"github.com/idrecun/erigon/cl/cltypes/solid"
 	"github.com/idrecun/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon-lib/common/math"
+	"github.com/idrecun/erigon/erigon-lib/common/math"
 )
 
 func (b *CachingBeaconState) getSlashingProposerReward(whistleBlowerReward uint64) uint64 {

@@ -23,9 +23,9 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
+	"github.com/idrecun/erigon/erigon-lib/chain"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/idrecun/erigon/eth/gasprice/gaspricecfg"
-	"github.com/ledgerwatch/erigon-lib/chain"
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
 
 	"github.com/idrecun/erigon/core/types"

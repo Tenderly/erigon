@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	"github.com/idrecun/erigon/common/paths"
-	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon-lib/kv/mdbx"
+	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/idrecun/erigon/erigon-lib/kv/mdbx"
 	"github.com/urfave/cli/v2"
 )
 

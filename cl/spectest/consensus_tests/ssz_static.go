@@ -12,9 +12,9 @@ import (
 	"github.com/idrecun/erigon/cl/persistence/format/snapshot_format"
 	"github.com/idrecun/erigon/cl/phase1/core/state"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/types/clonable"
-	"github.com/ledgerwatch/erigon-lib/types/ssz"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/types/clonable"
+	"github.com/idrecun/erigon/erigon-lib/types/ssz"
 
 	"github.com/idrecun/erigon/cl/utils"
 	"github.com/stretchr/testify/require"

@@ -9,8 +9,8 @@ import (
 	"net"
 	"time"
 
-	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon-lib/direct"
+	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/idrecun/erigon/erigon-lib/direct"
 
 	"github.com/idrecun/erigon/common"
 	"github.com/idrecun/erigon/core/forkid"
