@@ -78,7 +78,7 @@ Usage
 For building the latest release (this will be suitable for most users just wanting to run a node):
 
 ```sh
-git clone --branch release/<x.xx> --single-branch https://github.com/ledgerwatch/erigon.git
+git clone --branch release/<x.xx> --single-branch https://github.com/idrecun/erigon.git
 cd erigon
 make erigon
 ./build/bin/erigon
@@ -89,7 +89,7 @@ You can check [the list of releases](https://github.com/idrecun/erigon/releases)
 For building the bleeding edge development branch:
 
 ```sh
-git clone --recurse-submodules https://github.com/ledgerwatch/erigon.git
+git clone --recurse-submodules https://github.com/idrecun/erigon.git
 cd erigon
 git checkout devel
 make erigon
@@ -173,7 +173,7 @@ If you would like to give Erigon a try, but do not have spare 2TB on your drive,
 of the public testnets, Görli. It syncs much quicker, and does not take so much disk space:
 
 ```sh
-git clone --recurse-submodules -j8 https://github.com/ledgerwatch/erigon.git
+git clone --recurse-submodules -j8 https://github.com/idrecun/erigon.git
 cd erigon
 make erigon
 ./build/bin/erigon --datadir=<your_datadir> --chain=goerli
