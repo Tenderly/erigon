@@ -6,13 +6,13 @@ import (
 	_ "embed"
 	"strconv"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/persistence/beacon_indicies"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	"github.com/idrecun/erigon/cl/utils"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/persistence/beacon_indicies"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/utils"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 )
 
 //go:embed test_data/capella/blocks_0.ssz_snappy

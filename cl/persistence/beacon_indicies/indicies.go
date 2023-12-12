@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/persistence/base_encoding"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/persistence/base_encoding"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 	_ "modernc.org/sqlite"
 )
 

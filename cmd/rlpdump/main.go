@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/rlp"
 )
 
 var (

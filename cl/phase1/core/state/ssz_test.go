@@ -5,11 +5,11 @@ import (
 	_ "embed"
 	"testing"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/utils"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 //go:embed tests/capella.ssz_snappy

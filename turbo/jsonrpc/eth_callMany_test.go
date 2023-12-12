@@ -8,22 +8,22 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 
-	"github.com/idrecun/erigon/erigon-lib/common/datadir"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	"github.com/idrecun/erigon/erigon-lib/kv/kvcache"
+	"github.com/tenderly/erigon/erigon-lib/common/datadir"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/erigon-lib/kv/kvcache"
 
-	"github.com/idrecun/erigon/accounts/abi/bind"
-	"github.com/idrecun/erigon/accounts/abi/bind/backends"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/params"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/rpc/rpccfg"
-	"github.com/idrecun/erigon/turbo/adapter/ethapi"
-	"github.com/idrecun/erigon/turbo/jsonrpc/contracts"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/accounts/abi/bind"
+	"github.com/tenderly/erigon/accounts/abi/bind/backends"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/params"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/rpc/rpccfg"
+	"github.com/tenderly/erigon/turbo/adapter/ethapi"
+	"github.com/tenderly/erigon/turbo/jsonrpc/contracts"
 )
 
 // block 1 contains 3 Transactions

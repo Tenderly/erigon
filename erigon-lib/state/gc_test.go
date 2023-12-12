@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 )
 
 func TestGCReadAfterRemoveFile(t *testing.T) {

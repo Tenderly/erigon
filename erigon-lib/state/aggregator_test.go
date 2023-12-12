@@ -13,16 +13,16 @@ import (
 	"time"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/erigon-lib/common/background"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/erigon-lib/common/background"
 
-	"github.com/idrecun/erigon/erigon-lib/commitment"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
-	"github.com/idrecun/erigon/erigon-lib/compress"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/mdbx"
+	"github.com/tenderly/erigon/erigon-lib/commitment"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/erigon-lib/compress"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/mdbx"
 )
 
 func testDbAndAggregator(t *testing.T, aggStep uint64) (string, kv.RwDB, *Aggregator) {

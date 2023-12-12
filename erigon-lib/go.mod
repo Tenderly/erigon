@@ -1,4 +1,4 @@
-module github.com/idrecun/erigon/erigon-lib
+module github.com/tenderly/erigon/erigon-lib
 
 go 1.20
 

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/idrecun/erigon/cl/cltypes"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/cl/cltypes"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 // GetHead fetches the current head.

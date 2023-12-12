@@ -24,10 +24,10 @@ import (
 	"time"
 
 	"github.com/anacrolix/torrent/metainfo"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
-	proto_downloader "github.com/idrecun/erigon/erigon-lib/gointerfaces/downloader"
-	prototypes "github.com/idrecun/erigon/erigon-lib/gointerfaces/types"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
+	proto_downloader "github.com/tenderly/erigon/erigon-lib/gointerfaces/downloader"
+	prototypes "github.com/tenderly/erigon/erigon-lib/gointerfaces/types"
 	"google.golang.org/protobuf/types/known/emptypb"
 )
 

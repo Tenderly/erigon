@@ -1,11 +1,11 @@
 package transition
 
 import (
-	"github.com/idrecun/erigon/cl/abstract"
-	"github.com/idrecun/erigon/cl/transition/impl/eth2"
-	machine2 "github.com/idrecun/erigon/cl/transition/machine"
+	"github.com/tenderly/erigon/cl/abstract"
+	"github.com/tenderly/erigon/cl/transition/impl/eth2"
+	machine2 "github.com/tenderly/erigon/cl/transition/machine"
 
-	"github.com/idrecun/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/cltypes"
 )
 
 var _ machine2.Interface = (*eth2.Impl)(nil)

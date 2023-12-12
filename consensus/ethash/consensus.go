@@ -26,20 +26,20 @@ import (
 
 	mapset "github.com/deckarep/golang-set/v2"
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/consensus/ethash/ethashcfg"
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/consensus/ethash/ethashcfg"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/common/u256"
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/consensus/misc"
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/params"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/common/u256"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/consensus/misc"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/params"
+	"github.com/tenderly/erigon/rlp"
 )
 
 // Ethash proof-of-work protocol constants.

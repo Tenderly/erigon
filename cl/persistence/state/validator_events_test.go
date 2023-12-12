@@ -3,9 +3,9 @@ package state_accessors
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 func TestStateEvents(t *testing.T) {

@@ -12,22 +12,22 @@ import (
 	"time"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/common/fdlimit"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
-	"github.com/idrecun/erigon/eth"
-	"github.com/idrecun/erigon/node"
-	"github.com/idrecun/erigon/params"
-	"github.com/idrecun/erigon/tests/bor/helper"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/common/fdlimit"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/erigon-lib/chain/networkname"
+	"github.com/tenderly/erigon/eth"
+	"github.com/tenderly/erigon/node"
+	"github.com/tenderly/erigon/params"
+	"github.com/tenderly/erigon/tests/bor/helper"
 
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
 
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/txpool"
-	txpool_proto "github.com/idrecun/erigon/erigon-lib/gointerfaces/txpool"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/remote"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/txpool"
+	txpool_proto "github.com/tenderly/erigon/erigon-lib/gointerfaces/txpool"
 )
 
 const (
@@ -52,7 +52,7 @@ var (
 )
 
 // CGO_CFLAGS="-D__BLST_PORTABLE__" : flag required for go test.
-// Example : CGO_CFLAGS="-D__BLST_PORTABLE__" go test -run ^TestMiningBenchmark$ github.com/idrecun/erigon/tests/bor -v -count=1
+// Example : CGO_CFLAGS="-D__BLST_PORTABLE__" go test -run ^TestMiningBenchmark$ github.com/tenderly/erigon/tests/bor -v -count=1
 // In TestMiningBenchmark, we will test the mining performance. We will initialize a single node devnet and fire 5000 txs. We will measure the time it takes to include all the txs. This can be made more advcanced by increasing blockLimit and txsInTxpool.
 func TestMiningBenchmark(t *testing.T) {
 	log.Root().SetHandler(log.LvlFilterHandler(log.LvlInfo, log.StreamHandler(os.Stderr, log.TerminalFormat())))

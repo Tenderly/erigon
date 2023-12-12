@@ -5,13 +5,13 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/consensus/bor/abi"
-	"github.com/idrecun/erigon/consensus/bor/valset"
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/rlp"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/consensus/bor/abi"
+	"github.com/tenderly/erigon/consensus/bor/valset"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/rlp"
 )
 
 type ChainSpanner struct {

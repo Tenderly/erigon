@@ -4,11 +4,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/idrecun/erigon/spectest"
+	"github.com/tenderly/erigon/spectest"
 
-	"github.com/idrecun/erigon/cl/transition"
+	"github.com/tenderly/erigon/cl/transition"
 
-	"github.com/idrecun/erigon/cl/spectest/consensus_tests"
+	"github.com/tenderly/erigon/cl/spectest/consensus_tests"
 )
 
 func Test(t *testing.T) {

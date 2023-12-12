@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/fork"
-	"github.com/idrecun/erigon/p2p/enode"
-	"github.com/idrecun/erigon/p2p/enr"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"
 	"github.com/prysmaticlabs/go-bitfield"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/fork"
+	"github.com/tenderly/erigon/p2p/enode"
+	"github.com/tenderly/erigon/p2p/enr"
 )
 
 // ConnectWithPeer is used to attempt to connect and add the peer to our pool

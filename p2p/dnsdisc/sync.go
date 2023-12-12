@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/idrecun/erigon/common/mclock"
-	"github.com/idrecun/erigon/p2p/enode"
+	"github.com/tenderly/erigon/common/mclock"
+	"github.com/tenderly/erigon/p2p/enode"
 )
 
 // This is the number of consecutive leaf requests that may fail before

@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/idrecun/erigon/cl/phase1/core/state/lru"
-	"github.com/idrecun/erigon/core/types"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/types/ssz"
-	"github.com/idrecun/erigon/turbo/services"
+	"github.com/tenderly/erigon/cl/phase1/core/state/lru"
+	"github.com/tenderly/erigon/core/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/types/ssz"
+	"github.com/tenderly/erigon/turbo/services"
 )
 
 type cacheEntry struct {

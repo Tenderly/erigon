@@ -5,19 +5,19 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 	"fmt"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
-	dbutils2 "github.com/idrecun/erigon/erigon-lib/kv/dbutils"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
+	dbutils2 "github.com/tenderly/erigon/erigon-lib/kv/dbutils"
 	"math/bits"
 	"time"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
-	length2 "github.com/idrecun/erigon/erigon-lib/common/length"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
+	length2 "github.com/tenderly/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/core/types/accounts"
-	"github.com/idrecun/erigon/turbo/rlphacks"
+	"github.com/tenderly/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/turbo/rlphacks"
 )
 
 /*

@@ -17,9 +17,9 @@
 package runtime
 
 import (
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/vm"
-	"github.com/idrecun/erigon/core/vm/evmtypes"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/vm"
+	"github.com/tenderly/erigon/core/vm/evmtypes"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

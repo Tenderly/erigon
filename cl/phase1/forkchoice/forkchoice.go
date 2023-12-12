@@ -4,19 +4,19 @@ import (
 	"context"
 	"sync"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/cl/freezer"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	state2 "github.com/idrecun/erigon/cl/phase1/core/state"
-	"github.com/idrecun/erigon/cl/phase1/execution_client"
-	"github.com/idrecun/erigon/cl/phase1/forkchoice/fork_graph"
-	"github.com/idrecun/erigon/cl/pool"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/freezer"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	state2 "github.com/tenderly/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/phase1/execution_client"
+	"github.com/tenderly/erigon/cl/phase1/forkchoice/fork_graph"
+	"github.com/tenderly/erigon/cl/pool"
 	"golang.org/x/exp/slices"
 
 	lru "github.com/hashicorp/golang-lru/v2"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 )
 
 type checkpointComparable string

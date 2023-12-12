@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"io"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/core/types/accounts"
 
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/rlp"
 )
 
 const codeSizeUncached = -1

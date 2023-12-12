@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"os"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/core/types/accounts"
-	"github.com/idrecun/erigon/turbo/rlphacks"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/turbo/rlphacks"
 )
 
 // StreamItem is an enum type for values that help distinguish different

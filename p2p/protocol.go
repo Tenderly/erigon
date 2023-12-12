@@ -19,8 +19,8 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/idrecun/erigon/p2p/enode"
-	"github.com/idrecun/erigon/p2p/enr"
+	"github.com/tenderly/erigon/p2p/enode"
+	"github.com/tenderly/erigon/p2p/enr"
 )
 
 // Protocol represents a P2P subprotocol implementation.

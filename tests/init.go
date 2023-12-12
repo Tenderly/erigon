@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/chain"
 )
 
 // Forks table defines supported forks and their chain config.

@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/idrecun/erigon/common"
+	"github.com/tenderly/erigon/common"
 )
 
 func TestHexCompact(t *testing.T) {

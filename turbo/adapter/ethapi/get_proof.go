@@ -2,13 +2,13 @@ package ethapi
 
 import (
 	"bytes"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 
-	"github.com/idrecun/erigon/core/types/accounts"
-	"github.com/idrecun/erigon/turbo/trie"
+	"github.com/tenderly/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/turbo/trie"
 )
 
 // Result structs for GetProof

@@ -16,10 +16,10 @@ package fork
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/utils"
-	"github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/utils"
+	"github.com/tenderly/erigon/erigon-lib/common"
 )
 
 // Testing Fork digest

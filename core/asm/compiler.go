@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/core/vm"
+	"github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/core/vm"
 )
 
 // Compiler contains information about the parsed source

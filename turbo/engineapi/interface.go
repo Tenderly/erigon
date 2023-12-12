@@ -2,10 +2,10 @@ package engineapi
 
 import (
 	"context"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	"github.com/idrecun/erigon/turbo/engineapi/engine_types"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/turbo/engineapi/engine_types"
 )
 
 // EngineAPI Beacon chain communication endpoint

@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/idrecun/erigon"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/accounts/abi"
-	"github.com/idrecun/erigon/accounts/abi/bind"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/event"
+	ethereum "github.com/tenderly/erigon"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/accounts/abi"
+	"github.com/tenderly/erigon/accounts/abi/bind"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

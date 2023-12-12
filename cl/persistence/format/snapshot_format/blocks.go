@@ -7,11 +7,11 @@ import (
 	"io"
 	"sync"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/persistence/format/chunk_encoding"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/persistence/format/chunk_encoding"
 )
 
 type ExecutionBlockReaderByNumber interface {

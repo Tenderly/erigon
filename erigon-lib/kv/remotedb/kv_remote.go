@@ -24,17 +24,17 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/idrecun/erigon/erigon-lib/kv/iter"
-	"github.com/idrecun/erigon/erigon-lib/kv/order"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/kv/iter"
+	"github.com/tenderly/erigon/erigon-lib/kv/order"
 	"golang.org/x/sync/semaphore"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/grpcutil"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/grpcutil"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/remote"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 )
 
 // generate the messages and services

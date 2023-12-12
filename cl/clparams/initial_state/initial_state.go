@@ -3,9 +3,9 @@ package initial_state
 import (
 	_ "embed"
 
-	"github.com/idrecun/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
 
-	"github.com/idrecun/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/clparams"
 )
 
 //go:embed mainnet.state.ssz

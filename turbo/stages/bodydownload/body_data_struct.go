@@ -3,13 +3,13 @@ package bodydownload
 import (
 	"github.com/RoaringBitmap/roaring/roaring64"
 	"github.com/google/btree"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
-	"github.com/idrecun/erigon/turbo/services"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/turbo/services"
 
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/core/types"
 )
 
 // TripleHash is type to be used for the mapping between TxHash, UncleHash, and WithdrawalsHash to the block header

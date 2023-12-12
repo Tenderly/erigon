@@ -4,14 +4,14 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/cl/persistence/base_encoding"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/klauspost/compress/zstd"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/persistence/base_encoding"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 // InitializeValidatorTable initializes the validator table in the database.

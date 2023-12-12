@@ -17,12 +17,12 @@
 package dnsdisc
 
 import (
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"reflect"
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/idrecun/erigon/p2p/enode"
+	"github.com/tenderly/erigon/p2p/enode"
 )
 
 func TestParseRoot(t *testing.T) {

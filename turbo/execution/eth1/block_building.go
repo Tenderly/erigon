@@ -7,17 +7,17 @@ import (
 
 	"github.com/holiman/uint256"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/execution"
-	types2 "github.com/idrecun/erigon/erigon-lib/gointerfaces/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/execution"
+	types2 "github.com/tenderly/erigon/erigon-lib/gointerfaces/types"
 
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/builder"
-	"github.com/idrecun/erigon/turbo/engineapi/engine_helpers"
-	"github.com/idrecun/erigon/turbo/execution/eth1/eth1_utils"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/builder"
+	"github.com/tenderly/erigon/turbo/engineapi/engine_helpers"
+	"github.com/tenderly/erigon/turbo/execution/eth1/eth1_utils"
 )
 
 func (e *EthereumExecutionModule) checkWithdrawalsPresence(time uint64, withdrawals []*types.Withdrawal) error {

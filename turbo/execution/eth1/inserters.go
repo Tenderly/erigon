@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/execution"
-	"github.com/idrecun/erigon/turbo/execution/eth1/eth1_utils"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/execution"
+	"github.com/tenderly/erigon/turbo/execution/eth1/eth1_utils"
 )
 
 func (e *EthereumExecutionModule) InsertBlocks(ctx context.Context, req *execution.InsertBlocksRequest) (*execution.InsertionResult, error) {

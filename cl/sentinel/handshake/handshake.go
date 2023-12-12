@@ -8,14 +8,14 @@ import (
 	"net/http"
 	"sync"
 
-	communication2 "github.com/idrecun/erigon/cl/sentinel/communication"
-	"github.com/idrecun/erigon/cl/sentinel/communication/ssz_snappy"
-	"github.com/idrecun/erigon/cl/sentinel/httpreqresp"
+	communication2 "github.com/tenderly/erigon/cl/sentinel/communication"
+	"github.com/tenderly/erigon/cl/sentinel/communication/ssz_snappy"
+	"github.com/tenderly/erigon/cl/sentinel/httpreqresp"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/fork"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/fork"
 )
 
 // HandShaker is the data type which will handle handshakes and determine if

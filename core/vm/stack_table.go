@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/params"
 )
 
 func maxStack(pop, push int) int {

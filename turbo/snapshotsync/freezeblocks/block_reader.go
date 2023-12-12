@@ -8,19 +8,19 @@ import (
 	"math"
 	"sort"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/dbg"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/recsplit"
-	"github.com/idrecun/erigon/eth/ethconfig"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/dbg"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/remote"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/recsplit"
+	"github.com/tenderly/erigon/eth/ethconfig"
 
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/rlp"
-	"github.com/idrecun/erigon/turbo/services"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/rlp"
+	"github.com/tenderly/erigon/turbo/services"
 )
 
 type RemoteBlockReader struct {

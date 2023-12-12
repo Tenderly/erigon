@@ -4,16 +4,16 @@ import (
 	"io/fs"
 	"testing"
 
-	"github.com/idrecun/erigon/spectest"
+	"github.com/tenderly/erigon/spectest"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	"github.com/idrecun/erigon/cl/phase1/core/state/shuffling"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/phase1/core/state/shuffling"
 
-	"github.com/idrecun/erigon/cl/utils"
-	"github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/utils"
+	"github.com/tenderly/erigon/erigon-lib/common"
 )
 
 type ShufflingCore struct {

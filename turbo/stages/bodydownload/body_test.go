@@ -3,11 +3,11 @@ package bodydownload_test
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/turbo/stages/bodydownload"
-	"github.com/idrecun/erigon/turbo/stages/mock"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/turbo/stages/bodydownload"
+	"github.com/tenderly/erigon/turbo/stages/mock"
 
-	"github.com/idrecun/erigon/consensus/ethash"
+	"github.com/tenderly/erigon/consensus/ethash"
 )
 
 func TestCreateBodyDownload(t *testing.T) {

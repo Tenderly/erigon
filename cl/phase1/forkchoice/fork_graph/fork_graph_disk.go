@@ -5,15 +5,15 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	"github.com/idrecun/erigon/cl/transition"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/pierrec/lz4"
 	"github.com/spf13/afero"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/transition"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 	"golang.org/x/exp/slices"
 )
 

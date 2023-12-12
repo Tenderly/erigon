@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/idrecun/erigon/cl/abstract"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/transition/machine"
+	"github.com/tenderly/erigon/cl/abstract"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/transition/machine"
 )
 
 // Case defines an interface for storage of dominoes. it should be thread safe

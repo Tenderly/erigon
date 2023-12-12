@@ -14,9 +14,9 @@
 package handlers
 
 import (
-	"github.com/idrecun/erigon/cl/sentinel/communication/ssz_snappy"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/libp2p/go-libp2p/core/network"
+	"github.com/tenderly/erigon/cl/sentinel/communication/ssz_snappy"
 )
 
 // func (c *ConsensusHandlers) blocksByRangeHandlerPROTODONOTTOUCH69(stream network.Stream) error {

@@ -6,20 +6,20 @@ import (
 	"testing"
 	"time"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 
-	"github.com/idrecun/erigon/rpc/rpccfg"
+	"github.com/tenderly/erigon/rpc/rpccfg"
 
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/txpool"
-	"github.com/idrecun/erigon/erigon-lib/kv/kvcache"
 	"github.com/stretchr/testify/assert"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/txpool"
+	"github.com/tenderly/erigon/erigon-lib/kv/kvcache"
 
-	"github.com/idrecun/erigon/cmd/rpcdaemon/rpcdaemontest"
-	"github.com/idrecun/erigon/eth/filters"
-	"github.com/idrecun/erigon/turbo/rpchelper"
-	"github.com/idrecun/erigon/turbo/stages/mock"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cmd/rpcdaemon/rpcdaemontest"
+	"github.com/tenderly/erigon/eth/filters"
+	"github.com/tenderly/erigon/turbo/rpchelper"
+	"github.com/tenderly/erigon/turbo/stages/mock"
 )
 
 func TestNewFilters(t *testing.T) {

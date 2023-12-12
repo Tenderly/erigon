@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/accounts/abi/bind"
-	"github.com/idrecun/erigon/accounts/abi/bind/backends"
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/common/u256"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/crypto"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/accounts/abi/bind"
+	"github.com/tenderly/erigon/accounts/abi/bind/backends"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/common/u256"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/crypto"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/params"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

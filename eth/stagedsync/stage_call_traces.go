@@ -11,18 +11,18 @@ import (
 
 	"github.com/RoaringBitmap/roaring/roaring64"
 	"github.com/c2h5oh/datasize"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/dbg"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
-	"github.com/idrecun/erigon/erigon-lib/etl"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/bitmapdb"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/dbg"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/erigon-lib/etl"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/bitmapdb"
 
-	"github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/ethdb/prune"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/ethdb/prune"
+	"github.com/tenderly/erigon/params"
 )
 
 type CallTracesCfg struct {

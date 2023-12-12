@@ -1,7 +1,7 @@
 package cltypes
 
 import (
-	"github.com/idrecun/erigon/cl/utils"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 type ParticipationFlags byte

@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/consensus/ethash"
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/consensus/ethash"
+	"github.com/tenderly/erigon/core/types"
 )
 
 //go:generate gencodec -type DifficultyTest -field-override difficultyTestMarshaling -out gen_difficultytest.go

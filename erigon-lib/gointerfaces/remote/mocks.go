@@ -5,7 +5,7 @@ package remote
 
 import (
 	context "context"
-	types "github.com/idrecun/erigon/erigon-lib/gointerfaces/types"
+	types "github.com/tenderly/erigon/erigon-lib/gointerfaces/types"
 	grpc "google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"

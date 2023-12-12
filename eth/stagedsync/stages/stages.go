@@ -20,7 +20,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 )
 
 // SyncStage represents the stages of syncronisation in the Mode.StagedSync mode

@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	"github.com/c2h5oh/datasize"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/assert"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/idrecun/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/core/types/accounts"
 )
 
 func TestCacheBtreeOrderAccountStorage2(t *testing.T) {

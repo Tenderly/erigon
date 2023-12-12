@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/idrecun/erigon/cmd/observer/database"
-	"github.com/idrecun/erigon/cmd/observer/observer"
-	"github.com/idrecun/erigon/cmd/observer/reports"
-	"github.com/idrecun/erigon/cmd/utils"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/params"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cmd/observer/database"
+	"github.com/tenderly/erigon/cmd/observer/observer"
+	"github.com/tenderly/erigon/cmd/observer/reports"
+	"github.com/tenderly/erigon/cmd/utils"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/params"
 )
 
 func mainWithFlags(ctx context.Context, flags observer.CommandFlags, logger log.Logger) error {

@@ -7,14 +7,14 @@ import (
 	"runtime"
 	"time"
 
-	common2 "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/datadir"
-	"github.com/idrecun/erigon/erigon-lib/common/dbg"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
+	common2 "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/datadir"
+	"github.com/tenderly/erigon/erigon-lib/common/dbg"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/rawdb"
 )
 
 var TxsV3 = Migration{

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/cl/utils"
 	"github.com/stretchr/testify/assert"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 func TestGetCurrentSlot(t *testing.T) {

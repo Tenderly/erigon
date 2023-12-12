@@ -2,21 +2,21 @@ package jsonrpc
 
 import (
 	"context"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"sync"
 	"testing"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/erigon-lib/common"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/erigon-lib/common"
 	"github.com/valyala/fastjson"
 
-	"github.com/idrecun/erigon/cmd/rpcdaemon/cli/httpcfg"
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/turbo/stages/mock"
+	"github.com/tenderly/erigon/cmd/rpcdaemon/cli/httpcfg"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/turbo/stages/mock"
 )
 
 func blockNumbersFromTraces(t *testing.T, b []byte) []int {

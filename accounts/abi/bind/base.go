@@ -23,13 +23,13 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	ethereum "github.com/idrecun/erigon"
-	"github.com/idrecun/erigon/accounts/abi"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/event"
+	ethereum "github.com/tenderly/erigon"
+	"github.com/tenderly/erigon/accounts/abi"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/event"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

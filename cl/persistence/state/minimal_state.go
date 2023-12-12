@@ -5,10 +5,10 @@ import (
 	"errors"
 	"io"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/phase1/core/state/raw"
-	ssz2 "github.com/idrecun/erigon/cl/ssz"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/phase1/core/state/raw"
+	ssz2 "github.com/tenderly/erigon/cl/ssz"
 )
 
 type MinimalBeaconState struct {

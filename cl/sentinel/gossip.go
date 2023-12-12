@@ -19,10 +19,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/idrecun/erigon/cl/fork"
 	"github.com/ledgerwatch/log/v3"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/tenderly/erigon/cl/fork"
 )
 
 var (

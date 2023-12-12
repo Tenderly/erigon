@@ -17,8 +17,8 @@
 package eth
 
 import (
-	"github.com/idrecun/erigon/p2p/dnsdisc"
-	"github.com/idrecun/erigon/p2p/enode"
+	"github.com/tenderly/erigon/p2p/dnsdisc"
+	"github.com/tenderly/erigon/p2p/enode"
 )
 
 // setupDiscovery creates the node discovery source for the `eth` and `snap`

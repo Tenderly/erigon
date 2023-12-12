@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/idrecun/erigon/event"
+	"github.com/tenderly/erigon/event"
 )
 
 func ExampleNewSubscription() {

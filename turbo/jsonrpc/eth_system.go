@@ -2,19 +2,19 @@ package jsonrpc
 
 import (
 	"context"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"math/big"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/eth/ethconfig"
-	"github.com/idrecun/erigon/eth/gasprice"
-	"github.com/idrecun/erigon/eth/stagedsync/stages"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/rpchelper"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/eth/ethconfig"
+	"github.com/tenderly/erigon/eth/gasprice"
+	"github.com/tenderly/erigon/eth/stagedsync/stages"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/rpchelper"
 )
 
 // BlockNumber implements eth_blockNumber. Returns the block number of most recent block.

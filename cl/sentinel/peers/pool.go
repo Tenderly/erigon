@@ -5,8 +5,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/idrecun/erigon/erigon-lib/common/ring"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/tenderly/erigon/erigon-lib/common/ring"
 )
 
 // Item is an item in the pool

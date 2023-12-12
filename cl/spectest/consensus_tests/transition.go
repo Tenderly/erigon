@@ -2,15 +2,15 @@ package consensus_tests
 
 import (
 	"fmt"
-	"github.com/idrecun/erigon/cl/transition/machine"
-	"github.com/idrecun/erigon/spectest"
+	"github.com/tenderly/erigon/cl/transition/machine"
+	"github.com/tenderly/erigon/spectest"
 	"io/fs"
 	"testing"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
 )
 
 type TransitionCore struct {

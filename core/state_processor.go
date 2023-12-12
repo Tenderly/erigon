@@ -17,15 +17,15 @@
 package core
 
 import (
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/core/vm"
-	"github.com/idrecun/erigon/core/vm/evmtypes"
-	"github.com/idrecun/erigon/crypto"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/core/vm"
+	"github.com/tenderly/erigon/core/vm/evmtypes"
+	"github.com/tenderly/erigon/crypto"
 )
 
 // applyTransaction attempts to apply a transaction to the given state database

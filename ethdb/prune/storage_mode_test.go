@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/erigon-lib/kv/memdb"
 	"github.com/stretchr/testify/assert"
+	"github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/erigon-lib/kv/memdb"
 )
 
 func TestSetStorageModeIfNotExist(t *testing.T) {

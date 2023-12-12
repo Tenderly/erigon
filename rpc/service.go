@@ -25,9 +25,9 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/idrecun/erigon/erigon-lib/common/dbg"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/common/dbg"
 )
 
 var (

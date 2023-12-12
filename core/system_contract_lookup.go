@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/erigon-lib/chain/networkname"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
 
-	"github.com/idrecun/erigon/core/systemcontracts"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/core/systemcontracts"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/params"
 )
 
 func init() {

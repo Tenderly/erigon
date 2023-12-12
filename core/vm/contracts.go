@@ -20,22 +20,22 @@ import (
 	"crypto/sha256"
 	"encoding/binary"
 	"errors"
-	"github.com/idrecun/erigon/erigon-lib/crypto/blake2b"
+	"github.com/tenderly/erigon/erigon-lib/crypto/blake2b"
 	"math/big"
 
 	"github.com/holiman/uint256"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	libkzg "github.com/idrecun/erigon/erigon-lib/crypto/kzg"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	libkzg "github.com/tenderly/erigon/erigon-lib/crypto/kzg"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/crypto/bls12381"
-	"github.com/idrecun/erigon/crypto/bn256"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/crypto/bls12381"
+	"github.com/tenderly/erigon/crypto/bn256"
 
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/params"
 
 	//lint:ignore SA1019 Needed for precompile
 	"golang.org/x/crypto/ripemd160"

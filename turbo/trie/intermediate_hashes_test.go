@@ -2,8 +2,8 @@ package trie
 
 import (
 	"fmt"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"strconv"
 	"testing"
 

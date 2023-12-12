@@ -32,17 +32,17 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/turbo/services"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/turbo/services"
 
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/eth/stagedsync/stages"
-	"github.com/idrecun/erigon/node"
-	"github.com/idrecun/erigon/p2p/sentry"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/eth/stagedsync/stages"
+	"github.com/tenderly/erigon/node"
+	"github.com/tenderly/erigon/p2p/sentry"
 )
 
 const (

@@ -6,10 +6,10 @@ import (
 	"os"
 
 	"github.com/golang/snappy"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/pierrec/lz4"
 	"github.com/spf13/afero"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 func getBeaconStateFilename(blockRoot libcommon.Hash) string {

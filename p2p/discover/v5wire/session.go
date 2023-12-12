@@ -22,9 +22,9 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/idrecun/erigon/common/mclock"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/p2p/enode"
+	"github.com/tenderly/erigon/common/mclock"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/p2p/enode"
 
 	"github.com/hashicorp/golang-lru/v2/simplelru"
 )

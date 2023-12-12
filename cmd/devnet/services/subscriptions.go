@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/idrecun/erigon/cmd/devnet/devnet"
-	"github.com/idrecun/erigon/cmd/devnet/devnetutils"
-	"github.com/idrecun/erigon/cmd/devnet/requests"
-	"github.com/idrecun/erigon/cmd/devnet/scenarios"
-	"github.com/idrecun/erigon/rpc"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cmd/devnet/devnet"
+	"github.com/tenderly/erigon/cmd/devnet/devnetutils"
+	"github.com/tenderly/erigon/cmd/devnet/requests"
+	"github.com/tenderly/erigon/cmd/devnet/scenarios"
+	"github.com/tenderly/erigon/rpc"
 )
 
 func init() {

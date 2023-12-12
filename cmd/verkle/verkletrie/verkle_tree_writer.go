@@ -7,14 +7,14 @@ import (
 
 	"github.com/anacrolix/sync"
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/core/types/accounts"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/etl"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/turbo/trie/vtree"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/types/accounts"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/etl"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/turbo/trie/vtree"
 	"github.com/tenderly/go-verkle"
 )
 

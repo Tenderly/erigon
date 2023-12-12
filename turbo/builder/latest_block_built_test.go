@@ -3,8 +3,8 @@ package builder
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/core/types"
 	"github.com/stretchr/testify/assert"
+	"github.com/tenderly/erigon/core/types"
 )
 
 func TestLatestBlockBuilt(t *testing.T) {

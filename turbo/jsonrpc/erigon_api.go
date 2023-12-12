@@ -2,18 +2,18 @@ package jsonrpc
 
 import (
 	"context"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/eth/filters"
+	"github.com/tenderly/erigon/eth/filters"
 
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/p2p"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/rpchelper"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/p2p"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/rpchelper"
 )
 
 // ErigonAPI Erigon specific routines

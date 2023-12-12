@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/txpool"
-	"github.com/idrecun/erigon/ethdb/privateapi"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/txpool"
+	"github.com/tenderly/erigon/ethdb/privateapi"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
 )

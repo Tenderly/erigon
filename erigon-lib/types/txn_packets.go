@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
-	"github.com/idrecun/erigon/erigon-lib/rlp"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/erigon-lib/rlp"
 )
 
 type NewPooledTransactionHashesPacket [][length.Hash]byte

@@ -3,10 +3,10 @@ package jsonrpc
 import (
 	"context"
 
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
 
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/turbo/rpchelper"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/turbo/rpchelper"
 )
 
 // Web3API provides interfaces for the web3_ RPC commands

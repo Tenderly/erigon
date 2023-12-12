@@ -3,8 +3,8 @@ package cltypes_test
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/cl/cltypes"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/cltypes"
 )
 
 func TestParticipationBits(t *testing.T) {

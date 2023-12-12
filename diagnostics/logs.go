@@ -15,7 +15,7 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/idrecun/erigon/turbo/logging"
+	"github.com/tenderly/erigon/turbo/logging"
 )
 
 func SetupLogsAccess(ctx *cli.Context, metricsMux *http.ServeMux) {

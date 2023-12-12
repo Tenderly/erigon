@@ -19,20 +19,20 @@ package ethapi
 import (
 	"errors"
 	"fmt"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"math/big"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	types2 "github.com/idrecun/erigon/erigon-lib/types"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	types2 "github.com/tenderly/erigon/erigon-lib/types"
 
-	"github.com/idrecun/erigon/accounts/abi"
-	"github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/eth/tracers/logger"
+	"github.com/tenderly/erigon/accounts/abi"
+	"github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/eth/tracers/logger"
 )
 
 // CallArgs represents the arguments for a call.

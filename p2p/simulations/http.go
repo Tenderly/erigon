@@ -28,11 +28,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/idrecun/erigon/event"
-	"github.com/idrecun/erigon/p2p"
-	"github.com/idrecun/erigon/p2p/enode"
-	"github.com/idrecun/erigon/p2p/simulations/adapters"
-	"github.com/idrecun/erigon/rpc"
+	"github.com/tenderly/erigon/event"
+	"github.com/tenderly/erigon/p2p"
+	"github.com/tenderly/erigon/p2p/enode"
+	"github.com/tenderly/erigon/p2p/simulations/adapters"
+	"github.com/tenderly/erigon/rpc"
 
 	"github.com/gorilla/websocket"
 	"github.com/julienschmidt/httprouter"

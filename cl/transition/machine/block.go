@@ -4,12 +4,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/idrecun/erigon/cl/abstract"
-	"github.com/idrecun/erigon/erigon-lib/metrics"
+	"github.com/tenderly/erigon/cl/abstract"
+	"github.com/tenderly/erigon/erigon-lib/metrics"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
 )
 
 // ProcessBlock processes a block with the block processor

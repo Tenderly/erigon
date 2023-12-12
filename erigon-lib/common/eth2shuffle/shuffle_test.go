@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/idrecun/erigon/erigon-lib/common/eth2shuffle"
 	"github.com/stretchr/testify/assert"
+	"github.com/tenderly/erigon/erigon-lib/common/eth2shuffle"
 )
 
 func getStandardHashFn() eth2shuffle.HashFn {

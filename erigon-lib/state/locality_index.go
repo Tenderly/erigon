@@ -28,11 +28,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/idrecun/erigon/erigon-lib/common/assert"
-	"github.com/idrecun/erigon/erigon-lib/common/dir"
-	"github.com/idrecun/erigon/erigon-lib/kv/bitmapdb"
-	"github.com/idrecun/erigon/erigon-lib/recsplit"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/common/assert"
+	"github.com/tenderly/erigon/erigon-lib/common/dir"
+	"github.com/tenderly/erigon/erigon-lib/kv/bitmapdb"
+	"github.com/tenderly/erigon/erigon-lib/recsplit"
 )
 
 const LocalityIndexUint64Limit = 64 //bitmap spend 1 bit per file, stored as uint64

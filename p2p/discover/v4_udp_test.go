@@ -32,12 +32,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/turbo/testlog"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/turbo/testlog"
 
-	"github.com/idrecun/erigon/p2p/discover/v4wire"
-	"github.com/idrecun/erigon/p2p/enode"
-	"github.com/idrecun/erigon/p2p/enr"
+	"github.com/tenderly/erigon/p2p/discover/v4wire"
+	"github.com/tenderly/erigon/p2p/enode"
+	"github.com/tenderly/erigon/p2p/enr"
 )
 
 // shared test variables

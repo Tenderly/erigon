@@ -3,10 +3,10 @@ package solid
 import (
 	"encoding/json"
 
-	"github.com/idrecun/erigon/cl/merkle_tree"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/types/clonable"
-	"github.com/idrecun/erigon/erigon-lib/types/ssz"
+	"github.com/tenderly/erigon/cl/merkle_tree"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/types/clonable"
+	"github.com/tenderly/erigon/erigon-lib/types/ssz"
 )
 
 // Whole committee(512) public key and the aggregate public key.

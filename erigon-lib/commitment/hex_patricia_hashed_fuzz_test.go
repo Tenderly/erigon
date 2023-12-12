@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/idrecun/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 )
 
 // go test -trimpath -v -fuzz=Fuzz_ProcessUpdate$ -fuzztime=300s ./commitment

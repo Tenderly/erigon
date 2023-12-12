@@ -22,10 +22,10 @@ import (
 	"net"
 	"testing"
 
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/p2p/enr"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/stretchr/testify/assert"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/p2p/enr"
 )
 
 func newLocalNodeForTesting(tmpDir string, logger log.Logger) (*LocalNode, *DB) {

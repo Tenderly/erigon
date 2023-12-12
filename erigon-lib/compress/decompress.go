@@ -26,9 +26,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/idrecun/erigon/erigon-lib/common/dbg"
-	"github.com/idrecun/erigon/erigon-lib/mmap"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/common/dbg"
+	"github.com/tenderly/erigon/erigon-lib/mmap"
 )
 
 type word []byte // plain text word associated with code from dictionary

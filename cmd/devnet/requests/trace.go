@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/adapter/ethapi"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/adapter/ethapi"
 )
 
 type TraceCall struct {

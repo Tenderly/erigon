@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/idrecun/erigon/common/math"
+	"github.com/tenderly/erigon/common/math"
 )
 
 var _ = (*difficultyTestMarshaling)(nil)

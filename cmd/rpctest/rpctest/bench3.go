@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/core/state"
+	"github.com/tenderly/erigon/core/state"
 )
 
 func Bench3(erigon_url, geth_url string) error {

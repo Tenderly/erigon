@@ -3,10 +3,10 @@ package httpcfg
 import (
 	"time"
 
-	"github.com/idrecun/erigon/erigon-lib/common/datadir"
-	"github.com/idrecun/erigon/erigon-lib/kv/kvcache"
-	"github.com/idrecun/erigon/eth/ethconfig"
-	"github.com/idrecun/erigon/rpc/rpccfg"
+	"github.com/tenderly/erigon/erigon-lib/common/datadir"
+	"github.com/tenderly/erigon/erigon-lib/kv/kvcache"
+	"github.com/tenderly/erigon/eth/ethconfig"
+	"github.com/tenderly/erigon/rpc/rpccfg"
 )
 
 type HttpCfg struct {

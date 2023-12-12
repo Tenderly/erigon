@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/idrecun/erigon/common"
+	"github.com/tenderly/erigon/common"
 )
 
 func TestPairingExpected(t *testing.T) {

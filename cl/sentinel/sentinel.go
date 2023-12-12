@@ -22,17 +22,11 @@ import (
 	"time"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/idrecun/erigon/cl/sentinel/handlers"
-	"github.com/idrecun/erigon/cl/sentinel/handshake"
-	"github.com/idrecun/erigon/cl/sentinel/httpreqresp"
-	"github.com/idrecun/erigon/cl/sentinel/peers"
+	"github.com/tenderly/erigon/cl/sentinel/handlers"
+	"github.com/tenderly/erigon/cl/sentinel/handshake"
+	"github.com/tenderly/erigon/cl/sentinel/httpreqresp"
+	"github.com/tenderly/erigon/cl/sentinel/peers"
 
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/persistence"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/p2p/discover"
-	"github.com/idrecun/erigon/p2p/enode"
-	"github.com/idrecun/erigon/p2p/enr"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/libp2p/go-libp2p"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
@@ -41,6 +35,12 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	rcmgr "github.com/libp2p/go-libp2p/p2p/host/resource-manager"
 	rcmgrObs "github.com/libp2p/go-libp2p/p2p/host/resource-manager/obs"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/persistence"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/p2p/discover"
+	"github.com/tenderly/erigon/p2p/enode"
+	"github.com/tenderly/erigon/p2p/enr"
 )
 
 const (

@@ -5,18 +5,18 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	solid2 "github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/cl/phase1/forkchoice"
-	"github.com/idrecun/erigon/cl/pool"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	solid2 "github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/phase1/forkchoice"
+	"github.com/tenderly/erigon/cl/pool"
 
 	"github.com/Giulio2002/bls"
-	"github.com/idrecun/erigon/cl/phase1/forkchoice/fork_graph"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/dbg"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/spf13/afero"
+	"github.com/tenderly/erigon/cl/phase1/forkchoice/fork_graph"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/dbg"
 )
 
 const (

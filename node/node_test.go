@@ -23,13 +23,13 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/erigon-lib/common/datadir"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/node/nodecfg"
-	"github.com/idrecun/erigon/p2p"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/erigon-lib/common/datadir"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/node/nodecfg"
+	"github.com/tenderly/erigon/p2p"
 )
 
 var (

@@ -18,9 +18,9 @@ package vm
 
 import (
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/core/types"
 )
 
 // EVMLogger is used to collect execution traces from an EVM transaction

@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/idrecun/erigon/erigon-lib/metrics"
+	"github.com/tenderly/erigon/erigon-lib/metrics"
 )
 
 type (

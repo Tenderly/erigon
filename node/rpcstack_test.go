@@ -19,7 +19,7 @@ package node
 import (
 	"bytes"
 	"fmt"
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common"
 	"io"
 	"net/http"
 	"net/url"
@@ -28,10 +28,10 @@ import (
 	"testing"
 
 	"github.com/gorilla/websocket"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/rpc/rpccfg"
-	"github.com/idrecun/erigon/turbo/testlog"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/rpc/rpccfg"
+	"github.com/tenderly/erigon/turbo/testlog"
 
 	"github.com/stretchr/testify/assert"
 )

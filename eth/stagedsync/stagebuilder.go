@@ -3,11 +3,11 @@ package stagedsync
 import (
 	"context"
 
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/eth/stagedsync/stages"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/remote"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/eth/stagedsync/stages"
 )
 
 type ChainEventNotifier interface {

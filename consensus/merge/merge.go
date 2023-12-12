@@ -8,16 +8,16 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/consensus/aura"
-	"github.com/idrecun/erigon/consensus/misc"
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/params"
-	"github.com/idrecun/erigon/rpc"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/consensus/aura"
+	"github.com/tenderly/erigon/consensus/misc"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/params"
+	"github.com/tenderly/erigon/rpc"
 )
 
 // Constants for The Merge as specified by EIP-3675: Upgrade consensus to Proof-of-Stake

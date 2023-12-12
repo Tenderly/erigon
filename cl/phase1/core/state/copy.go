@@ -1,8 +1,8 @@
 package state
 
 import (
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/phase1/core/state/raw"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/phase1/core/state/raw"
 )
 
 func (b *CachingBeaconState) CopyInto(bs *CachingBeaconState) (err error) {

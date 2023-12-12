@@ -21,14 +21,14 @@ import (
 	"crypto/ecdsa"
 	"crypto/elliptic"
 	"crypto/sha256"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"reflect"
 	"strings"
 	"testing"
 
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/p2p/enode"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/p2p/enode"
 )
 
 func TestVector_ECDH(t *testing.T) {

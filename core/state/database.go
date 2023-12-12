@@ -19,9 +19,9 @@ package state
 
 import (
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/core/types/accounts"
 )
 
 const (

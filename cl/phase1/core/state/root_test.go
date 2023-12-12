@@ -3,8 +3,8 @@ package state_test
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
 )
 
 // Curr: 4358340

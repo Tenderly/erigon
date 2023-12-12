@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/idrecun/erigon/core/rawdb"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/execution"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/rawdbv3"
-	"github.com/idrecun/erigon/eth/stagedsync"
-	"github.com/idrecun/erigon/eth/stagedsync/stages"
+	"github.com/tenderly/erigon/core/rawdb"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/execution"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/rawdbv3"
+	"github.com/tenderly/erigon/eth/stagedsync"
+	"github.com/tenderly/erigon/eth/stagedsync/stages"
 )
 
 type forkchoiceOutcome struct {

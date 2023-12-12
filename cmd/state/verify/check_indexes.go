@@ -3,13 +3,13 @@ package verify
 import (
 	"context"
 	"fmt"
-	"github.com/idrecun/erigon/erigon-lib/kv/dbutils"
+	"github.com/tenderly/erigon/erigon-lib/kv/dbutils"
 	"time"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/erigon-lib/kv/bitmapdb"
-	"github.com/idrecun/erigon/erigon-lib/kv/mdbx"
-	"github.com/idrecun/erigon/erigon-lib/kv/temporal/historyv2"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/erigon-lib/kv/bitmapdb"
+	"github.com/tenderly/erigon/erigon-lib/kv/mdbx"
+	"github.com/tenderly/erigon/erigon-lib/kv/temporal/historyv2"
 )
 
 func CheckIndex(ctx context.Context, chaindata string, changeSetBucket string, indexBucket string) error {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/big"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 type HashNodeFunc func(node, bool, []byte) (int, error)

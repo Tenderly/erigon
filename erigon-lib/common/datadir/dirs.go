@@ -24,7 +24,7 @@ import (
 	"syscall"
 
 	"github.com/gofrs/flock"
-	"github.com/idrecun/erigon/erigon-lib/common/dir"
+	"github.com/tenderly/erigon/erigon-lib/common/dir"
 )
 
 // Dirs is the file system folder the node should use for any data storage

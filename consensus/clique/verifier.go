@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/consensus/misc"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/consensus/misc"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/params"
 )
 
 // verifyHeader checks whether a header conforms to the consensus rules.The

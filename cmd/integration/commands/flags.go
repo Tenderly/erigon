@@ -3,10 +3,10 @@ package commands
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/idrecun/erigon/turbo/cli"
+	"github.com/tenderly/erigon/turbo/cli"
 
-	"github.com/idrecun/erigon/cmd/utils"
-	"github.com/idrecun/erigon/eth/ethconfig"
+	"github.com/tenderly/erigon/cmd/utils"
+	"github.com/tenderly/erigon/eth/ethconfig"
 )
 
 var (

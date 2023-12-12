@@ -5,9 +5,9 @@ import (
 	"errors"
 	"io"
 
-	"github.com/idrecun/erigon/consensus/bor/clerk"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	proto "github.com/maticnetwork/polyproto/heimdall"
+	"github.com/tenderly/erigon/consensus/bor/clerk"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 func (h *HeimdallGRPCClient) StateSyncEvents(ctx context.Context, fromID uint64, to int64) ([]*clerk.EventRecordWithTime, error) {

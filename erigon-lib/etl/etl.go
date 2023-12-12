@@ -23,9 +23,9 @@ import (
 	"time"
 
 	"github.com/c2h5oh/datasize"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 )
 
 type CurrentTableReader interface {

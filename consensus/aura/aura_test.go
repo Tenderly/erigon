@@ -7,16 +7,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv/memdb"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv/memdb"
 
-	"github.com/idrecun/erigon/accounts/abi"
-	"github.com/idrecun/erigon/consensus/aura"
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/turbo/stages/mock"
-	"github.com/idrecun/erigon/turbo/trie"
+	"github.com/tenderly/erigon/accounts/abi"
+	"github.com/tenderly/erigon/consensus/aura"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/turbo/stages/mock"
+	"github.com/tenderly/erigon/turbo/trie"
 )
 
 // Check that the first block of Gnosis Chain, which doesn't have any transactions,

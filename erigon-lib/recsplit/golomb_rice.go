@@ -22,7 +22,7 @@ import (
 	"math/bits"
 	"unsafe"
 
-	"github.com/idrecun/erigon/erigon-lib/common/bitutil"
+	"github.com/tenderly/erigon/erigon-lib/common/bitutil"
 )
 
 // Optimal Golomb-Rice parameters for leaves

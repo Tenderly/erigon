@@ -7,15 +7,15 @@ import (
 	"strings"
 	"syscall"
 
-	proto_sentry "github.com/idrecun/erigon/erigon-lib/gointerfaces/sentry"
 	"github.com/ledgerwatch/log/v3"
+	proto_sentry "github.com/tenderly/erigon/erigon-lib/gointerfaces/sentry"
 	"google.golang.org/grpc"
 
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/eth/protocols/eth"
-	"github.com/idrecun/erigon/p2p"
-	"github.com/idrecun/erigon/rlp"
-	"github.com/idrecun/erigon/turbo/stages/headerdownload"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/eth/protocols/eth"
+	"github.com/tenderly/erigon/p2p"
+	"github.com/tenderly/erigon/rlp"
+	"github.com/tenderly/erigon/turbo/stages/headerdownload"
 )
 
 func (cs *MultiClient) PropagateNewBlockHashes(ctx context.Context, announces []headerdownload.Announce) {

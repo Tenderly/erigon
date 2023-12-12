@@ -19,11 +19,11 @@ package rawdb
 import (
 	"math/big"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/core/types"
 )
 
 // TxLookupEntry is a positional metadata to help looking up the data content of

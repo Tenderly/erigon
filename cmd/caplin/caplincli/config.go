@@ -7,15 +7,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	"github.com/idrecun/erigon/cmd/caplin/caplinflags"
-	"github.com/idrecun/erigon/cmd/sentinel/sentinelcli"
-	"github.com/idrecun/erigon/cmd/sentinel/sentinelflags"
-	"github.com/idrecun/erigon/cmd/utils"
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/erigon-lib/common/datadir"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cmd/caplin/caplinflags"
+	"github.com/tenderly/erigon/cmd/sentinel/sentinelcli"
+	"github.com/tenderly/erigon/cmd/sentinel/sentinelflags"
+	"github.com/tenderly/erigon/cmd/utils"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/erigon-lib/common/datadir"
 	"github.com/urfave/cli/v2"
 )
 

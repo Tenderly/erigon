@@ -7,10 +7,10 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
-	"github.com/idrecun/erigon/erigon-lib/types/ssz"
 	"github.com/prysmaticlabs/gohashtree"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/erigon-lib/types/ssz"
 )
 
 // HashTreeRoot returns the hash for a given schema of objects.

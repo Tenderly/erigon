@@ -8,21 +8,21 @@ import (
 	"os"
 	"text/tabwriter"
 
-	"github.com/idrecun/erigon/turbo/backup"
+	"github.com/tenderly/erigon/turbo/backup"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/kvcfg"
-	"github.com/idrecun/erigon/erigon-lib/kv/rawdbv3"
-	"github.com/idrecun/erigon/erigon-lib/state"
-	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
 	"github.com/spf13/cobra"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/kvcfg"
+	"github.com/tenderly/erigon/erigon-lib/kv/rawdbv3"
+	"github.com/tenderly/erigon/erigon-lib/state"
+	"github.com/tenderly/erigon/turbo/snapshotsync/freezeblocks"
 
-	"github.com/idrecun/erigon/core/rawdb/rawdbhelpers"
-	reset2 "github.com/idrecun/erigon/core/rawdb/rawdbreset"
-	"github.com/idrecun/erigon/eth/stagedsync/stages"
-	"github.com/idrecun/erigon/ethdb/prune"
-	"github.com/idrecun/erigon/turbo/debug"
+	"github.com/tenderly/erigon/core/rawdb/rawdbhelpers"
+	reset2 "github.com/tenderly/erigon/core/rawdb/rawdbreset"
+	"github.com/tenderly/erigon/eth/stagedsync/stages"
+	"github.com/tenderly/erigon/ethdb/prune"
+	"github.com/tenderly/erigon/turbo/debug"
 )
 
 var cmdResetState = &cobra.Command{

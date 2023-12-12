@@ -8,13 +8,13 @@ import (
 	"unicode"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/idrecun/erigon/cl/beacon/beaconhttp"
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/fork"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	"github.com/idrecun/erigon/cl/utils"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/cl/beacon/beaconhttp"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/fork"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/utils"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
 )
 
 func (v *ValidatorApiHandler) GetEthV1NodeSyncing(r *http.Request) (any, error) {

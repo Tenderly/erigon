@@ -4,11 +4,11 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	libstate "github.com/idrecun/erigon/erigon-lib/state"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	libstate "github.com/tenderly/erigon/erigon-lib/state"
 
-	"github.com/idrecun/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/core/types/accounts"
 )
 
 type RequiredStateError struct {

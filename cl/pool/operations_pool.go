@@ -1,11 +1,11 @@
 package pool
 
 import (
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/crypto/blake2b"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/crypto/blake2b"
 )
 
 // DoubleSignatureKey uses blake2b algorithm to merge two signatures together. blake2 is faster than sha3.

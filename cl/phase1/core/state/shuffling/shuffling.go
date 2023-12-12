@@ -4,9 +4,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/idrecun/erigon/cl/phase1/core/state/raw"
+	"github.com/tenderly/erigon/cl/phase1/core/state/raw"
 
-	"github.com/idrecun/erigon/cl/utils"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 func ComputeProposerIndex(b *raw.BeaconState, indices []uint64, seed [32]byte) (uint64, error) {

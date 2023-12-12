@@ -4,17 +4,17 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/idrecun/erigon/erigon-lib/kv/dbutils"
+	"github.com/tenderly/erigon/erigon-lib/kv/dbutils"
 	"math/big"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/ethdb/cbor"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/ethdb/cbor"
+	"github.com/tenderly/erigon/rlp"
 )
 
 var (

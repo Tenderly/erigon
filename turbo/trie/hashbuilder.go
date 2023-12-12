@@ -7,14 +7,14 @@ import (
 	"math/bits"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	length2 "github.com/idrecun/erigon/erigon-lib/common/length"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	length2 "github.com/tenderly/erigon/erigon-lib/common/length"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/idrecun/erigon/core/types/accounts"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/rlp"
-	"github.com/idrecun/erigon/turbo/rlphacks"
+	"github.com/tenderly/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/rlp"
+	"github.com/tenderly/erigon/turbo/rlphacks"
 )
 
 const hashStackStride = length2.Hash + 1 // + 1 byte for RLP encoding

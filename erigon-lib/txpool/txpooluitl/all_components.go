@@ -26,14 +26,14 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	"github.com/idrecun/erigon/erigon-lib/direct"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/kvcache"
-	"github.com/idrecun/erigon/erigon-lib/kv/mdbx"
-	"github.com/idrecun/erigon/erigon-lib/txpool"
-	"github.com/idrecun/erigon/erigon-lib/txpool/txpoolcfg"
-	"github.com/idrecun/erigon/erigon-lib/types"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/direct"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/kvcache"
+	"github.com/tenderly/erigon/erigon-lib/kv/mdbx"
+	"github.com/tenderly/erigon/erigon-lib/txpool"
+	"github.com/tenderly/erigon/erigon-lib/txpool/txpoolcfg"
+	"github.com/tenderly/erigon/erigon-lib/types"
 )
 
 func SaveChainConfigIfNeed(ctx context.Context, coreDB kv.RoDB, txPoolDB kv.RwDB, force bool, logger log.Logger) (cc *chain.Config, blockNum uint64, err error) {

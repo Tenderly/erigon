@@ -29,12 +29,12 @@ import (
 	"time"
 
 	"github.com/c2h5oh/datasize"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/mdbx"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/mdbx"
 
-	"github.com/idrecun/erigon/rlp"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/rlp"
 
 	mdbx1 "github.com/erigontech/mdbx-go/mdbx"
 )

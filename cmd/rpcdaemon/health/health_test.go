@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 
-	"github.com/idrecun/erigon/rpc"
+	"github.com/tenderly/erigon/rpc"
 )
 
 type netApiStub struct {

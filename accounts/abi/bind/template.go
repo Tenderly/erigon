@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/idrecun/erigon/accounts/abi"
+import "github.com/tenderly/erigon/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -93,12 +93,12 @@ import (
 	"fmt"
 	"reflect"
 
-	ethereum "github.com/idrecun/erigon"
-	"github.com/idrecun/erigon/accounts/abi"
-	"github.com/idrecun/erigon/accounts/abi/bind"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/event"
+	ethereum "github.com/tenderly/erigon"
+	"github.com/tenderly/erigon/accounts/abi"
+	"github.com/tenderly/erigon/accounts/abi/bind"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

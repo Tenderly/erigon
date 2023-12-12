@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
 )
 
 func TestMinimalState(t *testing.T) {

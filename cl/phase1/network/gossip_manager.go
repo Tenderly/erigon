@@ -3,19 +3,19 @@ package network
 import (
 	"context"
 	"fmt"
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common"
 	"sync"
 
-	"github.com/idrecun/erigon/cl/freezer"
-	"github.com/idrecun/erigon/cl/phase1/forkchoice"
-	"github.com/idrecun/erigon/cl/sentinel/peers"
+	"github.com/tenderly/erigon/cl/freezer"
+	"github.com/tenderly/erigon/cl/phase1/forkchoice"
+	"github.com/tenderly/erigon/cl/sentinel/peers"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/utils"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/sentinel"
-	"github.com/idrecun/erigon/erigon-lib/types/ssz"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/utils"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/sentinel"
+	"github.com/tenderly/erigon/erigon-lib/types/ssz"
 )
 
 // Gossip manager is sending all messages to fork choice or others

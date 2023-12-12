@@ -31,13 +31,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/idrecun/erigon/common/mclock"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/p2p/enode"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/common/mclock"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/p2p/enode"
 )
 
 // To regenerate discv5 test vectors, run

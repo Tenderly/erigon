@@ -19,8 +19,8 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/txpool/txpoolcfg"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/txpool/txpoolcfg"
 )
 
 // DeprecatedTxPoolConfig are the configuration parameters of the transaction pool.

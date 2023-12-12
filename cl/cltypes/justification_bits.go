@@ -3,9 +3,9 @@ package cltypes
 import (
 	"encoding/json"
 
-	"github.com/idrecun/erigon/cl/utils"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	"github.com/idrecun/erigon/erigon-lib/types/clonable"
+	"github.com/tenderly/erigon/cl/utils"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/erigon-lib/types/clonable"
 )
 
 const JustificationBitsLength = 4

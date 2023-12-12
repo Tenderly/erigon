@@ -6,23 +6,23 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/idrecun/erigon/erigon-lib/kv/dbutils"
+	"github.com/tenderly/erigon/erigon-lib/kv/dbutils"
 
-	"github.com/idrecun/erigon/cl/antiquary"
-	"github.com/idrecun/erigon/cl/persistence"
-	"github.com/idrecun/erigon/cl/phase1/execution_client"
-	"github.com/idrecun/erigon/cl/phase1/network"
-	"github.com/idrecun/erigon/cl/utils"
-	"github.com/idrecun/erigon/core/types"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/etl"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/memdb"
-	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
+	"github.com/tenderly/erigon/cl/antiquary"
+	"github.com/tenderly/erigon/cl/persistence"
+	"github.com/tenderly/erigon/cl/phase1/execution_client"
+	"github.com/tenderly/erigon/cl/phase1/network"
+	"github.com/tenderly/erigon/cl/utils"
+	"github.com/tenderly/erigon/core/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/etl"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/memdb"
+	"github.com/tenderly/erigon/turbo/snapshotsync/freezeblocks"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
 )
 
 type StageHistoryReconstructionCfg struct {

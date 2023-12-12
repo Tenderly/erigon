@@ -7,12 +7,12 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/idrecun/erigon/cl/abstract"
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	"github.com/idrecun/erigon/cl/utils"
 	"github.com/spf13/afero"
+	"github.com/tenderly/erigon/cl/abstract"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 type Case struct {

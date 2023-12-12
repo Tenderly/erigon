@@ -1,10 +1,10 @@
 package cache
 
 import (
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/cl/phase1/core/state/lru"
-	"github.com/idrecun/erigon/cl/utils"
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/phase1/core/state/lru"
+	"github.com/tenderly/erigon/cl/utils"
+	"github.com/tenderly/erigon/erigon-lib/common"
 )
 
 var attestationIndiciesCache *lru.Cache[common.Hash, []uint64]

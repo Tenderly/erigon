@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/idrecun/erigon/common"
+	"github.com/tenderly/erigon/common"
 )
 
 func TestMemoryCopy(t *testing.T) {

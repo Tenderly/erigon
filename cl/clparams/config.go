@@ -22,12 +22,12 @@ import (
 	"path"
 	"time"
 
-	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/types/ssz"
+	"github.com/tenderly/erigon/erigon-lib/chain/networkname"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/types/ssz"
 	"gopkg.in/yaml.v2"
 
-	"github.com/idrecun/erigon/cl/utils"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 type CaplinConfig struct {

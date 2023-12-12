@@ -1,4 +1,4 @@
-module github.com/idrecun/erigon/cmd/release/v2
+module github.com/tenderly/erigon/cmd/release/v2
 
 go 1.20
 

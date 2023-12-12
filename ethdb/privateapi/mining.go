@@ -4,18 +4,18 @@ import (
 	"bytes"
 	"context"
 	"errors"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"sync"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	proto_txpool "github.com/idrecun/erigon/erigon-lib/gointerfaces/txpool"
-	types2 "github.com/idrecun/erigon/erigon-lib/gointerfaces/types"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	proto_txpool "github.com/tenderly/erigon/erigon-lib/gointerfaces/txpool"
+	types2 "github.com/tenderly/erigon/erigon-lib/gointerfaces/types"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/idrecun/erigon/consensus/ethash"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/consensus/ethash"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/rlp"
 )
 
 // MiningAPIVersion

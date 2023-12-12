@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"time"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/dbg"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/dbg"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/eth/stagedsync/stages"
+	"github.com/tenderly/erigon/eth/stagedsync/stages"
 )
 
 type Sync struct {

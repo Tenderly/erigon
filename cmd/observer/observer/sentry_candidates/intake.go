@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/idrecun/erigon/cmd/observer/database"
-	"github.com/idrecun/erigon/cmd/observer/observer/node_utils"
-	"github.com/idrecun/erigon/cmd/observer/utils"
-	"github.com/idrecun/erigon/p2p/enode"
-	"github.com/idrecun/erigon/params"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/nxadm/tail"
+	"github.com/tenderly/erigon/cmd/observer/database"
+	"github.com/tenderly/erigon/cmd/observer/observer/node_utils"
+	"github.com/tenderly/erigon/cmd/observer/utils"
+	"github.com/tenderly/erigon/p2p/enode"
+	"github.com/tenderly/erigon/params"
 )
 
 type Intake struct {

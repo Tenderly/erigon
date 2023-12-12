@@ -4,13 +4,13 @@ import (
 	"context"
 	"net"
 
-	"github.com/idrecun/erigon/cl/sentinel"
+	"github.com/tenderly/erigon/cl/sentinel"
 
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/persistence"
-	"github.com/idrecun/erigon/erigon-lib/direct"
-	sentinelrpc "github.com/idrecun/erigon/erigon-lib/gointerfaces/sentinel"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/persistence"
+	"github.com/tenderly/erigon/erigon-lib/direct"
+	sentinelrpc "github.com/tenderly/erigon/erigon-lib/gointerfaces/sentinel"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

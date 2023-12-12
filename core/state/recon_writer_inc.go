@@ -2,14 +2,14 @@ package state
 
 import (
 	"bytes"
-	"github.com/idrecun/erigon/erigon-lib/kv/dbutils"
+	"github.com/tenderly/erigon/erigon-lib/kv/dbutils"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	libstate "github.com/idrecun/erigon/erigon-lib/state"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	libstate "github.com/tenderly/erigon/erigon-lib/state"
 
-	"github.com/idrecun/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/core/types/accounts"
 )
 
 type StateReconWriterInc struct {

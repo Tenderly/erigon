@@ -1,4 +1,4 @@
-module github.com/idrecun/erigon
+module github.com/tenderly/erigon
 
 go 1.20
 
@@ -8,7 +8,7 @@ require (
 	github.com/ledgerwatch/log/v3 v3.9.0
 )
 
-replace github.com/idrecun/erigon/erigon-lib => ./erigon-lib
+replace github.com/tenderly/erigon/erigon-lib => ./erigon-lib
 
 require (
 	gfx.cafe/util/go/generic v0.0.0-20230721185457-c559e86c829c

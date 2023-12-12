@@ -3,10 +3,10 @@ package jsonrpc
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/cmd/rpcdaemon/rpcdaemontest"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/rpc/rpccfg"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cmd/rpcdaemon/rpcdaemontest"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/rpc/rpccfg"
 )
 
 func TestGetTransactionBySenderAndNonce(t *testing.T) {

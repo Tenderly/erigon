@@ -1,11 +1,11 @@
 package statechange
 
 import (
-	"github.com/idrecun/erigon/cl/abstract"
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/abstract"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
 )
 
 // weighJustificationAndFinalization checks justification and finality of epochs and adds records to the state as needed.

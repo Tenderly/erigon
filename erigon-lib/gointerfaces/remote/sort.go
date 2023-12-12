@@ -3,7 +3,7 @@ package remote
 import (
 	"strings"
 
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/types"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/types"
 )
 
 func NodeInfoReplyCmp(i, j *types.NodeInfoReply) int {

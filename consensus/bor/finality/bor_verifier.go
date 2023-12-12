@@ -8,10 +8,10 @@ import (
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/idrecun/erigon/consensus/bor/finality/generics"
-	"github.com/idrecun/erigon/consensus/bor/finality/whitelist"
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/erigon-lib/metrics"
+	"github.com/tenderly/erigon/consensus/bor/finality/generics"
+	"github.com/tenderly/erigon/consensus/bor/finality/whitelist"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/erigon-lib/metrics"
 )
 
 var (

@@ -6,10 +6,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/idrecun/erigon/consensus/bor/heimdall"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
 	"github.com/ledgerwatch/log/v3"
 	proto "github.com/maticnetwork/polyproto/heimdall"
+	"github.com/tenderly/erigon/consensus/bor/heimdall"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

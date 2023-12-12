@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/idrecun/erigon/rpc/rpccfg"
 	"github.com/stretchr/testify/assert"
+	"github.com/tenderly/erigon/rpc/rpccfg"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
 
-	"github.com/idrecun/erigon/cmd/rpcdaemon/rpcdaemontest"
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/rpc"
+	"github.com/tenderly/erigon/cmd/rpcdaemon/rpcdaemontest"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/rpc"
 )
 
 var latestBlock = rpc.BlockNumberOrHashWithNumber(rpc.LatestBlockNumber)

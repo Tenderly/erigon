@@ -1,12 +1,12 @@
 package engine_block_downloader
 
 import (
-	"github.com/idrecun/erigon/core/types"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/execution"
-	"github.com/idrecun/erigon/erigon-lib/kv/mdbx"
-	"github.com/idrecun/erigon/erigon-lib/kv/membatchwithdb"
-	"github.com/idrecun/erigon/turbo/stages/headerdownload"
+	"github.com/tenderly/erigon/core/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/execution"
+	"github.com/tenderly/erigon/erigon-lib/kv/mdbx"
+	"github.com/tenderly/erigon/erigon-lib/kv/membatchwithdb"
+	"github.com/tenderly/erigon/turbo/stages/headerdownload"
 )
 
 // download is the process that reverse download a specific block hash.

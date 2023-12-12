@@ -27,17 +27,17 @@ import (
 	"time"
 
 	"github.com/holiman/uint256"
-	ethereum "github.com/idrecun/erigon"
-	"github.com/idrecun/erigon/accounts/abi"
-	"github.com/idrecun/erigon/accounts/abi/bind"
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/common/u256"
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/crypto"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/params"
+	ethereum "github.com/tenderly/erigon"
+	"github.com/tenderly/erigon/accounts/abi"
+	"github.com/tenderly/erigon/accounts/abi/bind"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/common/u256"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/crypto"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/params"
 )
 
 func TestSimulatedBackend(t *testing.T) {

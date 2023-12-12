@@ -4,12 +4,12 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/idrecun/erigon/accounts/abi"
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/rlp"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/accounts/abi"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/rlp"
 )
 
 var (

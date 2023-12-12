@@ -7,13 +7,13 @@ import (
 	"time"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/erigon-lib/state"
+	"github.com/tenderly/erigon/erigon-lib/state"
 
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/core/types/accounts"
-	"github.com/idrecun/erigon/core/vm/evmtypes"
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/core/vm/evmtypes"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 // ReadWriteSet contains ReadSet, WriteSet and BalanceIncrease of a transaction,

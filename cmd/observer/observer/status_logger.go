@@ -5,9 +5,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/idrecun/erigon/cmd/observer/database"
-	"github.com/idrecun/erigon/cmd/observer/utils"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cmd/observer/database"
+	"github.com/tenderly/erigon/cmd/observer/utils"
 )
 
 func StatusLoggerLoop(ctx context.Context, db database.DB, networkID uint, period time.Duration, logger log.Logger) {

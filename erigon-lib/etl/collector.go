@@ -29,8 +29,8 @@ import (
 	"github.com/c2h5oh/datasize"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 )
 
 type LoadNextFunc func(originalK, k, v []byte) error

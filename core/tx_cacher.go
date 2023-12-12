@@ -19,9 +19,9 @@ package core
 import (
 	"sync"
 
-	"github.com/idrecun/erigon/common/debug"
-	"github.com/idrecun/erigon/core/types"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/common/debug"
+	"github.com/tenderly/erigon/core/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 // txSenderCacherRequest is a request for recovering transaction senders with a

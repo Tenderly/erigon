@@ -4,9 +4,9 @@ package types
 
 import (
 	"encoding/json"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common"
 )
 
 var _ = (*withdrawalMarshaling)(nil)

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/params"
 )
 
 const Version = 3

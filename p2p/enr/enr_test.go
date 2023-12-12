@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/rlp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/rlp"
 )
 
 var rnd = rand.New(rand.NewSource(time.Now().UnixNano()))

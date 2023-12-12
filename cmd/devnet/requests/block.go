@@ -5,14 +5,14 @@ import (
 	"encoding/json"
 	"math/big"
 
-	hexutil2 "github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	hexutil2 "github.com/tenderly/erigon/erigon-lib/common/hexutil"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/jsonrpc"
+	"github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/jsonrpc"
 )
 
 type BlockNumber string

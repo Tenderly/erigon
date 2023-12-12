@@ -21,13 +21,13 @@ import (
 	"hash"
 	"sync"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/rlp"
-	"github.com/idrecun/erigon/turbo/rlphacks"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/rlp"
+	"github.com/tenderly/erigon/turbo/rlphacks"
 )
 
 type hasher struct {

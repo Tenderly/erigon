@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/idrecun/erigon/erigon-lib/common/length"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 )
 
 var (

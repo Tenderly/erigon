@@ -7,14 +7,14 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/assert"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/direct"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
-	proto_sentry "github.com/idrecun/erigon/erigon-lib/gointerfaces/sentry"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/direct"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
+	proto_sentry "github.com/tenderly/erigon/erigon-lib/gointerfaces/sentry"
 
-	"github.com/idrecun/erigon/core/forkid"
-	"github.com/idrecun/erigon/eth/protocols/eth"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/core/forkid"
+	"github.com/tenderly/erigon/eth/protocols/eth"
+	"github.com/tenderly/erigon/params"
 )
 
 func TestCheckPeerStatusCompatibility(t *testing.T) {

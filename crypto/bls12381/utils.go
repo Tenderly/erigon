@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/idrecun/erigon/common"
+	"github.com/tenderly/erigon/common"
 )
 
 func bigFromHex(hex string) *big.Int {

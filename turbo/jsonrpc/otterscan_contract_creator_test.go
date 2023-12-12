@@ -3,9 +3,9 @@ package jsonrpc
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/cmd/rpcdaemon/rpcdaemontest"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cmd/rpcdaemon/rpcdaemontest"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 func TestGetContractCreator(t *testing.T) {

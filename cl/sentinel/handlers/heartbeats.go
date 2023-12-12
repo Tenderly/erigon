@@ -14,10 +14,10 @@
 package handlers
 
 import (
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/sentinel/communication/ssz_snappy"
 	"github.com/libp2p/go-libp2p/core/network"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/sentinel/communication/ssz_snappy"
 )
 
 // Type safe handlers which all have access to the original stream & decompressed data.

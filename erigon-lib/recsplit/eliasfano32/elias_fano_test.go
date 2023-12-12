@@ -22,9 +22,9 @@ import (
 	"math/bits"
 	"testing"
 
-	"github.com/idrecun/erigon/erigon-lib/kv/iter"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/erigon-lib/kv/iter"
 )
 
 func TestEliasFanoSeek(t *testing.T) {

@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/datadir"
 	"github.com/spf13/cobra"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/datadir"
 
-	"github.com/idrecun/erigon/cmd/utils"
-	"github.com/idrecun/erigon/common/paths"
-	"github.com/idrecun/erigon/p2p/sentry"
-	"github.com/idrecun/erigon/turbo/debug"
-	"github.com/idrecun/erigon/turbo/logging"
-	node2 "github.com/idrecun/erigon/turbo/node"
+	"github.com/tenderly/erigon/cmd/utils"
+	"github.com/tenderly/erigon/common/paths"
+	"github.com/tenderly/erigon/p2p/sentry"
+	"github.com/tenderly/erigon/turbo/debug"
+	"github.com/tenderly/erigon/turbo/logging"
+	node2 "github.com/tenderly/erigon/turbo/node"
 )
 
 // generate the messages

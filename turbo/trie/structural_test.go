@@ -24,14 +24,14 @@ import (
 	"fmt"
 	"testing"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
 	"github.com/stretchr/testify/require"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 	"golang.org/x/exp/slices"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/turbo/rlphacks"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/turbo/rlphacks"
 )
 
 func TestV2HashBuilding(t *testing.T) {

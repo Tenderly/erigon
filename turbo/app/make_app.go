@@ -6,17 +6,17 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/idrecun/erigon/erigon-lib/common/datadir"
-	"github.com/idrecun/erigon/turbo/logging"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/common/datadir"
+	"github.com/tenderly/erigon/turbo/logging"
 	"github.com/urfave/cli/v2"
 
-	"github.com/idrecun/erigon/cmd/utils"
-	"github.com/idrecun/erigon/node"
-	"github.com/idrecun/erigon/node/nodecfg"
-	"github.com/idrecun/erigon/params"
-	cli2 "github.com/idrecun/erigon/turbo/cli"
-	"github.com/idrecun/erigon/turbo/debug"
+	"github.com/tenderly/erigon/cmd/utils"
+	"github.com/tenderly/erigon/node"
+	"github.com/tenderly/erigon/node/nodecfg"
+	"github.com/tenderly/erigon/params"
+	cli2 "github.com/tenderly/erigon/turbo/cli"
+	"github.com/tenderly/erigon/turbo/debug"
 )
 
 // MakeApp creates a cli application (based on `github.com/urlfave/cli` package).

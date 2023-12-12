@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"testing"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/rpc"
+	"github.com/tenderly/erigon/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

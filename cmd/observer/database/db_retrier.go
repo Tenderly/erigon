@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/idrecun/erigon/cmd/observer/utils"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cmd/observer/utils"
 )
 
 type DBRetrier struct {

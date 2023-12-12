@@ -7,11 +7,11 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 
-	"github.com/idrecun/erigon/core/types/accounts"
-	"github.com/idrecun/erigon/crypto"
+	"github.com/tenderly/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/crypto"
 )
 
 func TestTrieDeleteSubtree_ShortNode(t *testing.T) {

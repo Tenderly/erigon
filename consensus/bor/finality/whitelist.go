@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/idrecun/erigon/consensus/bor/finality/flags"
-	"github.com/idrecun/erigon/consensus/bor/finality/whitelist"
-	"github.com/idrecun/erigon/consensus/bor/heimdall"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/turbo/services"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/consensus/bor/finality/flags"
+	"github.com/tenderly/erigon/consensus/bor/finality/whitelist"
+	"github.com/tenderly/erigon/consensus/bor/heimdall"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/turbo/services"
 )
 
 type config struct {

@@ -6,20 +6,20 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/core/rawdb/blockio"
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/dbg"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/rawdb/blockio"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/dbg"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/dataflow"
-	"github.com/idrecun/erigon/eth/stagedsync/stages"
-	"github.com/idrecun/erigon/turbo/adapter"
-	"github.com/idrecun/erigon/turbo/services"
-	"github.com/idrecun/erigon/turbo/stages/bodydownload"
-	"github.com/idrecun/erigon/turbo/stages/headerdownload"
+	"github.com/tenderly/erigon/dataflow"
+	"github.com/tenderly/erigon/eth/stagedsync/stages"
+	"github.com/tenderly/erigon/turbo/adapter"
+	"github.com/tenderly/erigon/turbo/services"
+	"github.com/tenderly/erigon/turbo/stages/bodydownload"
+	"github.com/tenderly/erigon/turbo/stages/headerdownload"
 )
 
 const requestLoopCutOff int = 1

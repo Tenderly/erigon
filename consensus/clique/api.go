@@ -20,13 +20,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/core/types"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/services"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/core/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/services"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

@@ -5,11 +5,11 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
-	"github.com/idrecun/erigon/cl/merkle_tree"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
-	"github.com/idrecun/erigon/erigon-lib/types/clonable"
-	"github.com/idrecun/erigon/erigon-lib/types/ssz"
+	"github.com/tenderly/erigon/cl/merkle_tree"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/erigon-lib/types/clonable"
+	"github.com/tenderly/erigon/erigon-lib/types/ssz"
 )
 
 // slot: 8 bytes

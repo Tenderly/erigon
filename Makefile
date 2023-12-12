@@ -40,7 +40,7 @@ ifneq ($(shell "$(CURDIR)/turbo/silkworm/silkworm_compat_check.sh"),)
 	BUILD_TAGS := $(BUILD_TAGS),nosilkworm
 endif
 
-PACKAGE = github.com/idrecun/erigon
+PACKAGE = github.com/tenderly/erigon
 
 GO_FLAGS += -trimpath -tags $(BUILD_TAGS) -buildvcs=false
 GO_FLAGS += -ldflags "-X ${PACKAGE}/params.GitCommit=${GIT_COMMIT} -X ${PACKAGE}/params.GitBranch=${GIT_BRANCH} -X ${PACKAGE}/params.GitTag=${GIT_TAG}"
@@ -234,7 +234,7 @@ git-submodules:
 	@git submodule sync --quiet --recursive || true
 	@git submodule update --quiet --init --recursive --force || true
 
-PACKAGE_NAME          := github.com/idrecun/erigon
+PACKAGE_NAME          := github.com/tenderly/erigon
 GOLANG_CROSS_VERSION  ?= v1.20.7
 
 .PHONY: release-dry-run

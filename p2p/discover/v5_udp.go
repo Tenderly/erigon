@@ -29,14 +29,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/idrecun/erigon/common/debug"
-	"github.com/idrecun/erigon/common/mclock"
-	common2 "github.com/idrecun/erigon/erigon-lib/common/cmp"
-	"github.com/idrecun/erigon/p2p/discover/v5wire"
-	"github.com/idrecun/erigon/p2p/enode"
-	"github.com/idrecun/erigon/p2p/enr"
-	"github.com/idrecun/erigon/p2p/netutil"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/common/debug"
+	"github.com/tenderly/erigon/common/mclock"
+	common2 "github.com/tenderly/erigon/erigon-lib/common/cmp"
+	"github.com/tenderly/erigon/p2p/discover/v5wire"
+	"github.com/tenderly/erigon/p2p/enode"
+	"github.com/tenderly/erigon/p2p/enr"
+	"github.com/tenderly/erigon/p2p/netutil"
 )
 
 const (

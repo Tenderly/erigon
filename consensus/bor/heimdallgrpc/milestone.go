@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/idrecun/erigon/consensus/bor/heimdall/milestone"
+	"github.com/tenderly/erigon/consensus/bor/heimdall/milestone"
 
 	proto "github.com/maticnetwork/polyproto/heimdall"
 	protoutils "github.com/maticnetwork/polyproto/utils"

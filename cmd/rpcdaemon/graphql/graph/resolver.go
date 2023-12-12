@@ -1,10 +1,10 @@
 package graph
 
 import (
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/turbo/jsonrpc"
-	"github.com/idrecun/erigon/turbo/rpchelper"
-	"github.com/idrecun/erigon/turbo/services"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/turbo/jsonrpc"
+	"github.com/tenderly/erigon/turbo/rpchelper"
+	"github.com/tenderly/erigon/turbo/services"
 )
 
 // This file will not be regenerated automatically.

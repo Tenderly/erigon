@@ -5,12 +5,12 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/idrecun/erigon/consensus/bor"
-	"github.com/idrecun/erigon/consensus/bor/valset"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/maticnetwork/crand"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/consensus/bor"
+	"github.com/tenderly/erigon/consensus/bor/valset"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 const (

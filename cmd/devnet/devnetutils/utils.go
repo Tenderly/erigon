@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/crypto"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/crypto"
 )
 
 var ErrInvalidEnodeString = errors.New("invalid enode string")

@@ -2,14 +2,14 @@ package main
 
 import (
 	"flag"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/phase1/forkchoice"
-	"github.com/idrecun/erigon/erigon-lib/metrics"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/phase1/forkchoice"
+	"github.com/tenderly/erigon/erigon-lib/metrics"
 
-	"github.com/idrecun/erigon/turbo/debug"
+	"github.com/tenderly/erigon/turbo/debug"
 
-	"github.com/idrecun/erigon/cmd/caplin-regression/regression"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cmd/caplin-regression/regression"
 	"golang.org/x/exp/slices"
 
 	_ "net/http/pprof" //nolint:gosec

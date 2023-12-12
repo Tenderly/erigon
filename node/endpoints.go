@@ -25,10 +25,10 @@ import (
 	"net/url"
 	"time"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/rpc/rpccfg"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/rpc/rpccfg"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 )

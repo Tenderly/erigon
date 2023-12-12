@@ -3,7 +3,7 @@ package milestone
 import (
 	"math/big"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 // milestone defines a response object type of bor milestone

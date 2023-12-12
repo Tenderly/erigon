@@ -6,14 +6,14 @@ import (
 	"time"
 
 	"github.com/c2h5oh/datasize"
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/consensus/ethash/ethashcfg"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/eth/gasprice/gaspricecfg"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/consensus/ethash/ethashcfg"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/eth/gasprice/gaspricecfg"
 
-	"github.com/idrecun/erigon/ethdb/prune"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/ethdb/prune"
+	"github.com/tenderly/erigon/params"
 )
 
 // MarshalTOML marshals as TOML.

@@ -1,6 +1,6 @@
 package eth2
 
-import "github.com/idrecun/erigon/cl/transition/machine"
+import "github.com/tenderly/erigon/cl/transition/machine"
 
 type Impl = impl
 

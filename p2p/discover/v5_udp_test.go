@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/turbo/testlog"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/turbo/testlog"
 
-	"github.com/idrecun/erigon/p2p/discover/v5wire"
-	"github.com/idrecun/erigon/p2p/enode"
-	"github.com/idrecun/erigon/p2p/enr"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/p2p/discover/v5wire"
+	"github.com/tenderly/erigon/p2p/enode"
+	"github.com/tenderly/erigon/p2p/enr"
+	"github.com/tenderly/erigon/rlp"
 )
 
 func startLocalhostV5(t *testing.T, cfg Config, logger log.Logger) *UDPv5 {

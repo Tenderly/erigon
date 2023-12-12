@@ -20,9 +20,9 @@ import (
 	"fmt"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/turbo/rlphacks"
+	"github.com/tenderly/erigon/turbo/rlphacks"
 )
 
 // Experimental code for separating data and structural information

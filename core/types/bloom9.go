@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
 
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/crypto/cryptopool"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/crypto/cryptopool"
 )
 
 type bytesBacked interface {

@@ -14,23 +14,23 @@ import (
 	"strings"
 	"time"
 
-	"github.com/idrecun/erigon/erigon-lib/kv/dbutils"
+	"github.com/tenderly/erigon/erigon-lib/kv/dbutils"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/etl"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/etl"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 	"golang.org/x/exp/slices"
 
-	"github.com/idrecun/erigon/dataflow"
-	"github.com/idrecun/erigon/turbo/services"
+	"github.com/tenderly/erigon/dataflow"
+	"github.com/tenderly/erigon/turbo/services"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/eth/stagedsync/stages"
-	"github.com/idrecun/erigon/params"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/eth/stagedsync/stages"
+	"github.com/tenderly/erigon/params"
+	"github.com/tenderly/erigon/rlp"
 )
 
 const POSPandaBanner = `

@@ -1,13 +1,13 @@
 package trie
 
 import (
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"testing"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/core/types/accounts"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/core/types/accounts"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 func FakePreimage(hash libcommon.Hash) libcommon.Hash {

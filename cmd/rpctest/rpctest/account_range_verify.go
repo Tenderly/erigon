@@ -11,13 +11,13 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/mdbx"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/mdbx"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/core/state"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/core/state"
 )
 
 func CompareAccountRange(logger log.Logger, erigonURL, gethURL, tmpDataDir, gethDataDir string, blockFrom uint64, notRegenerateGethData bool) {

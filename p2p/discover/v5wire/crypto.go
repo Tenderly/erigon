@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/p2p/enode"
+	"github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/p2p/enode"
 	"golang.org/x/crypto/hkdf"
 )
 

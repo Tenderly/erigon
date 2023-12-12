@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/erigon-lib/diagnostics"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/diagnostics"
 )
 
 type testInfo struct {

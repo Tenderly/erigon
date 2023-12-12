@@ -1,8 +1,8 @@
 package commands
 
 import (
-	"github.com/idrecun/erigon/cmd/state/stats"
 	"github.com/spf13/cobra"
+	"github.com/tenderly/erigon/cmd/state/stats"
 )
 
 func init() {

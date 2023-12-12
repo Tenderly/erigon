@@ -24,21 +24,21 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"hash"
 	"io"
 	"math/big"
 	"os"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/idrecun/erigon/crypto/cryptopool"
+	"github.com/tenderly/erigon/crypto/cryptopool"
 
-	"github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/common/u256"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/common/u256"
+	"github.com/tenderly/erigon/rlp"
 )
 
 // SignatureLength indicates the byte length required to carry a signature with recovery id.

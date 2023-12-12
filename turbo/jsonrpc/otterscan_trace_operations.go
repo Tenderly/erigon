@@ -2,12 +2,12 @@ package jsonrpc
 
 import (
 	"context"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/core/vm"
+	"github.com/tenderly/erigon/core/vm"
 )
 
 type OperationType int

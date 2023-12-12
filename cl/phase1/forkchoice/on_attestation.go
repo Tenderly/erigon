@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/cl/phase1/cache"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/phase1/cache"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 // OnAttestation processes incoming attestations.

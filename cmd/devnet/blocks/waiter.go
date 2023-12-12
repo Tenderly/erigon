@@ -3,14 +3,14 @@ package blocks
 import (
 	"context"
 
-	ethereum "github.com/idrecun/erigon"
-	"github.com/idrecun/erigon/cmd/devnet/devnet"
-	"github.com/idrecun/erigon/cmd/devnet/requests"
-	"github.com/idrecun/erigon/core/types"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/jsonrpc"
 	"github.com/ledgerwatch/log/v3"
+	ethereum "github.com/tenderly/erigon"
+	"github.com/tenderly/erigon/cmd/devnet/devnet"
+	"github.com/tenderly/erigon/cmd/devnet/requests"
+	"github.com/tenderly/erigon/core/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/jsonrpc"
 )
 
 type BlockHandler interface {

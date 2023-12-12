@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/common/mclock"
-	"github.com/idrecun/erigon/p2p/enode"
-	"github.com/idrecun/erigon/p2p/netutil"
-	"github.com/idrecun/erigon/turbo/testlog"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/common/mclock"
+	"github.com/tenderly/erigon/p2p/enode"
+	"github.com/tenderly/erigon/p2p/netutil"
+	"github.com/tenderly/erigon/turbo/testlog"
 )
 
 // This test checks that dynamic dials are launched from discovery results.

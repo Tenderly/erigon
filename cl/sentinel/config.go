@@ -18,7 +18,6 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/idrecun/erigon/cl/clparams"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/libp2p/go-libp2p"
 	mplex "github.com/libp2p/go-libp2p-mplex"
@@ -26,6 +25,7 @@ import (
 	"github.com/libp2p/go-libp2p/p2p/security/noise"
 	"github.com/libp2p/go-libp2p/p2p/transport/tcp"
 	"github.com/multiformats/go-multiaddr"
+	"github.com/tenderly/erigon/cl/clparams"
 )
 
 type SentinelConfig struct {

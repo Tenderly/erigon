@@ -3,20 +3,20 @@ package execution_client
 import (
 	"context"
 	"fmt"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"math/big"
 	"net/http"
 	"strings"
 	"time"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/phase1/execution_client/rpc_helper"
-	"github.com/idrecun/erigon/core/types"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/engineapi/engine_types"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/phase1/execution_client/rpc_helper"
+	"github.com/tenderly/erigon/core/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/engineapi/engine_types"
 )
 
 const DefaultRPCHTTPTimeout = time.Second * 30

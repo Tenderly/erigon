@@ -21,7 +21,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/rlp"
 )
 
 // Entry is implemented by known node record entry types.

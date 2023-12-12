@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/eth/stagedsync/stages"
-	"github.com/idrecun/erigon/turbo/services"
-	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/eth/stagedsync/stages"
+	"github.com/tenderly/erigon/turbo/services"
+	"github.com/tenderly/erigon/turbo/snapshotsync/freezeblocks"
 )
 
 func NoGapsInCanonicalHeaders(tx kv.Tx, ctx context.Context, br services.BlockReader) {

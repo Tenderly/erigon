@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/idrecun/erigon/erigon-lib/common/cmp"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/common/cmp"
 )
 
 func FuzzDecompressMatch(f *testing.F) {

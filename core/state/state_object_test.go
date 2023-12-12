@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"testing"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/common"
+	"github.com/tenderly/erigon/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

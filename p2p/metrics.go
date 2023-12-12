@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/idrecun/erigon/erigon-lib/metrics"
+	"github.com/tenderly/erigon/erigon-lib/metrics"
 )
 
 const (

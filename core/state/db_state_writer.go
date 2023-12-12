@@ -4,19 +4,19 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
-	dbutils2 "github.com/idrecun/erigon/erigon-lib/kv/dbutils"
+	dbutils2 "github.com/tenderly/erigon/erigon-lib/kv/dbutils"
 
 	"github.com/RoaringBitmap/roaring/roaring64"
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/bitmapdb"
-	"github.com/idrecun/erigon/erigon-lib/kv/temporal/historyv2"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/bitmapdb"
+	"github.com/tenderly/erigon/erigon-lib/kv/temporal/historyv2"
 
-	"github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/core/types/accounts"
-	"github.com/idrecun/erigon/ethdb"
-	"github.com/idrecun/erigon/turbo/trie"
+	"github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/ethdb"
+	"github.com/tenderly/erigon/turbo/trie"
 )
 
 // This type is now used in GenerateChain to generate blockchains for the tests (core/chain_makers.go)

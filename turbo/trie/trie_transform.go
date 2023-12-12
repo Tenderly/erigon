@@ -1,8 +1,8 @@
 package trie
 
 import (
-	"github.com/idrecun/erigon/core/types/accounts"
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/erigon-lib/common"
 )
 
 type keyTransformFunc func([]byte) []byte

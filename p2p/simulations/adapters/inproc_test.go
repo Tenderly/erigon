@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/idrecun/erigon/p2p/simulations/pipes"
+	"github.com/tenderly/erigon/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

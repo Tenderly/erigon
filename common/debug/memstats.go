@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/idrecun/erigon/erigon-lib/common/dbg"
+	"github.com/tenderly/erigon/erigon-lib/common/dbg"
 )
 
 func PrintMemStats(short bool) {

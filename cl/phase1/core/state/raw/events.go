@@ -1,9 +1,9 @@
 package raw
 
 import (
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 type Events struct {

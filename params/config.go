@@ -23,11 +23,11 @@ import (
 	"math/big"
 	"path"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/chain/networkname"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/common/paths"
+	"github.com/tenderly/erigon/common/paths"
 )
 
 //go:embed chainspecs

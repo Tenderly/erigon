@@ -20,18 +20,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/idrecun/erigon/cl/sentinel/communication"
-	"github.com/idrecun/erigon/cl/sentinel/peers"
-	"github.com/idrecun/erigon/cl/utils"
+	"github.com/tenderly/erigon/cl/sentinel/communication"
+	"github.com/tenderly/erigon/cl/sentinel/peers"
+	"github.com/tenderly/erigon/cl/utils"
 	"golang.org/x/time/rate"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/persistence"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/persistence"
 )
 
 type RateLimits struct {

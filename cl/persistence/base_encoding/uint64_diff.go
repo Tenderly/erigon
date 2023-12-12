@@ -8,8 +8,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/idrecun/erigon/cl/utils"
 	"github.com/klauspost/compress/zstd"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 // make a sync.pool of compressors (zstd)

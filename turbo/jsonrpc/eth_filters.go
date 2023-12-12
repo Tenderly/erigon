@@ -6,11 +6,11 @@ import (
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/idrecun/erigon/common/debug"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/eth/filters"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/rpchelper"
+	"github.com/tenderly/erigon/common/debug"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/eth/filters"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/rpchelper"
 )
 
 // NewPendingTransactionFilter new transaction filter

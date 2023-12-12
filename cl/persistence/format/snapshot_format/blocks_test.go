@@ -5,11 +5,11 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/persistence/format/snapshot_format"
-	"github.com/idrecun/erigon/cl/utils"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/persistence/format/snapshot_format"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 //go:embed test_data/phase0.ssz_snappy

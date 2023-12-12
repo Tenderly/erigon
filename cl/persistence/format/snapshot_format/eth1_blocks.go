@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/persistence/format/chunk_encoding"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/persistence/format/chunk_encoding"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 )
 
 // WriteEth1BlockForSnapshot writes an execution block to the given writer in the format expected by the snapshot.

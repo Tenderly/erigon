@@ -5,11 +5,11 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	types2 "github.com/idrecun/erigon/erigon-lib/types"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	types2 "github.com/tenderly/erigon/erigon-lib/types"
 
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/core/types"
 )
 
 // BlockContext provides the EVM with auxiliary information. Once provided

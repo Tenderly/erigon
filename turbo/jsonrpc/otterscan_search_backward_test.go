@@ -2,13 +2,13 @@ package jsonrpc
 
 import (
 	"bytes"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"testing"
 
 	"github.com/RoaringBitmap/roaring/roaring64"
-	"github.com/idrecun/erigon/cmd/rpcdaemon/rpcdaemontest"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cmd/rpcdaemon/rpcdaemontest"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 func newMockBackwardChunkLocator(chunks [][]byte) ChunkLocator {

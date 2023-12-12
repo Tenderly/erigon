@@ -4,10 +4,10 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/idrecun/erigon/core/types/accounts"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/eth/ethconfig"
+	"github.com/tenderly/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/eth/ethconfig"
 )
 
 // HistoryReaderV3 Implements StateReader and StateWriter

@@ -3,8 +3,8 @@ package admin
 import (
 	"context"
 
-	"github.com/idrecun/erigon/cmd/devnet/devnet"
-	"github.com/idrecun/erigon/cmd/devnet/scenarios"
+	"github.com/tenderly/erigon/cmd/devnet/devnet"
+	"github.com/tenderly/erigon/cmd/devnet/scenarios"
 )
 
 func init() {

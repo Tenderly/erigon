@@ -28,13 +28,13 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/idrecun/erigon/erigon-lib/common/dbg"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/common/dbg"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/mmap"
-	"github.com/idrecun/erigon/erigon-lib/recsplit/eliasfano16"
-	"github.com/idrecun/erigon/erigon-lib/recsplit/eliasfano32"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/mmap"
+	"github.com/tenderly/erigon/erigon-lib/recsplit/eliasfano16"
+	"github.com/tenderly/erigon/erigon-lib/recsplit/eliasfano32"
 )
 
 // Index implements index lookup from the file created by the RecSplit

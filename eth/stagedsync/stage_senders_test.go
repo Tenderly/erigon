@@ -3,21 +3,21 @@ package stagedsync_test
 import (
 	"testing"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/eth/stagedsync"
-	"github.com/idrecun/erigon/turbo/stages/mock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/eth/stagedsync"
+	"github.com/tenderly/erigon/turbo/stages/mock"
 
-	"github.com/idrecun/erigon/common/u256"
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/eth/stagedsync/stages"
-	"github.com/idrecun/erigon/ethdb/prune"
-	"github.com/idrecun/erigon/params"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/common/u256"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/eth/stagedsync/stages"
+	"github.com/tenderly/erigon/ethdb/prune"
+	"github.com/tenderly/erigon/params"
 )
 
 func TestSenders(t *testing.T) {

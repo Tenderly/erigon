@@ -17,14 +17,14 @@
 package ethash
 
 import (
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"math/big"
 	"testing"
 	"time"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/core/types"
 )
 
 func TestRemoteSealer(t *testing.T) {

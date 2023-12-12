@@ -1,10 +1,10 @@
 package cltypes
 
 import (
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/cl/merkle_tree"
-	ssz2 "github.com/idrecun/erigon/cl/ssz"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/merkle_tree"
+	ssz2 "github.com/tenderly/erigon/cl/ssz"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 /*

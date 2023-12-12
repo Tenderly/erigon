@@ -27,9 +27,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/memdb"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/memdb"
 )
 
 var testBucket = kv.HashedAccounts

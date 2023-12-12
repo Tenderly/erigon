@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/idrecun/erigon/erigon-lib/common/eth2shuffle"
+	"github.com/tenderly/erigon/erigon-lib/common/eth2shuffle"
 )
 
 func BenchmarkPermuteIndex(b *testing.B) {

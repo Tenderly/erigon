@@ -5,16 +5,16 @@ import (
 	"math/rand"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
-	proto_sentry "github.com/idrecun/erigon/erigon-lib/gointerfaces/sentry"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
+	proto_sentry "github.com/tenderly/erigon/erigon-lib/gointerfaces/sentry"
 	"google.golang.org/grpc"
 
-	"github.com/idrecun/erigon/eth/protocols/eth"
-	"github.com/idrecun/erigon/p2p/sentry"
-	"github.com/idrecun/erigon/rlp"
-	"github.com/idrecun/erigon/turbo/stages/bodydownload"
-	"github.com/idrecun/erigon/turbo/stages/headerdownload"
+	"github.com/tenderly/erigon/eth/protocols/eth"
+	"github.com/tenderly/erigon/p2p/sentry"
+	"github.com/tenderly/erigon/rlp"
+	"github.com/tenderly/erigon/turbo/stages/bodydownload"
+	"github.com/tenderly/erigon/turbo/stages/headerdownload"
 )
 
 // Methods of sentry called by Core

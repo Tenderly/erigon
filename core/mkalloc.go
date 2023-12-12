@@ -32,8 +32,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

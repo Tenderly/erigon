@@ -20,8 +20,8 @@ import (
 	"context"
 	"io"
 
-	txpool_proto "github.com/idrecun/erigon/erigon-lib/gointerfaces/txpool"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/types"
+	txpool_proto "github.com/tenderly/erigon/erigon-lib/gointerfaces/txpool"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/types"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
 )

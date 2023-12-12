@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
-	types2 "github.com/idrecun/erigon/erigon-lib/gointerfaces/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/remote"
+	types2 "github.com/tenderly/erigon/erigon-lib/gointerfaces/types"
 	"google.golang.org/grpc"
 
-	"github.com/idrecun/erigon/turbo/shards"
+	"github.com/tenderly/erigon/turbo/shards"
 )
 
 var (

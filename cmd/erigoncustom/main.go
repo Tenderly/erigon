@@ -6,8 +6,8 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	erigonapp "github.com/idrecun/erigon/turbo/app"
-	erigoncli "github.com/idrecun/erigon/turbo/cli"
+	erigonapp "github.com/tenderly/erigon/turbo/app"
+	erigoncli "github.com/tenderly/erigon/turbo/cli"
 )
 
 // defining a custom command-line flag, a string

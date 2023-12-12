@@ -2,9 +2,9 @@ package jsonrpc
 
 import (
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/core/vm"
+	"github.com/tenderly/erigon/core/vm"
 )
 
 // Helper implementation of vm.Tracer; since the interface is big and most

@@ -11,16 +11,16 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/sync/semaphore"
 
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/kvcfg"
-	kv2 "github.com/idrecun/erigon/erigon-lib/kv/mdbx"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/kvcfg"
+	kv2 "github.com/tenderly/erigon/erigon-lib/kv/mdbx"
 
-	"github.com/idrecun/erigon/cmd/utils"
-	"github.com/idrecun/erigon/core/state/temporal"
-	"github.com/idrecun/erigon/core/systemcontracts"
-	"github.com/idrecun/erigon/migrations"
-	"github.com/idrecun/erigon/turbo/debug"
-	"github.com/idrecun/erigon/turbo/logging"
+	"github.com/tenderly/erigon/cmd/utils"
+	"github.com/tenderly/erigon/core/state/temporal"
+	"github.com/tenderly/erigon/core/systemcontracts"
+	"github.com/tenderly/erigon/migrations"
+	"github.com/tenderly/erigon/turbo/debug"
+	"github.com/tenderly/erigon/turbo/logging"
 )
 
 func expandHomeDir(dirpath string) string {

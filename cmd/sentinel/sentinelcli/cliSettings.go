@@ -3,15 +3,15 @@ package sentinelcli
 import (
 	"fmt"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cmd/sentinel/sentinelflags"
-	"github.com/idrecun/erigon/cmd/utils"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cmd/sentinel/sentinelflags"
+	"github.com/tenderly/erigon/cmd/utils"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common"
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/idrecun/erigon/turbo/logging"
+	"github.com/tenderly/erigon/turbo/logging"
 
 	"github.com/ledgerwatch/log/v3"
 )

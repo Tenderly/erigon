@@ -9,14 +9,14 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/p2p/enode"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/p2p/enode"
+	"github.com/tenderly/erigon/params"
 
-	"github.com/idrecun/erigon/cmd/devnet/accounts"
-	"github.com/idrecun/erigon/cmd/devnet/requests"
-	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
+	"github.com/tenderly/erigon/cmd/devnet/accounts"
+	"github.com/tenderly/erigon/cmd/devnet/requests"
+	"github.com/tenderly/erigon/erigon-lib/chain/networkname"
 )
 
 type NodeArgs struct {

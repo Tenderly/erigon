@@ -3,10 +3,10 @@ package stagedsync
 import (
 	"context"
 
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/eth/ethconfig"
-	"github.com/idrecun/erigon/eth/stagedsync/stages"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/eth/ethconfig"
+	"github.com/tenderly/erigon/eth/stagedsync/stages"
 )
 
 func DefaultStages(ctx context.Context,

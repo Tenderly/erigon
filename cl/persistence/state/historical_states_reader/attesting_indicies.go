@@ -3,10 +3,10 @@ package historical_states_reader
 import (
 	"fmt"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/cl/phase1/core/state/shuffling"
-	"github.com/idrecun/erigon/cl/utils"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/phase1/core/state/shuffling"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 func (r *HistoricalStatesReader) attestingIndicies(attestation solid.AttestationData, aggregationBits []byte, checkBitsLength bool, randaoMixes solid.HashVectorSSZ, idxs []uint64) ([]uint64, error) {

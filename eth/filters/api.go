@@ -20,14 +20,14 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"math/big"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 
-	ethereum "github.com/idrecun/erigon"
-	"github.com/idrecun/erigon/rpc"
+	ethereum "github.com/tenderly/erigon"
+	"github.com/tenderly/erigon/rpc"
 )
 
 // FilterCriteria represents a request to create a new filter.

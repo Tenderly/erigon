@@ -22,12 +22,12 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/cmp"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/cmp"
 
-	"github.com/idrecun/erigon/core/types/accounts"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/ethdb"
+	"github.com/tenderly/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/ethdb"
 )
 
 var (

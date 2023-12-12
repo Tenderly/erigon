@@ -23,12 +23,12 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/core/types/accounts"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/rlp"
-	"github.com/idrecun/erigon/turbo/trie"
+	"github.com/tenderly/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/rlp"
+	"github.com/tenderly/erigon/turbo/trie"
 )
 
 var emptyCodeHash = crypto.Keccak256(nil)

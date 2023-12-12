@@ -1,11 +1,11 @@
 package cltypes
 
 import (
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 
-	"github.com/idrecun/erigon/cl/merkle_tree"
-	ssz2 "github.com/idrecun/erigon/cl/ssz"
+	"github.com/tenderly/erigon/cl/merkle_tree"
+	ssz2 "github.com/tenderly/erigon/cl/ssz"
 )
 
 type Eth1Data struct {

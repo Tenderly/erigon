@@ -25,7 +25,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/idrecun/erigon/common/math"
+	"github.com/tenderly/erigon/common/math"
 
 	"github.com/holiman/uint256"
 )

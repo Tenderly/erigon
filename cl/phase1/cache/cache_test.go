@@ -3,9 +3,9 @@ package cache_test
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/cl/phase1/cache"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/phase1/cache"
 )
 
 func TestAttestationsCache(t *testing.T) {

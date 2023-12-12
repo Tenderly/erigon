@@ -27,13 +27,13 @@ import (
 	"reflect"
 	"sync/atomic"
 
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 
-	"github.com/idrecun/erigon/common"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	rlp2 "github.com/idrecun/erigon/erigon-lib/rlp"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	rlp2 "github.com/tenderly/erigon/erigon-lib/rlp"
+	"github.com/tenderly/erigon/rlp"
 	"github.com/tenderly/go-verkle"
 )
 

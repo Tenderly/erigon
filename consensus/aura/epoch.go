@@ -3,10 +3,10 @@ package aura
 import (
 	"context"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/rawdb"
 )
 
 type NonTransactionalEpochReader struct {

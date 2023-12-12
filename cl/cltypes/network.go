@@ -1,10 +1,10 @@
 package cltypes
 
 import (
-	"github.com/idrecun/erigon/erigon-lib/types/clonable"
-	"github.com/idrecun/erigon/erigon-lib/types/ssz"
+	"github.com/tenderly/erigon/erigon-lib/types/clonable"
+	"github.com/tenderly/erigon/erigon-lib/types/ssz"
 
-	ssz2 "github.com/idrecun/erigon/cl/ssz"
+	ssz2 "github.com/tenderly/erigon/cl/ssz"
 )
 
 type Metadata struct {

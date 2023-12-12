@@ -5,19 +5,19 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/sentry"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/stretchr/testify/require"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/sentry"
 
-	"github.com/idrecun/erigon/common/u256"
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/eth/protocols/eth"
-	"github.com/idrecun/erigon/params"
-	"github.com/idrecun/erigon/rlp"
-	"github.com/idrecun/erigon/turbo/stages"
-	"github.com/idrecun/erigon/turbo/stages/mock"
+	"github.com/tenderly/erigon/common/u256"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/eth/protocols/eth"
+	"github.com/tenderly/erigon/params"
+	"github.com/tenderly/erigon/rlp"
+	"github.com/tenderly/erigon/turbo/stages"
+	"github.com/tenderly/erigon/turbo/stages/mock"
 )
 
 func TestEmptyStageSync(t *testing.T) {

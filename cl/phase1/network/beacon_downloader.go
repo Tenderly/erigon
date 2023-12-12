@@ -4,11 +4,11 @@ import (
 	"sync"
 	"time"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 	"golang.org/x/net/context"
 
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/rpc"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/rpc"
 )
 
 // Input: the currently highest slot processed and the list of blocks we want to know process

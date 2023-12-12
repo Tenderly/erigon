@@ -20,14 +20,14 @@ import (
 	"fmt"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 	"golang.org/x/crypto/sha3"
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/params"
 )
 
 func opAdd(pc *uint64, interpreter *EVMInterpreter, scope *ScopeContext) ([]byte, error) {

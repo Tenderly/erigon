@@ -3,11 +3,11 @@ package whitelist
 import (
 	"sync"
 
-	"github.com/idrecun/erigon/consensus/bor/finality/rawdb"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/consensus/bor/finality/rawdb"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 )
 
 type finality[T rawdb.BlockFinality[T]] struct {

@@ -3,15 +3,15 @@ package jsonrpc
 import (
 	"context"
 	"errors"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common"
 
-	borfinality "github.com/idrecun/erigon/consensus/bor/finality"
-	"github.com/idrecun/erigon/consensus/bor/finality/whitelist"
-	"github.com/idrecun/erigon/core/forkid"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/rpchelper"
+	borfinality "github.com/tenderly/erigon/consensus/bor/finality"
+	"github.com/tenderly/erigon/consensus/bor/finality/whitelist"
+	"github.com/tenderly/erigon/core/forkid"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/rpchelper"
 )
 
 // Forks is a data type to record a list of forks passed by this node

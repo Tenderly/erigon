@@ -20,13 +20,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/idrecun/erigon/consensus/ethash"
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/eth/stagedsync"
-	"github.com/idrecun/erigon/params"
-	"github.com/idrecun/erigon/turbo/stages/mock"
+	"github.com/tenderly/erigon/consensus/ethash"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/eth/stagedsync"
+	"github.com/tenderly/erigon/params"
+	"github.com/tenderly/erigon/turbo/stages/mock"
 )
 
 // Tests that simple header verification works, for both good and bad blocks.

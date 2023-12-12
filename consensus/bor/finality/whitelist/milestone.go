@@ -3,11 +3,11 @@ package whitelist
 import (
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/idrecun/erigon/consensus/bor/finality/flags"
-	"github.com/idrecun/erigon/consensus/bor/finality/rawdb"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/metrics"
+	"github.com/tenderly/erigon/consensus/bor/finality/flags"
+	"github.com/tenderly/erigon/consensus/bor/finality/rawdb"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/metrics"
 )
 
 type milestone struct {

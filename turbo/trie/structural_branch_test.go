@@ -21,15 +21,15 @@ import (
 	"fmt"
 	"testing"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/memdb"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/memdb"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/eth/integrity"
-	"github.com/idrecun/erigon/turbo/trie"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/eth/integrity"
+	"github.com/tenderly/erigon/turbo/trie"
 )
 
 func TestIHCursor(t *testing.T) {

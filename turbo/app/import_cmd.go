@@ -11,20 +11,20 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/turbo/services"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/turbo/services"
 	"github.com/urfave/cli/v2"
 
-	"github.com/idrecun/erigon/cmd/utils"
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/eth"
-	"github.com/idrecun/erigon/rlp"
-	"github.com/idrecun/erigon/turbo/debug"
-	turboNode "github.com/idrecun/erigon/turbo/node"
-	"github.com/idrecun/erigon/turbo/stages"
+	"github.com/tenderly/erigon/cmd/utils"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/eth"
+	"github.com/tenderly/erigon/rlp"
+	"github.com/tenderly/erigon/turbo/debug"
+	turboNode "github.com/tenderly/erigon/turbo/node"
+	"github.com/tenderly/erigon/turbo/stages"
 )
 
 const (

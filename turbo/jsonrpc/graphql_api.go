@@ -3,16 +3,16 @@ package jsonrpc
 import (
 	"context"
 	"fmt"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"math/big"
 
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/adapter/ethapi"
-	"github.com/idrecun/erigon/turbo/rpchelper"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/adapter/ethapi"
+	"github.com/tenderly/erigon/turbo/rpchelper"
 )
 
 type GraphQLAPI interface {
@@ -118,7 +118,7 @@ func (api *GraphQLAPIImpl) delegateGetBlockByNumber(tx kv.Tx, b *types.Block, nu
 	additionalFields := make(map[string]interface{})
 	response, err := ethapi.RPCMarshalBlock(b, inclTx, inclTx, additionalFields)
 	if !inclTx {
-		delete(response, "transactions") // workaround for https://github.com/idrecun/erigon/issues/4989#issuecomment-1218415666
+		delete(response, "transactions") // workaround for https://github.com/tenderly/erigon/issues/4989#issuecomment-1218415666
 	}
 	response["totalDifficulty"] = (*hexutil.Big)(td)
 	response["transactionCount"] = b.Transactions().Len()

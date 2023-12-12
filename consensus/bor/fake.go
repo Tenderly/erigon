@@ -1,12 +1,12 @@
 package bor
 
 import (
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/consensus/ethash"
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/erigon-lib/chain"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/consensus/ethash"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/erigon-lib/chain"
 )
 
 type FakeBor struct {

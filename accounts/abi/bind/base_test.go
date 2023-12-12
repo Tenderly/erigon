@@ -18,20 +18,20 @@ package bind_test
 
 import (
 	"context"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"math/big"
 	"reflect"
 	"strings"
 	"testing"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	ethereum "github.com/idrecun/erigon"
-	"github.com/idrecun/erigon/accounts/abi"
-	"github.com/idrecun/erigon/accounts/abi/bind"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/rlp"
+	ethereum "github.com/tenderly/erigon"
+	"github.com/tenderly/erigon/accounts/abi"
+	"github.com/tenderly/erigon/accounts/abi/bind"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/rlp"
 )
 
 type mockCaller struct {

@@ -10,18 +10,18 @@ import (
 	"sync/atomic"
 
 	"github.com/hashicorp/golang-lru/v2"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/accounts/abi"
-	"github.com/idrecun/erigon/accounts/abi/bind"
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/consensus/aura/auraabi"
-	"github.com/idrecun/erigon/consensus/aura/aurainterfaces"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/accounts/abi"
+	"github.com/tenderly/erigon/accounts/abi/bind"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/consensus/aura/auraabi"
+	"github.com/tenderly/erigon/consensus/aura/aurainterfaces"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/rlp"
 )
 
 // nolint

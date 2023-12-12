@@ -3,9 +3,9 @@ package consensus
 import (
 	"context"
 
-	"github.com/idrecun/erigon/common/debug"
-	"github.com/idrecun/erigon/core/types"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/common/debug"
+	"github.com/tenderly/erigon/core/types"
 )
 
 type ResultWithContext struct {

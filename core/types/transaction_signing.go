@@ -23,12 +23,12 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 	"github.com/tenderly/secp256k1"
 
-	"github.com/idrecun/erigon/common/u256"
-	"github.com/idrecun/erigon/crypto"
+	"github.com/tenderly/erigon/common/u256"
+	"github.com/tenderly/erigon/crypto"
 )
 
 var ErrInvalidChainId = errors.New("invalid chain id for signer")

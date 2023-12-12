@@ -1,9 +1,9 @@
 package statechange
 
 import (
-	"github.com/idrecun/erigon/cl/abstract"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	"github.com/idrecun/erigon/cl/utils"
+	"github.com/tenderly/erigon/cl/abstract"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 // ProcessInactivityScores will updates the inactivity registry of each validator.

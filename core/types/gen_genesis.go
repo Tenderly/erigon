@@ -7,11 +7,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	common0 "github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/common/math"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	common0 "github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/common/math"
 )
 
 var _ = (*genesisSpecMarshaling)(nil)

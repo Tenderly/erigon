@@ -23,10 +23,10 @@ import (
 
 	"github.com/c2h5oh/datasize"
 	"github.com/golang/snappy"
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/fork"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/types/ssz"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/fork"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/types/ssz"
 )
 
 var writerPool = sync.Pool{

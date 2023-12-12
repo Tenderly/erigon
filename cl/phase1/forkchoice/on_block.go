@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"time"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/freezer"
-	"github.com/idrecun/erigon/cl/phase1/forkchoice/fork_graph"
-	"github.com/idrecun/erigon/cl/transition/impl/eth2/statechange"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/freezer"
+	"github.com/tenderly/erigon/cl/phase1/forkchoice/fork_graph"
+	"github.com/tenderly/erigon/cl/transition/impl/eth2/statechange"
 )
 
 func (f *ForkChoiceStore) OnBlock(block *cltypes.SignedBeaconBlock, newPayload, fullValidation bool) error {

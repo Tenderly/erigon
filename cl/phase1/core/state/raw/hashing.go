@@ -3,11 +3,11 @@ package raw
 import (
 	"time"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/merkle_tree"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/merkle_tree"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 func (b *BeaconState) HashSSZ() (out [32]byte, err error) {

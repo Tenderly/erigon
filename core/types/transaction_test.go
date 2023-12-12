@@ -32,14 +32,14 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/assert"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/fixedgas"
-	types2 "github.com/idrecun/erigon/erigon-lib/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/fixedgas"
+	types2 "github.com/tenderly/erigon/erigon-lib/types"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/common/u256"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/common/u256"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/rlp"
 )
 
 // The values in those tests are from the Transaction Tests

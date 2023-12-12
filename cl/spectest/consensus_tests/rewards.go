@@ -1,7 +1,7 @@
 package consensus_tests
 
 import (
-	"github.com/idrecun/erigon/spectest"
+	"github.com/tenderly/erigon/spectest"
 	"io/fs"
 	"testing"
 )

@@ -7,9 +7,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/idrecun/erigon/accounts/abi/bind"
-	"github.com/idrecun/erigon/cmd/devnet/contracts"
-	"github.com/idrecun/erigon/consensus/bor/clerk"
+	"github.com/tenderly/erigon/accounts/abi/bind"
+	"github.com/tenderly/erigon/cmd/devnet/contracts"
+	"github.com/tenderly/erigon/consensus/bor/clerk"
 )
 
 // Maximum allowed event record data size

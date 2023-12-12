@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	txPoolProto "github.com/idrecun/erigon/erigon-lib/gointerfaces/txpool"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	txPoolProto "github.com/tenderly/erigon/erigon-lib/gointerfaces/txpool"
 
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/eth/ethconfig"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/eth/ethconfig"
+	"github.com/tenderly/erigon/params"
 )
 
 // SendRawTransaction implements eth_sendRawTransaction. Creates new message call transaction or a contract creation for previously-signed transactions.

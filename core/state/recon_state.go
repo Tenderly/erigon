@@ -11,8 +11,8 @@ import (
 
 	"github.com/RoaringBitmap/roaring/roaring64"
 	"github.com/google/btree"
-	"github.com/idrecun/erigon/cmd/state/exec22"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/cmd/state/exec22"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 	btree2 "github.com/tidwall/btree"
 )
 

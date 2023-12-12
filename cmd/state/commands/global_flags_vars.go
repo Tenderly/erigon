@@ -3,10 +3,10 @@ package commands
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/cmd/utils"
-	"github.com/idrecun/erigon/common/paths"
+	"github.com/tenderly/erigon/cmd/utils"
+	"github.com/tenderly/erigon/common/paths"
 )
 
 var (

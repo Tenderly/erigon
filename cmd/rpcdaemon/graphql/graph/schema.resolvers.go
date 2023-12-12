@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/idrecun/erigon/cmd/rpcdaemon/graphql/graph/model"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
-	"github.com/idrecun/erigon/rpc"
+	"github.com/tenderly/erigon/cmd/rpcdaemon/graphql/graph/model"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/rpc"
 )
 
 // SendRawTransaction is the resolver for the sendRawTransaction field.

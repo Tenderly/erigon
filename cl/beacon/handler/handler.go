@@ -5,14 +5,14 @@ import (
 	"sync"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/idrecun/erigon/cl/beacon/beaconhttp"
-	"github.com/idrecun/erigon/cl/beacon/synced_data"
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/persistence"
-	"github.com/idrecun/erigon/cl/phase1/forkchoice"
-	"github.com/idrecun/erigon/cl/pool"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
+	"github.com/tenderly/erigon/cl/beacon/beaconhttp"
+	"github.com/tenderly/erigon/cl/beacon/synced_data"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/persistence"
+	"github.com/tenderly/erigon/cl/phase1/forkchoice"
+	"github.com/tenderly/erigon/cl/pool"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/turbo/snapshotsync/freezeblocks"
 )
 
 type ApiHandler struct {

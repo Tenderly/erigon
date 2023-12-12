@@ -19,7 +19,7 @@ package params
 import (
 	"fmt"
 
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 )
 
 var (

@@ -18,8 +18,8 @@ package kvcache
 import (
 	"context"
 
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/remote"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 )
 
 // DummyCache - doesn't remember anything - can be used when service is not remote

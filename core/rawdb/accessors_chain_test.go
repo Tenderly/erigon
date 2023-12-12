@@ -24,19 +24,19 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/idrecun/erigon/core/rawdb"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv/memdb"
-	"github.com/idrecun/erigon/turbo/stages/mock"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/core/rawdb"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv/memdb"
+	"github.com/tenderly/erigon/turbo/stages/mock"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/idrecun/erigon/common/u256"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/params"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/common/u256"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/params"
+	"github.com/tenderly/erigon/rlp"
 )
 
 // Tests block header storage and retrieval operations.

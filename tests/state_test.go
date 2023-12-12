@@ -27,12 +27,12 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/idrecun/erigon/core/state/temporal"
-	"github.com/idrecun/erigon/erigon-lib/common/datadir"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/core/state/temporal"
+	"github.com/tenderly/erigon/erigon-lib/common/datadir"
 
-	"github.com/idrecun/erigon/core/vm"
-	"github.com/idrecun/erigon/eth/tracers/logger"
+	"github.com/tenderly/erigon/core/vm"
+	"github.com/tenderly/erigon/eth/tracers/logger"
 )
 
 func TestState(t *testing.T) {

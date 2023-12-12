@@ -23,19 +23,19 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/require"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/direct"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/sentry"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/direct"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/sentry"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/eth/protocols/eth"
-	"github.com/idrecun/erigon/params"
-	"github.com/idrecun/erigon/rlp"
-	"github.com/idrecun/erigon/turbo/stages/mock"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/eth/protocols/eth"
+	"github.com/tenderly/erigon/params"
+	"github.com/tenderly/erigon/rlp"
+	"github.com/tenderly/erigon/turbo/stages/mock"
 )
 
 var (

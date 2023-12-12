@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/cmd/devnet/devnet"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cmd/devnet/devnet"
 )
 
 type SimulationContext struct {

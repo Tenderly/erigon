@@ -6,11 +6,11 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/core/types"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/execution"
-	types2 "github.com/idrecun/erigon/erigon-lib/gointerfaces/types"
+	"github.com/tenderly/erigon/core/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/execution"
+	types2 "github.com/tenderly/erigon/erigon-lib/gointerfaces/types"
 )
 
 func HeaderToHeaderRPC(header *types.Header) *execution.Header {

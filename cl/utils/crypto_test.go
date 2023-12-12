@@ -3,7 +3,7 @@ package utils_test
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/cl/utils"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 func TestKeccak256(t *testing.T) {

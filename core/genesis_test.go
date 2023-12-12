@@ -6,21 +6,21 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/state/temporal"
-	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/datadir"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/turbo/rpchelper"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/state/temporal"
+	"github.com/tenderly/erigon/erigon-lib/chain/networkname"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/datadir"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/turbo/rpchelper"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/params"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/params"
 )
 
 func TestGenesisBlockHashes(t *testing.T) {

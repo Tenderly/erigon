@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/idrecun/erigon/cmd/rpcdaemon/cli"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/debug"
-	"github.com/idrecun/erigon/turbo/jsonrpc"
 	"github.com/spf13/cobra"
+	"github.com/tenderly/erigon/cmd/rpcdaemon/cli"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/debug"
+	"github.com/tenderly/erigon/turbo/jsonrpc"
 )
 
 func main() {

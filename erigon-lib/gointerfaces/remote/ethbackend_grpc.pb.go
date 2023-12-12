@@ -8,7 +8,7 @@ package remote
 
 import (
 	context "context"
-	types "github.com/idrecun/erigon/erigon-lib/gointerfaces/types"
+	types "github.com/tenderly/erigon/erigon-lib/gointerfaces/types"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

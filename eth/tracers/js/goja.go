@@ -24,16 +24,16 @@ import (
 
 	"github.com/dop251/goja"
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/core/vm"
-	"github.com/idrecun/erigon/core/vm/evmtypes"
-	"github.com/idrecun/erigon/core/vm/stack"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/eth/tracers"
-	jsassets "github.com/idrecun/erigon/eth/tracers/js/internal/tracers"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/core/vm"
+	"github.com/tenderly/erigon/core/vm/evmtypes"
+	"github.com/tenderly/erigon/core/vm/stack"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/eth/tracers"
+	jsassets "github.com/tenderly/erigon/eth/tracers/js/internal/tracers"
 )
 
 const (

@@ -21,10 +21,10 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	"github.com/idrecun/erigon/erigon-lib/common/fixedgas"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/common/fixedgas"
 
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/core/types"
 )
 
 // CalcExcessBlobGas implements calc_excess_blob_gas from EIP-4844

@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/crypto"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/stretchr/testify/assert"
+	"github.com/tenderly/erigon/crypto"
 )
 
 func TestKeygen(t *testing.T) {

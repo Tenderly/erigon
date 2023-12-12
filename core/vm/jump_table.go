@@ -19,8 +19,8 @@ package vm
 import (
 	"fmt"
 
-	"github.com/idrecun/erigon/core/vm/stack"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/core/vm/stack"
+	"github.com/tenderly/erigon/params"
 )
 
 type (

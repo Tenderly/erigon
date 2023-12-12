@@ -7,23 +7,23 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/erigon-lib/common/datadir"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/erigon-lib/common/datadir"
 
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/memdb"
-	"github.com/idrecun/erigon/erigon-lib/kv/rawdbv3"
-	"github.com/idrecun/erigon/erigon-lib/kv/temporal/historyv2"
-	libstate "github.com/idrecun/erigon/erigon-lib/state"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/memdb"
+	"github.com/tenderly/erigon/erigon-lib/kv/rawdbv3"
+	"github.com/tenderly/erigon/erigon-lib/kv/temporal/historyv2"
+	libstate "github.com/tenderly/erigon/erigon-lib/state"
 
-	"github.com/idrecun/erigon/cmd/state/exec22"
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/state/temporal"
-	"github.com/idrecun/erigon/eth/ethconfig"
-	"github.com/idrecun/erigon/eth/stagedsync/stages"
-	"github.com/idrecun/erigon/ethdb/prune"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/cmd/state/exec22"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/state/temporal"
+	"github.com/tenderly/erigon/eth/ethconfig"
+	"github.com/tenderly/erigon/eth/stagedsync/stages"
+	"github.com/tenderly/erigon/ethdb/prune"
+	"github.com/tenderly/erigon/params"
 )
 
 func TestExec(t *testing.T) {

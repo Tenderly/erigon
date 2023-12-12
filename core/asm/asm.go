@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/idrecun/erigon/core/vm"
+	"github.com/tenderly/erigon/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/idrecun/erigon/core/vm/runtime"
+	"github.com/tenderly/erigon/core/vm/runtime"
 )
 
 // Fuzz is the basic entry point for the go-fuzz tool

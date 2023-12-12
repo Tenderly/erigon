@@ -2,16 +2,16 @@ package jsonrpc
 
 import (
 	"context"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/adapter/ethapi"
-	"github.com/idrecun/erigon/turbo/rpchelper"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/adapter/ethapi"
+	"github.com/tenderly/erigon/turbo/rpchelper"
 )
 
 // GetUncleByBlockNumberAndIndex implements eth_getUncleByBlockNumberAndIndex. Returns information about an uncle given a block's number and the index of the uncle.
@@ -31,7 +31,7 @@ func (api *APIImpl) GetUncleByBlockNumberAndIndex(ctx context.Context, number rp
 		return nil, err
 	}
 	if block == nil {
-		return nil, nil // not error, see https://github.com/idrecun/erigon/issues/1645
+		return nil, nil // not error, see https://github.com/tenderly/erigon/issues/1645
 	}
 	additionalFields := make(map[string]interface{})
 	td, err := rawdb.ReadTd(tx, block.Hash(), blockNum)
@@ -62,7 +62,7 @@ func (api *APIImpl) GetUncleByBlockHashAndIndex(ctx context.Context, hash common
 		return nil, err
 	}
 	if block == nil {
-		return nil, nil // not error, see https://github.com/idrecun/erigon/issues/1645
+		return nil, nil // not error, see https://github.com/tenderly/erigon/issues/1645
 	}
 	number := block.NumberU64()
 	additionalFields := make(map[string]interface{})
@@ -102,7 +102,7 @@ func (api *APIImpl) GetUncleCountByBlockNumber(ctx context.Context, number rpc.B
 		return nil, err
 	}
 	if block == nil {
-		return nil, nil // not error, see https://github.com/idrecun/erigon/issues/1645
+		return nil, nil // not error, see https://github.com/tenderly/erigon/issues/1645
 	}
 	n = hexutil.Uint(len(block.Uncles()))
 	return &n, nil
@@ -119,7 +119,7 @@ func (api *APIImpl) GetUncleCountByBlockHash(ctx context.Context, hash common.Ha
 
 	number := rawdb.ReadHeaderNumber(tx, hash)
 	if number == nil {
-		return nil, nil // not error, see https://github.com/idrecun/erigon/issues/1645
+		return nil, nil // not error, see https://github.com/tenderly/erigon/issues/1645
 	}
 
 	block, err := api.blockWithSenders(tx, hash, *number)
@@ -127,7 +127,7 @@ func (api *APIImpl) GetUncleCountByBlockHash(ctx context.Context, hash common.Ha
 		return nil, err
 	}
 	if block == nil {
-		return nil, nil // not error, see https://github.com/idrecun/erigon/issues/1645
+		return nil, nil // not error, see https://github.com/tenderly/erigon/issues/1645
 	}
 	n = hexutil.Uint(len(block.Uncles()))
 	return &n, nil

@@ -27,10 +27,10 @@ import (
 	"strings"
 	"testing"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/require"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/common"
+	"github.com/tenderly/erigon/common"
 )
 
 // TestUnpack tests the general pack/unpack tests in packing_test.go

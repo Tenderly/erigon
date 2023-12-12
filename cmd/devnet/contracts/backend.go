@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"math/big"
 
-	ethereum "github.com/idrecun/erigon"
-	"github.com/idrecun/erigon/accounts/abi/bind"
-	"github.com/idrecun/erigon/cmd/devnet/devnet"
-	"github.com/idrecun/erigon/core/types"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/adapter/ethapi"
+	ethereum "github.com/tenderly/erigon"
+	"github.com/tenderly/erigon/accounts/abi/bind"
+	"github.com/tenderly/erigon/cmd/devnet/devnet"
+	"github.com/tenderly/erigon/core/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/adapter/ethapi"
 )
 
 func NewBackend(node devnet.Node) bind.ContractBackend {

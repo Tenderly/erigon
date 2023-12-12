@@ -1,18 +1,18 @@
 package jsonrpc
 
 import (
-	"github.com/idrecun/erigon/cmd/rpcdaemon/cli/httpcfg"
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/consensus/bor"
-	"github.com/idrecun/erigon/consensus/clique"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/txpool"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/kvcache"
-	libstate "github.com/idrecun/erigon/erigon-lib/state"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/rpchelper"
-	"github.com/idrecun/erigon/turbo/services"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cmd/rpcdaemon/cli/httpcfg"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/consensus/bor"
+	"github.com/tenderly/erigon/consensus/clique"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/txpool"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/kvcache"
+	libstate "github.com/tenderly/erigon/erigon-lib/state"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/rpchelper"
+	"github.com/tenderly/erigon/turbo/services"
 )
 
 // APIList describes the list of available RPC apis

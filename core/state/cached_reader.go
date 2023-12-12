@@ -3,10 +3,10 @@ package state
 import (
 	"bytes"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/core/types/accounts"
-	"github.com/idrecun/erigon/turbo/shards"
+	"github.com/tenderly/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/turbo/shards"
 )
 
 // CachedReader is a wrapper for an instance of type StateReader

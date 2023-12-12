@@ -10,13 +10,13 @@ import (
 	gokzg4844 "github.com/crate-crypto/go-kzg-4844"
 	"github.com/holiman/uint256"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/fixedgas"
-	libkzg "github.com/idrecun/erigon/erigon-lib/crypto/kzg"
-	types2 "github.com/idrecun/erigon/erigon-lib/types"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/fixedgas"
+	libkzg "github.com/tenderly/erigon/erigon-lib/crypto/kzg"
+	types2 "github.com/tenderly/erigon/erigon-lib/types"
 
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/rlp"
 )
 
 const (

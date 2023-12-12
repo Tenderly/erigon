@@ -4,15 +4,15 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/turbo/debug"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/turbo/debug"
 	"github.com/urfave/cli/v2"
 
-	"github.com/idrecun/erigon/cmd/utils"
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/node"
+	"github.com/tenderly/erigon/cmd/utils"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/node"
 )
 
 var initCommand = cli.Command{

@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/idrecun/erigon/common/debug"
+	"github.com/tenderly/erigon/common/debug"
 )
 
 // Iterator represents a sequence of nodes. The Next method moves to the next node in the

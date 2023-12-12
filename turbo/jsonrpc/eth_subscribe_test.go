@@ -5,21 +5,21 @@ import (
 	"fmt"
 	"testing"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/direct"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/sentry"
 	"github.com/stretchr/testify/require"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/direct"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/sentry"
 
-	"github.com/idrecun/erigon/cmd/rpcdaemon/rpcservices"
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/eth/protocols/eth"
-	"github.com/idrecun/erigon/ethdb/privateapi"
-	"github.com/idrecun/erigon/rlp"
-	"github.com/idrecun/erigon/turbo/builder"
-	"github.com/idrecun/erigon/turbo/rpchelper"
-	"github.com/idrecun/erigon/turbo/stages"
-	"github.com/idrecun/erigon/turbo/stages/mock"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cmd/rpcdaemon/rpcservices"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/eth/protocols/eth"
+	"github.com/tenderly/erigon/ethdb/privateapi"
+	"github.com/tenderly/erigon/rlp"
+	"github.com/tenderly/erigon/turbo/builder"
+	"github.com/tenderly/erigon/turbo/rpchelper"
+	"github.com/tenderly/erigon/turbo/stages"
+	"github.com/tenderly/erigon/turbo/stages/mock"
 )
 
 func TestEthSubscribe(t *testing.T) {

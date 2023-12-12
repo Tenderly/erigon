@@ -3,13 +3,13 @@ package jsonrpc
 import (
 	"fmt"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/consensus/bor"
-	"github.com/idrecun/erigon/consensus/bor/valset"
-	"github.com/idrecun/erigon/rpc"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/consensus/bor"
+	"github.com/tenderly/erigon/consensus/bor/valset"
+	"github.com/tenderly/erigon/rpc"
 )
 
 // BorAPI Bor specific routines

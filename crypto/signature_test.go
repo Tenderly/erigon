@@ -19,12 +19,12 @@ package crypto
 import (
 	"bytes"
 	"crypto/ecdsa"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"reflect"
 	"testing"
 
-	"github.com/idrecun/erigon/common/math"
+	"github.com/tenderly/erigon/common/math"
 )
 
 var (

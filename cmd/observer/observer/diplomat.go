@@ -6,10 +6,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/idrecun/erigon/cmd/observer/database"
-	"github.com/idrecun/erigon/p2p"
-	"github.com/idrecun/erigon/p2p/enode"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cmd/observer/database"
+	"github.com/tenderly/erigon/p2p"
+	"github.com/tenderly/erigon/p2p/enode"
 )
 
 type Diplomat struct {

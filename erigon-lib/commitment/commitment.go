@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"github.com/idrecun/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 )
 
 // Trie represents commitment variant.

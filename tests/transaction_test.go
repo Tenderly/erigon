@@ -21,7 +21,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/params"
 )
 
 func TestTransaction(t *testing.T) {

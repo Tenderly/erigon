@@ -1,12 +1,12 @@
 package utils_test
 
 import (
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common"
 	"testing"
 
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/utils"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 func TestSSZSnappy(t *testing.T) {

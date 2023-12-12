@@ -5,12 +5,12 @@ import (
 	"io"
 	"sync"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/remote"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/types"
 
-	"github.com/idrecun/erigon/turbo/shards"
+	"github.com/tenderly/erigon/turbo/shards"
 )
 
 type LogsFilterAggregator struct {

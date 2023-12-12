@@ -1,13 +1,13 @@
 package tests
 
 import (
-	"github.com/idrecun/erigon/cmd/devnet/accounts"
-	"github.com/idrecun/erigon/cmd/devnet/args"
-	"github.com/idrecun/erigon/cmd/devnet/devnet"
-	account_services "github.com/idrecun/erigon/cmd/devnet/services/accounts"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cmd/devnet/accounts"
+	"github.com/tenderly/erigon/cmd/devnet/args"
+	"github.com/tenderly/erigon/cmd/devnet/devnet"
+	account_services "github.com/tenderly/erigon/cmd/devnet/services/accounts"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/erigon-lib/chain/networkname"
 )
 
 func NewDevDevnet(

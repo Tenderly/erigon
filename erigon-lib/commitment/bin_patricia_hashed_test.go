@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 
-	"github.com/idrecun/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 )
 
 func Test_BinPatriciaTrie_UniqueRepresentation(t *testing.T) {

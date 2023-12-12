@@ -6,9 +6,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/spf13/afero"
+	"github.com/tenderly/erigon/cl/clparams"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 	"go.uber.org/zap/buffer"
 )
 

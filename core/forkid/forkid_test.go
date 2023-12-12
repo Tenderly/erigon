@@ -21,11 +21,11 @@ import (
 	"math"
 	"testing"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/params"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/params"
+	"github.com/tenderly/erigon/rlp"
 )
 
 // TestCreation tests that different genesis and fork rule combinations result in

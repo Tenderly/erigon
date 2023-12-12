@@ -27,17 +27,17 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/consensus/clique"
-	"github.com/idrecun/erigon/consensus/ethash"
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/rlp"
-	"github.com/idrecun/erigon/rpc"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/consensus/clique"
+	"github.com/tenderly/erigon/consensus/ethash"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/rlp"
+	"github.com/tenderly/erigon/rpc"
 )
 
 const DEBUG_LOG_FROM = 999_999_999

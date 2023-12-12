@@ -3,8 +3,8 @@ package mmap
 import (
 	"runtime/debug"
 
-	"github.com/idrecun/erigon/erigon-lib/common/cmp"
 	"github.com/pbnjay/memory"
+	"github.com/tenderly/erigon/erigon-lib/common/cmp"
 )
 
 func TotalMemory() uint64 {

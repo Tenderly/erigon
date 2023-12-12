@@ -4,10 +4,10 @@ import (
 	"context"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/core/vm"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/core/vm"
 )
 
 type CreateTracer struct {

@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 // MaxTotalVotingPower - the maximum allowed total voting power.

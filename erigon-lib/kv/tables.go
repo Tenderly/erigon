@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/types"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/types"
 )
 
 // DBSchemaVersion versions list

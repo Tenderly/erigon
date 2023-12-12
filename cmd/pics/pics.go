@@ -7,11 +7,11 @@ import (
 	"os/exec"
 	"sort"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/turbo/trie"
-	"github.com/idrecun/erigon/visual"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/turbo/trie"
+	"github.com/tenderly/erigon/visual"
 )
 
 var pic = flag.String("pic", "", "specifies picture to regenerate")

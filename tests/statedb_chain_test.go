@@ -22,19 +22,19 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/accounts/abi/bind"
-	"github.com/idrecun/erigon/accounts/abi/bind/backends"
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/tests/contracts"
-	"github.com/idrecun/erigon/turbo/stages/mock"
+	"github.com/tenderly/erigon/accounts/abi/bind"
+	"github.com/tenderly/erigon/accounts/abi/bind/backends"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/tests/contracts"
+	"github.com/tenderly/erigon/turbo/stages/mock"
 )
 
 func TestSelfDestructReceive(t *testing.T) {

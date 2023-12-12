@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/idrecun/erigon/cl/beacon/beaconhttp"
-	shuffling2 "github.com/idrecun/erigon/cl/phase1/core/state/shuffling"
+	"github.com/tenderly/erigon/cl/beacon/beaconhttp"
+	shuffling2 "github.com/tenderly/erigon/cl/phase1/core/state/shuffling"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 type proposerDuties struct {

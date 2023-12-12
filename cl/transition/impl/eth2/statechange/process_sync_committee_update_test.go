@@ -2,14 +2,14 @@ package statechange_test
 
 import (
 	"encoding/binary"
-	"github.com/idrecun/erigon/cl/transition/impl/eth2/statechange"
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/cl/transition/impl/eth2/statechange"
+	"github.com/tenderly/erigon/erigon-lib/common"
 	"testing"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
 )
 
 func TestProcessSyncCommittee(t *testing.T) {

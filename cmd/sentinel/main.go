@@ -16,15 +16,15 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/idrecun/erigon/cl/sentinel"
-	"github.com/idrecun/erigon/cl/sentinel/service"
-	"github.com/idrecun/erigon/cmd/sentinel/sentinelcli"
-	"github.com/idrecun/erigon/cmd/sentinel/sentinelflags"
+	"github.com/tenderly/erigon/cl/sentinel"
+	"github.com/tenderly/erigon/cl/sentinel/service"
+	"github.com/tenderly/erigon/cmd/sentinel/sentinelcli"
+	"github.com/tenderly/erigon/cmd/sentinel/sentinelflags"
 
 	"github.com/ledgerwatch/log/v3"
 	"github.com/urfave/cli/v2"
 
-	sentinelapp "github.com/idrecun/erigon/turbo/app"
+	sentinelapp "github.com/tenderly/erigon/turbo/app"
 )
 
 func main() {

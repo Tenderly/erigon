@@ -7,10 +7,10 @@ import (
 	"strconv"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/idrecun/erigon/cl/beacon/beaconhttp"
-	"github.com/idrecun/erigon/cl/clparams"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/types/ssz"
+	"github.com/tenderly/erigon/cl/beacon/beaconhttp"
+	"github.com/tenderly/erigon/cl/clparams"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/types/ssz"
 )
 
 type apiError struct {

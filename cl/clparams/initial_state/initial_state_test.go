@@ -3,10 +3,10 @@ package initial_state_test
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/clparams/initial_state"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/clparams/initial_state"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 func TestMainnet(t *testing.T) {

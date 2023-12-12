@@ -22,14 +22,14 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/rlp"
-	"github.com/idrecun/erigon/rpc"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/rlp"
+	"github.com/tenderly/erigon/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

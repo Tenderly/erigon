@@ -1,11 +1,11 @@
 package cltypes
 
 import (
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/cl/merkle_tree"
-	ssz2 "github.com/idrecun/erigon/cl/ssz"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/cl/merkle_tree"
+	ssz2 "github.com/tenderly/erigon/cl/ssz"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 )
 
 type HistoricalSummary struct {

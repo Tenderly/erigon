@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"sort"
 
-	clparams2 "github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	"github.com/idrecun/erigon/cl/utils"
+	clparams2 "github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 func (r *RegressionTester) readStartingState() (*state.CachingBeaconState, error) {

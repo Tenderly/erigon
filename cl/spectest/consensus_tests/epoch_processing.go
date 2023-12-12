@@ -1,14 +1,14 @@
 package consensus_tests
 
 import (
-	"github.com/idrecun/erigon/spectest"
+	"github.com/tenderly/erigon/spectest"
 	"io/fs"
 	"os"
 	"testing"
 
-	"github.com/idrecun/erigon/cl/abstract"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	"github.com/idrecun/erigon/cl/transition/impl/eth2/statechange"
+	"github.com/tenderly/erigon/cl/abstract"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/transition/impl/eth2/statechange"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

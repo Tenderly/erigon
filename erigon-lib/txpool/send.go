@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/idrecun/erigon/erigon-lib/direct"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/sentry"
-	"github.com/idrecun/erigon/erigon-lib/rlp"
-	types2 "github.com/idrecun/erigon/erigon-lib/types"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/direct"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/sentry"
+	"github.com/tenderly/erigon/erigon-lib/rlp"
+	types2 "github.com/tenderly/erigon/erigon-lib/types"
 	"google.golang.org/grpc"
 )
 

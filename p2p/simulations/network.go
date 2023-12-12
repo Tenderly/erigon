@@ -27,11 +27,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/idrecun/erigon/event"
-	"github.com/idrecun/erigon/p2p"
-	"github.com/idrecun/erigon/p2p/enode"
-	"github.com/idrecun/erigon/p2p/simulations/adapters"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/event"
+	"github.com/tenderly/erigon/p2p"
+	"github.com/tenderly/erigon/p2p/enode"
+	"github.com/tenderly/erigon/p2p/simulations/adapters"
 )
 
 var DialBanTimeout = 200 * time.Millisecond

@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/params"
 )
 
 // VerifyEip1559Header verifies some header attributes which were changed in EIP-1559,

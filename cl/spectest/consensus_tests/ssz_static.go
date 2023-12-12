@@ -5,19 +5,19 @@ import (
 	"io/fs"
 	"testing"
 
-	"github.com/idrecun/erigon/spectest"
+	"github.com/tenderly/erigon/spectest"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/persistence/format/snapshot_format"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/persistence/format/snapshot_format"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/types/clonable"
-	"github.com/idrecun/erigon/erigon-lib/types/ssz"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/types/clonable"
+	"github.com/tenderly/erigon/erigon-lib/types/ssz"
 
-	"github.com/idrecun/erigon/cl/utils"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/utils"
 	"gopkg.in/yaml.v2"
 )
 

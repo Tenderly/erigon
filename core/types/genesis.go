@@ -24,13 +24,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
 
-	common2 "github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/params"
+	common2 "github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/params"
 )
 
 //go:generate gencodec -type Genesis -field-override genesisSpecMarshaling -out gen_genesis.go

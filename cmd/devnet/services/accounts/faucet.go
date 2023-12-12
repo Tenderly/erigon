@@ -7,13 +7,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/idrecun/erigon/accounts/abi/bind"
-	"github.com/idrecun/erigon/cmd/devnet/accounts"
-	"github.com/idrecun/erigon/cmd/devnet/blocks"
-	"github.com/idrecun/erigon/cmd/devnet/contracts"
-	"github.com/idrecun/erigon/cmd/devnet/devnet"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/rpc"
+	"github.com/tenderly/erigon/accounts/abi/bind"
+	"github.com/tenderly/erigon/cmd/devnet/accounts"
+	"github.com/tenderly/erigon/cmd/devnet/blocks"
+	"github.com/tenderly/erigon/cmd/devnet/contracts"
+	"github.com/tenderly/erigon/cmd/devnet/devnet"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/rpc"
 )
 
 type Faucet struct {

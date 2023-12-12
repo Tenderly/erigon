@@ -23,13 +23,13 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
 
-	"github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/types"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.

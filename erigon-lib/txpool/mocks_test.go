@@ -5,10 +5,10 @@ package txpool
 
 import (
 	"context"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/txpool/txpoolcfg"
-	types2 "github.com/idrecun/erigon/erigon-lib/types"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/remote"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/txpool/txpoolcfg"
+	types2 "github.com/tenderly/erigon/erigon-lib/types"
 	"sync"
 )
 

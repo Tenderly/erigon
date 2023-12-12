@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/idrecun/erigon/common/debug"
+	"github.com/tenderly/erigon/common/debug"
 )
 
 func newHashRateMeter() *hashRateMeter {

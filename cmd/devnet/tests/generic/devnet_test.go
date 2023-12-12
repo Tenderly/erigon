@@ -7,14 +7,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/cmd/devnet/accounts"
-	"github.com/idrecun/erigon/cmd/devnet/admin"
-	"github.com/idrecun/erigon/cmd/devnet/contracts/steps"
-	"github.com/idrecun/erigon/cmd/devnet/requests"
-	"github.com/idrecun/erigon/cmd/devnet/services"
-	"github.com/idrecun/erigon/cmd/devnet/tests"
-	"github.com/idrecun/erigon/cmd/devnet/transactions"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cmd/devnet/accounts"
+	"github.com/tenderly/erigon/cmd/devnet/admin"
+	"github.com/tenderly/erigon/cmd/devnet/contracts/steps"
+	"github.com/tenderly/erigon/cmd/devnet/requests"
+	"github.com/tenderly/erigon/cmd/devnet/services"
+	"github.com/tenderly/erigon/cmd/devnet/tests"
+	"github.com/tenderly/erigon/cmd/devnet/transactions"
 )
 
 func testDynamicTx(t *testing.T, ctx context.Context) {

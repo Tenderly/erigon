@@ -5,12 +5,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/idrecun/erigon/cl/transition/machine"
-	"github.com/idrecun/erigon/spectest"
+	"github.com/tenderly/erigon/cl/transition/machine"
+	"github.com/tenderly/erigon/spectest"
 
-	"github.com/idrecun/erigon/cl/cltypes"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/cltypes"
 )
 
 var SanitySlots = spectest.HandlerFunc(func(t *testing.T, root fs.FS, c spectest.TestCase) (err error) {

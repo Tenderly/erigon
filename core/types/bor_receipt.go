@@ -1,14 +1,14 @@
 package types
 
 import (
-	"github.com/idrecun/erigon/erigon-lib/kv/dbutils"
+	"github.com/tenderly/erigon/erigon-lib/kv/dbutils"
 	"math/big"
 	"sort"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/crypto"
+	"github.com/tenderly/erigon/crypto"
 )
 
 const BorTxKeyPrefix string = "matic-bor-receipt-"

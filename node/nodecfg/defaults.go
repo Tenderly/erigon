@@ -17,11 +17,11 @@
 package nodecfg
 
 import (
-	"github.com/idrecun/erigon/erigon-lib/direct"
+	"github.com/tenderly/erigon/erigon-lib/direct"
 
-	"github.com/idrecun/erigon/p2p"
-	"github.com/idrecun/erigon/p2p/nat"
-	"github.com/idrecun/erigon/rpc/rpccfg"
+	"github.com/tenderly/erigon/p2p"
+	"github.com/tenderly/erigon/p2p/nat"
+	"github.com/tenderly/erigon/rpc/rpccfg"
 )
 
 const (

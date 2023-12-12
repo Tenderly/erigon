@@ -5,23 +5,23 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 
-	ethereum "github.com/idrecun/erigon"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
 	"github.com/ledgerwatch/log/v3"
+	ethereum "github.com/tenderly/erigon"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
 
-	"github.com/idrecun/erigon/accounts/abi/bind"
-	"github.com/idrecun/erigon/cmd/devnet/accounts"
-	"github.com/idrecun/erigon/cmd/devnet/contracts"
-	"github.com/idrecun/erigon/cmd/devnet/devnet"
-	"github.com/idrecun/erigon/cmd/devnet/devnetutils"
-	"github.com/idrecun/erigon/cmd/devnet/requests"
-	"github.com/idrecun/erigon/cmd/devnet/scenarios"
-	"github.com/idrecun/erigon/cmd/devnet/transactions"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/rpc"
+	"github.com/tenderly/erigon/accounts/abi/bind"
+	"github.com/tenderly/erigon/cmd/devnet/accounts"
+	"github.com/tenderly/erigon/cmd/devnet/contracts"
+	"github.com/tenderly/erigon/cmd/devnet/devnet"
+	"github.com/tenderly/erigon/cmd/devnet/devnetutils"
+	"github.com/tenderly/erigon/cmd/devnet/requests"
+	"github.com/tenderly/erigon/cmd/devnet/scenarios"
+	"github.com/tenderly/erigon/cmd/devnet/transactions"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/rpc"
 )
 
 func init() {

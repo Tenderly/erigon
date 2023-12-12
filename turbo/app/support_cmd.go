@@ -17,10 +17,10 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/types"
-	"github.com/idrecun/erigon/rpc"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/remote"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/types"
+	"github.com/tenderly/erigon/rpc"
 	"github.com/urfave/cli/v2"
 )
 

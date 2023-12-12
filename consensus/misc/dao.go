@@ -22,11 +22,11 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/chain"
 
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/params"
 )
 
 var (

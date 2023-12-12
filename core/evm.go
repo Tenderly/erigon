@@ -22,13 +22,13 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/consensus/merge"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/core/vm/evmtypes"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/consensus/merge"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/core/vm/evmtypes"
 )
 
 // NewEVMBlockContext creates a new context for use in the EVM.

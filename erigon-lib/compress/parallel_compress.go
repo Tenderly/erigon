@@ -30,12 +30,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/assert"
-	"github.com/idrecun/erigon/erigon-lib/etl"
-	"github.com/idrecun/erigon/erigon-lib/patricia"
-	"github.com/idrecun/erigon/erigon-lib/sais"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/assert"
+	"github.com/tenderly/erigon/erigon-lib/etl"
+	"github.com/tenderly/erigon/erigon-lib/patricia"
+	"github.com/tenderly/erigon/erigon-lib/sais"
 	"golang.org/x/exp/slices"
 )
 

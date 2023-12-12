@@ -26,9 +26,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/idrecun/erigon/rpc/rpccfg"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/rpc/rpccfg"
 )
 
 // handler handles JSON-RPC messages. There is one handler per connection. Note that

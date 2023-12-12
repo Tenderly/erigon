@@ -17,7 +17,7 @@
 package rlp
 
 import (
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"testing"
 )
 

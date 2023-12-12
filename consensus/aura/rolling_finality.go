@@ -20,7 +20,7 @@ import (
 	"container/list"
 	"fmt"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 // RollingFinality checker for authority round consensus.

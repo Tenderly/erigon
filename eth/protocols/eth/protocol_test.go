@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/rlp"
 )
 
 // Tests that the custom union field encoder and decoder works correctly.

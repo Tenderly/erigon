@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/idrecun/erigon/cl/freezer"
 	"github.com/stretchr/testify/assert"
+	"github.com/tenderly/erigon/cl/freezer"
 )
 
 func runBlobStoreTest(t *testing.T, b *freezer.BlobStore) {

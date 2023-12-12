@@ -6,11 +6,11 @@ import (
 
 	"github.com/holiman/uint256"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/accounts/abi"
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/consensus/aura/contracts"
+	"github.com/tenderly/erigon/accounts/abi"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/consensus/aura/contracts"
 )
 
 func callBlockRewardAbi(contractAddr libcommon.Address, syscall consensus.SystemCall, beneficiaries []libcommon.Address, rewardKind []consensus.RewardKind) ([]libcommon.Address, []*uint256.Int) {

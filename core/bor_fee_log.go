@@ -2,10 +2,10 @@ package core
 
 import (
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/core/vm/evmtypes"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/core/vm/evmtypes"
 )
 
 var transferLogSig = libcommon.HexToHash("0xe6497e3ee548a3372136af2fcb0696db31fc6cf20260707645068bd3fe97f3c4")

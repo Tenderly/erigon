@@ -13,17 +13,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/fixedgas"
-	"github.com/idrecun/erigon/erigon-lib/common/u256"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/kvcache"
-	"github.com/idrecun/erigon/erigon-lib/kv/memdb"
-	"github.com/idrecun/erigon/erigon-lib/rlp"
-	"github.com/idrecun/erigon/erigon-lib/txpool/txpoolcfg"
-	"github.com/idrecun/erigon/erigon-lib/types"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/fixedgas"
+	"github.com/tenderly/erigon/erigon-lib/common/u256"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/remote"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/kvcache"
+	"github.com/tenderly/erigon/erigon-lib/kv/memdb"
+	"github.com/tenderly/erigon/erigon-lib/rlp"
+	"github.com/tenderly/erigon/erigon-lib/txpool/txpoolcfg"
+	"github.com/tenderly/erigon/erigon-lib/types"
 )
 
 // https://go.dev/doc/fuzz/

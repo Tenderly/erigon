@@ -4,14 +4,14 @@ import (
 	"context"
 	"testing"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/remote"
 
-	types2 "github.com/idrecun/erigon/erigon-lib/gointerfaces/types"
+	types2 "github.com/tenderly/erigon/erigon-lib/gointerfaces/types"
 
-	"github.com/idrecun/erigon/eth/filters"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/eth/filters"
 )
 
 func createLog() *remote.SubscribeLogsReply {

@@ -20,10 +20,10 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/core/vm/evmtypes"
+	"github.com/tenderly/erigon/core/vm/evmtypes"
 )
 
 // CallContext provides a basic interface for the EVM calling conventions. The EVM

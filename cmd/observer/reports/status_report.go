@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/idrecun/erigon/cmd/observer/database"
+	"github.com/tenderly/erigon/cmd/observer/database"
 )
 
 type StatusReport struct {

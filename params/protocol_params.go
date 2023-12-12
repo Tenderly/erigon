@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common"
 )
 
 const (

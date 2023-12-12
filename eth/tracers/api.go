@@ -3,9 +3,9 @@ package tracers
 import (
 	"encoding/json"
 
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
-	"github.com/idrecun/erigon/eth/tracers/logger"
-	"github.com/idrecun/erigon/turbo/adapter/ethapi"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/eth/tracers/logger"
+	"github.com/tenderly/erigon/turbo/adapter/ethapi"
 )
 
 // TraceConfig holds extra parameters to trace functions.

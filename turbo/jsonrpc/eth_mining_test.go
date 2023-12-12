@@ -5,18 +5,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/consensus/ethash"
-	"github.com/idrecun/erigon/rpc/rpccfg"
+	"github.com/tenderly/erigon/consensus/ethash"
+	"github.com/tenderly/erigon/rpc/rpccfg"
 
-	"github.com/idrecun/erigon/cmd/rpcdaemon/rpcdaemontest"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/txpool"
-	"github.com/idrecun/erigon/erigon-lib/kv/kvcache"
-	"github.com/idrecun/erigon/rlp"
-	"github.com/idrecun/erigon/turbo/rpchelper"
-	"github.com/idrecun/erigon/turbo/stages/mock"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cmd/rpcdaemon/rpcdaemontest"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/txpool"
+	"github.com/tenderly/erigon/erigon-lib/kv/kvcache"
+	"github.com/tenderly/erigon/rlp"
+	"github.com/tenderly/erigon/turbo/rpchelper"
+	"github.com/tenderly/erigon/turbo/stages/mock"
 )
 
 func TestPendingBlock(t *testing.T) {

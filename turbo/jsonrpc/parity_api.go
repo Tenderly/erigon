@@ -5,16 +5,16 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/idrecun/erigon/core/rawdb"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/order"
-	"github.com/idrecun/erigon/erigon-lib/kv/rawdbv3"
-	"github.com/idrecun/erigon/turbo/rpchelper"
+	"github.com/tenderly/erigon/core/rawdb"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/order"
+	"github.com/tenderly/erigon/erigon-lib/kv/rawdbv3"
+	"github.com/tenderly/erigon/turbo/rpchelper"
 
-	"github.com/idrecun/erigon/rpc"
+	"github.com/tenderly/erigon/rpc"
 )
 
 var latestTag = libcommon.BytesToHash([]byte("latest"))

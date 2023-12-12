@@ -6,12 +6,12 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/idrecun/erigon/cmd/devnet/devnet"
-	"github.com/idrecun/erigon/cmd/devnet/services"
-	"github.com/idrecun/erigon/cmd/devnet/services/polygon"
-	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
-	"github.com/idrecun/erigon/turbo/debug"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cmd/devnet/devnet"
+	"github.com/tenderly/erigon/cmd/devnet/services"
+	"github.com/tenderly/erigon/cmd/devnet/services/polygon"
+	"github.com/tenderly/erigon/erigon-lib/chain/networkname"
+	"github.com/tenderly/erigon/turbo/debug"
 )
 
 func initDevnet(chainName string, dataDir string, logger log.Logger) (devnet.Devnet, error) {

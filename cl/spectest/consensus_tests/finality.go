@@ -5,8 +5,8 @@ import (
 	"io/fs"
 	"testing"
 
-	"github.com/idrecun/erigon/cl/transition/machine"
-	"github.com/idrecun/erigon/spectest"
+	"github.com/tenderly/erigon/cl/transition/machine"
+	"github.com/tenderly/erigon/spectest"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

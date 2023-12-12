@@ -3,22 +3,22 @@ package consensus_tests
 import (
 	"context"
 	"fmt"
-	"github.com/idrecun/erigon/spectest"
+	"github.com/tenderly/erigon/spectest"
 	"io/fs"
 	"testing"
 
-	"github.com/idrecun/erigon/cl/abstract"
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/cl/phase1/forkchoice"
-	"github.com/idrecun/erigon/cl/phase1/forkchoice/fork_graph"
-	"github.com/idrecun/erigon/cl/pool"
 	"github.com/spf13/afero"
+	"github.com/tenderly/erigon/cl/abstract"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/phase1/forkchoice"
+	"github.com/tenderly/erigon/cl/phase1/forkchoice/fork_graph"
+	"github.com/tenderly/erigon/cl/pool"
 
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/erigon-lib/common"
 )
 
 func (f *ForkChoiceStep) StepType() string {

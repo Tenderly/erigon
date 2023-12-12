@@ -36,13 +36,13 @@ import (
 	btree2 "github.com/tidwall/btree"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/background"
-	"github.com/idrecun/erigon/erigon-lib/common/dir"
-	"github.com/idrecun/erigon/erigon-lib/compress"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/bitmapdb"
-	"github.com/idrecun/erigon/erigon-lib/recsplit"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/background"
+	"github.com/tenderly/erigon/erigon-lib/common/dir"
+	"github.com/tenderly/erigon/erigon-lib/compress"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/bitmapdb"
+	"github.com/tenderly/erigon/erigon-lib/recsplit"
 )
 
 // filesItem corresponding to a pair of files (.dat and .idx)

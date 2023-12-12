@@ -23,11 +23,11 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/common/u256"
-	"github.com/idrecun/erigon/consensus"
+	"github.com/tenderly/erigon/common/u256"
+	"github.com/tenderly/erigon/consensus"
 )
 
 // Draws an validator nonce modulo number of validators.

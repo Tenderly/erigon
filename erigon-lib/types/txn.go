@@ -31,13 +31,13 @@ import (
 	"github.com/tenderly/secp256k1"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/fixedgas"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
-	"github.com/idrecun/erigon/erigon-lib/common/u256"
-	"github.com/idrecun/erigon/erigon-lib/crypto"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/types"
-	"github.com/idrecun/erigon/erigon-lib/rlp"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/fixedgas"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/erigon-lib/common/u256"
+	"github.com/tenderly/erigon/erigon-lib/crypto"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/types"
+	"github.com/tenderly/erigon/erigon-lib/rlp"
 )
 
 type TxParseConfig struct {

@@ -6,13 +6,13 @@ import (
 	"context"
 	"testing"
 
-	accounts_steps "github.com/idrecun/erigon/cmd/devnet/accounts/steps"
-	contracts_steps "github.com/idrecun/erigon/cmd/devnet/contracts/steps"
-	"github.com/idrecun/erigon/cmd/devnet/requests"
-	"github.com/idrecun/erigon/cmd/devnet/services"
-	"github.com/idrecun/erigon/cmd/devnet/tests"
-	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
 	"github.com/stretchr/testify/require"
+	accounts_steps "github.com/tenderly/erigon/cmd/devnet/accounts/steps"
+	contracts_steps "github.com/tenderly/erigon/cmd/devnet/contracts/steps"
+	"github.com/tenderly/erigon/cmd/devnet/requests"
+	"github.com/tenderly/erigon/cmd/devnet/services"
+	"github.com/tenderly/erigon/cmd/devnet/tests"
+	"github.com/tenderly/erigon/erigon-lib/chain/networkname"
 )
 
 func TestStateSync(t *testing.T) {

@@ -3,8 +3,8 @@ package heimdallgrpc
 import (
 	"context"
 
-	"github.com/idrecun/erigon/consensus/bor/heimdall/span"
-	"github.com/idrecun/erigon/consensus/bor/valset"
+	"github.com/tenderly/erigon/consensus/bor/heimdall/span"
+	"github.com/tenderly/erigon/consensus/bor/valset"
 
 	proto "github.com/maticnetwork/polyproto/heimdall"
 	protoutils "github.com/maticnetwork/polyproto/utils"

@@ -8,20 +8,20 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/turbo/services"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/turbo/services"
 
-	"github.com/idrecun/erigon/common/debug"
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/eth/ethutils"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/common/debug"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/eth/ethutils"
+	"github.com/tenderly/erigon/params"
 )
 
 type MiningBlock struct {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/core/types"
 )
 
 type BlockPropagator func(ctx context.Context, header *types.Header, body *types.RawBody, td *big.Int)

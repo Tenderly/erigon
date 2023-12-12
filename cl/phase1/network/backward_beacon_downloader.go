@@ -5,14 +5,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 	"golang.org/x/net/context"
 
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/persistence/beacon_indicies"
-	"github.com/idrecun/erigon/cl/rpc"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/persistence/beacon_indicies"
+	"github.com/tenderly/erigon/cl/rpc"
 )
 
 // Whether the reverse downloader arrived at expected height or condition.

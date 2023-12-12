@@ -22,16 +22,16 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/chain"
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/params"
-	"github.com/idrecun/erigon/turbo/stages/mock"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/params"
+	"github.com/tenderly/erigon/turbo/stages/mock"
 )
 
 func TestGenerateChain(t *testing.T) {

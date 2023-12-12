@@ -2,9 +2,9 @@
 package machine
 
 import (
-	"github.com/idrecun/erigon/cl/abstract"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/abstract"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
 )
 
 type Interface interface {

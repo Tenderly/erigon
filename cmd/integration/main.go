@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/idrecun/erigon/cmd/integration/commands"
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/cmd/integration/commands"
+	"github.com/tenderly/erigon/erigon-lib/common"
 )
 
 func main() {

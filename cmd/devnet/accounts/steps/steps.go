@@ -6,17 +6,17 @@ import (
 	"fmt"
 	"math/big"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/accounts/abi/bind"
-	"github.com/idrecun/erigon/cmd/devnet/accounts"
-	"github.com/idrecun/erigon/cmd/devnet/devnet"
-	"github.com/idrecun/erigon/cmd/devnet/requests"
-	"github.com/idrecun/erigon/cmd/devnet/scenarios"
-	"github.com/idrecun/erigon/cmd/devnet/services"
-	"github.com/idrecun/erigon/cmd/devnet/transactions"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/adapter/ethapi"
+	"github.com/tenderly/erigon/accounts/abi/bind"
+	"github.com/tenderly/erigon/cmd/devnet/accounts"
+	"github.com/tenderly/erigon/cmd/devnet/devnet"
+	"github.com/tenderly/erigon/cmd/devnet/requests"
+	"github.com/tenderly/erigon/cmd/devnet/scenarios"
+	"github.com/tenderly/erigon/cmd/devnet/services"
+	"github.com/tenderly/erigon/cmd/devnet/transactions"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/adapter/ethapi"
 )
 
 func init() {

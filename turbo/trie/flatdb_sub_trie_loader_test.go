@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"testing"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/stretchr/testify/assert"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/core/types/accounts"
 )
 
 func TestCreateLoadingPrefixes(t *testing.T) {

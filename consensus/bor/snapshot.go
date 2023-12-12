@@ -6,12 +6,12 @@ import (
 	"encoding/json"
 
 	lru "github.com/hashicorp/golang-lru/arc/v2"
-	"github.com/idrecun/erigon/consensus/bor/valset"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/consensus/bor/valset"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 )
 
 // Snapshot is the state of the authorization voting at a given point in time.

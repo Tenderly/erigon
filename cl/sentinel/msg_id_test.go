@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/golang/snappy"
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/utils"
 	pubsubpb "github.com/libp2p/go-libp2p-pubsub/pb"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 func TestMsgID(t *testing.T) {

@@ -21,20 +21,20 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/idrecun/erigon/erigon-lib/kv/dbutils"
+	"github.com/tenderly/erigon/erigon-lib/kv/dbutils"
 	"sort"
 	"time"
 
 	"github.com/goccy/go-json"
 	lru "github.com/hashicorp/golang-lru/arc/v2"
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/core/types"
 )
 
 // Vote represents a single vote that an authorized signer made to modify the

@@ -3,15 +3,15 @@ package aura
 import (
 	lru "github.com/hashicorp/golang-lru/v2"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/chain"
 
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/consensus/misc"
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/consensus/misc"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/types"
 )
 
 type GasLimitOverride struct {

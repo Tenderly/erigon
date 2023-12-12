@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/crypto"
+	"github.com/tenderly/erigon/crypto"
 )
 
 func TestMakeTopics(t *testing.T) {

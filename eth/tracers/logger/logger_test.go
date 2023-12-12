@@ -21,14 +21,14 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/vm"
-	"github.com/idrecun/erigon/core/vm/evmtypes"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/vm"
+	"github.com/tenderly/erigon/core/vm/evmtypes"
 
-	"github.com/idrecun/erigon/core/vm/stack"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/core/vm/stack"
+	"github.com/tenderly/erigon/params"
 )
 
 type dummyContractRef struct {

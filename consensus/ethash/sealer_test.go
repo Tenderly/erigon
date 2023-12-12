@@ -26,14 +26,14 @@ import (
 	"time"
 
 	"github.com/goccy/go-json"
-	"github.com/idrecun/erigon/consensus/ethash/ethashcfg"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/consensus/ethash/ethashcfg"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/turbo/testlog"
+	"github.com/tenderly/erigon/turbo/testlog"
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/core/types"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

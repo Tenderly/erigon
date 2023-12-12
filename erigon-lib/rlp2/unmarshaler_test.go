@@ -3,8 +3,8 @@ package rlp_test
 import (
 	"testing"
 
-	rlp "github.com/idrecun/erigon/erigon-lib/rlp2"
 	"github.com/stretchr/testify/require"
+	rlp "github.com/tenderly/erigon/erigon-lib/rlp2"
 )
 
 type plusOne int

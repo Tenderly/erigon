@@ -20,7 +20,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/idrecun/erigon/p2p/enode"
+	"github.com/tenderly/erigon/p2p/enode"
 )
 
 var (

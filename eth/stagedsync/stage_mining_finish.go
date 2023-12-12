@@ -3,14 +3,14 @@ package stagedsync
 import (
 	"fmt"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/turbo/builder"
-	"github.com/idrecun/erigon/turbo/services"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/turbo/builder"
+	"github.com/tenderly/erigon/turbo/services"
 
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/core/types"
 )
 
 type MiningFinishCfg struct {

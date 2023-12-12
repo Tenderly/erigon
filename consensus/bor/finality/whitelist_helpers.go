@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/idrecun/erigon/consensus/bor/finality/whitelist"
-	"github.com/idrecun/erigon/consensus/bor/heimdall"
-	"github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/consensus/bor/finality/whitelist"
+	"github.com/tenderly/erigon/consensus/bor/heimdall"
+	"github.com/tenderly/erigon/erigon-lib/common"
 )
 
 var (

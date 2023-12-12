@@ -20,17 +20,17 @@ import (
 	"fmt"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/txpool/txpoolcfg"
-	types2 "github.com/idrecun/erigon/erigon-lib/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/txpool/txpoolcfg"
+	types2 "github.com/tenderly/erigon/erigon-lib/types"
 
-	cmath "github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/common/u256"
-	"github.com/idrecun/erigon/consensus/misc"
-	"github.com/idrecun/erigon/core/vm"
-	"github.com/idrecun/erigon/core/vm/evmtypes"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/params"
+	cmath "github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/common/u256"
+	"github.com/tenderly/erigon/consensus/misc"
+	"github.com/tenderly/erigon/core/vm"
+	"github.com/tenderly/erigon/core/vm/evmtypes"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/params"
 )
 
 var emptyCodeHash = crypto.Keccak256Hash(nil)

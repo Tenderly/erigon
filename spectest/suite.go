@@ -1,7 +1,7 @@
 package spectest
 
 import (
-	"github.com/idrecun/erigon/cl/transition/machine"
+	"github.com/tenderly/erigon/cl/transition/machine"
 	"io/fs"
 	"path/filepath"
 	"testing"

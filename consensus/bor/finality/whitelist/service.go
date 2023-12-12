@@ -3,10 +3,10 @@ package whitelist
 import (
 	"errors"
 
-	"github.com/idrecun/erigon/consensus/bor/finality/rawdb"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/consensus/bor/finality/rawdb"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 )
 
 var (

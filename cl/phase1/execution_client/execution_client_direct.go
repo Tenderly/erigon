@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/core/types"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/execution"
-	"github.com/idrecun/erigon/turbo/execution/eth1/eth1_chain_reader.go"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/core/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/execution"
+	"github.com/tenderly/erigon/turbo/execution/eth1/eth1_chain_reader.go"
 )
 
 type ExecutionClientDirect struct {

@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/p2p/discover/v5wire"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/p2p/discover/v5wire"
 )
 
 // This test checks that pending calls are re-sent when a handshake happens.

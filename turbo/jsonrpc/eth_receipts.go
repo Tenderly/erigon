@@ -5,36 +5,36 @@ import (
 	"context"
 	"encoding/binary"
 	"fmt"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"math/big"
 
 	"github.com/RoaringBitmap/roaring"
 	"github.com/holiman/uint256"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/bitmapdb"
-	"github.com/idrecun/erigon/erigon-lib/kv/iter"
-	"github.com/idrecun/erigon/erigon-lib/kv/order"
-	"github.com/idrecun/erigon/erigon-lib/kv/rawdbv3"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/bitmapdb"
+	"github.com/tenderly/erigon/erigon-lib/kv/iter"
+	"github.com/tenderly/erigon/erigon-lib/kv/order"
+	"github.com/tenderly/erigon/erigon-lib/kv/rawdbv3"
 
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/consensus/misc"
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/core/vm"
-	"github.com/idrecun/erigon/core/vm/evmtypes"
-	"github.com/idrecun/erigon/eth/filters"
-	"github.com/idrecun/erigon/ethdb/cbor"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/rpchelper"
-	"github.com/idrecun/erigon/turbo/services"
-	"github.com/idrecun/erigon/turbo/transactions"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/consensus/misc"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/core/vm"
+	"github.com/tenderly/erigon/core/vm/evmtypes"
+	"github.com/tenderly/erigon/eth/filters"
+	"github.com/tenderly/erigon/ethdb/cbor"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/rpchelper"
+	"github.com/tenderly/erigon/turbo/services"
+	"github.com/tenderly/erigon/turbo/transactions"
 )
 
 const PendingBlockNumber int64 = -2
@@ -644,7 +644,7 @@ func (api *APIImpl) GetTransactionReceipt(ctx context.Context, txnHash common.Ha
 		return nil, err
 	}
 	if block == nil {
-		return nil, nil // not error, see https://github.com/idrecun/erigon/issues/1645
+		return nil, nil // not error, see https://github.com/tenderly/erigon/issues/1645
 	}
 
 	var txnIndex uint64

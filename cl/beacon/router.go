@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/idrecun/erigon/cl/beacon/beacon_router_configuration"
-	"github.com/idrecun/erigon/cl/beacon/handler"
-	"github.com/idrecun/erigon/cl/beacon/validatorapi"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cl/beacon/beacon_router_configuration"
+	"github.com/tenderly/erigon/cl/beacon/handler"
+	"github.com/tenderly/erigon/cl/beacon/validatorapi"
 )
 
 type LayeredBeaconHandler struct {

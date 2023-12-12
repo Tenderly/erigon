@@ -8,13 +8,13 @@ import (
 	"time"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/common/debug"
-	"github.com/idrecun/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/common/debug"
+	"github.com/tenderly/erigon/core/types/accounts"
 )
 
 func RegeneratePedersenAccounts(outTx kv.RwTx, readTx kv.Tx, workers uint64, verkleWriter *VerkleTreeWriter) error {

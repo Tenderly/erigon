@@ -24,13 +24,13 @@ import (
 
 	"github.com/holiman/uint256"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
 
-	"github.com/idrecun/erigon/accounts/abi"
-	"github.com/idrecun/erigon/core/vm"
-	"github.com/idrecun/erigon/eth/tracers"
+	"github.com/tenderly/erigon/accounts/abi"
+	"github.com/tenderly/erigon/core/vm"
+	"github.com/tenderly/erigon/eth/tracers"
 )
 
 //go:generate go run github.com/fjl/gencodec -type callFrame -field-override callFrameMarshaling -out gen_callframe_json.go

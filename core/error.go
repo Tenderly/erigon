@@ -19,7 +19,7 @@ package core
 import (
 	"errors"
 
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/core/types"
 )
 
 var (

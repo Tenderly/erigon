@@ -7,11 +7,11 @@ import (
 	"sync"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	rlp2 "github.com/idrecun/erigon/erigon-lib/rlp"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	rlp2 "github.com/tenderly/erigon/erigon-lib/rlp"
 
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/rlp"
 )
 
 // Account is the Ethereum consensus representation of accounts.

@@ -4,13 +4,13 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/idrecun/erigon/cl/phase1/core/state"
 	"github.com/spf13/afero"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/utils"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 //go:embed test_data/block_0xe2a37a22d208ebe969c50e9d44bb3f1f63c5404787b9c214a5f2f28fb9835feb.ssz_snappy

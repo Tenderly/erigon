@@ -20,27 +20,27 @@ import (
 	"crypto/ecdsa"
 	"crypto/rand"
 	"encoding/json"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"math/big"
 	"testing"
 
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/core/vm"
-	"github.com/idrecun/erigon/core/vm/evmtypes"
-	"github.com/idrecun/erigon/crypto"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/params"
-	"github.com/idrecun/erigon/tests"
-	"github.com/idrecun/erigon/turbo/stages/mock"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/core/vm"
+	"github.com/tenderly/erigon/core/vm/evmtypes"
+	"github.com/tenderly/erigon/crypto"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/params"
+	"github.com/tenderly/erigon/tests"
+	"github.com/tenderly/erigon/turbo/stages/mock"
 
 	"github.com/holiman/uint256"
 
 	// Force-load native and js packages, to trigger registration
-	"github.com/idrecun/erigon/eth/tracers"
-	_ "github.com/idrecun/erigon/eth/tracers/js"
-	_ "github.com/idrecun/erigon/eth/tracers/native"
+	"github.com/tenderly/erigon/eth/tracers"
+	_ "github.com/tenderly/erigon/eth/tracers/js"
+	_ "github.com/tenderly/erigon/eth/tracers/native"
 )
 
 func TestPrestateTracerCreate2(t *testing.T) {

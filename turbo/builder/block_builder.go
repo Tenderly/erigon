@@ -7,8 +7,8 @@ import (
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/types"
 )
 
 type BlockBuilderFunc func(param *core.BlockBuilderParameters, interrupt *int32) (*types.BlockWithReceipts, error)

@@ -6,13 +6,13 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/types/accounts"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	state2 "github.com/idrecun/erigon/erigon-lib/state"
-	"github.com/idrecun/erigon/eth/ethconfig"
 	"github.com/stretchr/testify/assert"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/types/accounts"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	state2 "github.com/tenderly/erigon/erigon-lib/state"
+	"github.com/tenderly/erigon/eth/ethconfig"
 )
 
 const (

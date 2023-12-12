@@ -28,10 +28,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/rpc/rpccfg"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/rs/cors"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/rpc/rpccfg"
 )
 
 // httpConfig is the JSON-RPC/HTTP configuration.

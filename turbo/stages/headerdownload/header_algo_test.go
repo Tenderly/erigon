@@ -6,16 +6,16 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/params"
-	"github.com/idrecun/erigon/rlp"
-	"github.com/idrecun/erigon/turbo/stages/headerdownload"
-	"github.com/idrecun/erigon/turbo/stages/mock"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/params"
+	"github.com/tenderly/erigon/rlp"
+	"github.com/tenderly/erigon/turbo/stages/headerdownload"
+	"github.com/tenderly/erigon/turbo/stages/mock"
 )
 
 func TestSideChainInsert(t *testing.T) {

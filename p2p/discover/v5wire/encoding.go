@@ -28,10 +28,10 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/idrecun/erigon/common/mclock"
-	"github.com/idrecun/erigon/p2p/enode"
-	"github.com/idrecun/erigon/p2p/enr"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/common/mclock"
+	"github.com/tenderly/erigon/p2p/enode"
+	"github.com/tenderly/erigon/p2p/enr"
+	"github.com/tenderly/erigon/rlp"
 )
 
 // TODO concurrent WHOAREYOU tie-breaker

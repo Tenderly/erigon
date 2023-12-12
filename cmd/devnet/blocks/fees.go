@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/idrecun/erigon/cmd/devnet/devnet"
-	"github.com/idrecun/erigon/rpc"
+	"github.com/tenderly/erigon/cmd/devnet/devnet"
+	"github.com/tenderly/erigon/rpc"
 )
 
 func BaseFeeFromBlock(ctx context.Context) (uint64, error) {

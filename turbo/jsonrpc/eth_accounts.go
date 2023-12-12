@@ -3,20 +3,20 @@ package jsonrpc
 import (
 	"context"
 	"fmt"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"math/big"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
 	"google.golang.org/grpc"
 
-	"github.com/idrecun/erigon/turbo/rpchelper"
+	"github.com/tenderly/erigon/turbo/rpchelper"
 
-	txpool_proto "github.com/idrecun/erigon/erigon-lib/gointerfaces/txpool"
+	txpool_proto "github.com/tenderly/erigon/erigon-lib/gointerfaces/txpool"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/rpc"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/rpc"
 )
 
 // GetBalance implements eth_getBalance. Returns the balance of an account for a given address.

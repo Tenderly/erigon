@@ -11,13 +11,13 @@ import (
 	"sort"
 	"time"
 
-	"github.com/idrecun/erigon/erigon-lib/metrics"
+	"github.com/tenderly/erigon/erigon-lib/metrics"
 
-	"github.com/idrecun/erigon/consensus/bor/clerk"
-	"github.com/idrecun/erigon/consensus/bor/heimdall/checkpoint"
-	"github.com/idrecun/erigon/consensus/bor/heimdall/milestone"
-	"github.com/idrecun/erigon/consensus/bor/heimdall/span"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/consensus/bor/clerk"
+	"github.com/tenderly/erigon/consensus/bor/heimdall/checkpoint"
+	"github.com/tenderly/erigon/consensus/bor/heimdall/milestone"
+	"github.com/tenderly/erigon/consensus/bor/heimdall/span"
 )
 
 var (

@@ -19,10 +19,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/p2p"
-	"github.com/idrecun/erigon/p2p/enode"
-	"github.com/idrecun/erigon/p2p/enr"
-	"github.com/idrecun/erigon/rpc"
+	"github.com/tenderly/erigon/p2p"
+	"github.com/tenderly/erigon/p2p/enode"
+	"github.com/tenderly/erigon/p2p/enr"
+	"github.com/tenderly/erigon/rpc"
 )
 
 // NoopService is the service that does not do anything

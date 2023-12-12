@@ -4,18 +4,18 @@ package node
 import (
 	"context"
 
-	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/chain/networkname"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 	"github.com/urfave/cli/v2"
 
-	"github.com/idrecun/erigon/cmd/utils"
-	"github.com/idrecun/erigon/eth"
-	"github.com/idrecun/erigon/eth/ethconfig"
-	"github.com/idrecun/erigon/node"
-	"github.com/idrecun/erigon/node/nodecfg"
-	"github.com/idrecun/erigon/params"
-	erigoncli "github.com/idrecun/erigon/turbo/cli"
+	"github.com/tenderly/erigon/cmd/utils"
+	"github.com/tenderly/erigon/eth"
+	"github.com/tenderly/erigon/eth/ethconfig"
+	"github.com/tenderly/erigon/node"
+	"github.com/tenderly/erigon/node/nodecfg"
+	"github.com/tenderly/erigon/params"
+	erigoncli "github.com/tenderly/erigon/turbo/cli"
 )
 
 // ErigonNode represents a single node, that runs sync and p2p network.

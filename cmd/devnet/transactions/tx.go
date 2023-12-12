@@ -6,20 +6,20 @@ import (
 	"strings"
 	"time"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/cmd/devnet/accounts"
-	"github.com/idrecun/erigon/cmd/devnet/blocks"
-	"github.com/idrecun/erigon/cmd/devnet/devnet"
-	"github.com/idrecun/erigon/cmd/devnet/devnetutils"
-	"github.com/idrecun/erigon/cmd/devnet/scenarios"
-	"github.com/idrecun/erigon/rpc"
+	"github.com/tenderly/erigon/cmd/devnet/accounts"
+	"github.com/tenderly/erigon/cmd/devnet/blocks"
+	"github.com/tenderly/erigon/cmd/devnet/devnet"
+	"github.com/tenderly/erigon/cmd/devnet/devnetutils"
+	"github.com/tenderly/erigon/cmd/devnet/scenarios"
+	"github.com/tenderly/erigon/rpc"
 
 	"github.com/holiman/uint256"
 
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/params"
 )
 
 func init() {

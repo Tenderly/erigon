@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/erigon-lib/common"
 )
 
 func TestStaticValidatorTable(t *testing.T) {

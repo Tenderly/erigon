@@ -17,9 +17,9 @@
 package core
 
 import (
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

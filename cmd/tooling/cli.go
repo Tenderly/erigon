@@ -6,18 +6,18 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cmd/caplin/caplin1"
-	"github.com/idrecun/erigon/eth/ethconfig"
-	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cmd/caplin/caplin1"
+	"github.com/tenderly/erigon/eth/ethconfig"
+	"github.com/tenderly/erigon/turbo/snapshotsync/freezeblocks"
 	"golang.org/x/net/context"
 
-	"github.com/idrecun/erigon/cl/persistence"
-	"github.com/idrecun/erigon/cl/persistence/beacon_indicies"
-	"github.com/idrecun/erigon/cl/persistence/db_config"
-	"github.com/idrecun/erigon/cl/utils"
-	"github.com/idrecun/erigon/erigon-lib/common/datadir"
-	"github.com/idrecun/erigon/erigon-lib/downloader/snaptype"
+	"github.com/tenderly/erigon/cl/persistence"
+	"github.com/tenderly/erigon/cl/persistence/beacon_indicies"
+	"github.com/tenderly/erigon/cl/persistence/db_config"
+	"github.com/tenderly/erigon/cl/utils"
+	"github.com/tenderly/erigon/erigon-lib/common/datadir"
+	"github.com/tenderly/erigon/erigon-lib/downloader/snaptype"
 
 	"github.com/ledgerwatch/log/v3"
 )

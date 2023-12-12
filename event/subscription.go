@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/idrecun/erigon/common/mclock"
+	"github.com/tenderly/erigon/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

@@ -3,9 +3,9 @@ package merkle_tree
 import (
 	"sync"
 
-	"github.com/idrecun/erigon/cl/utils"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/prysmaticlabs/gohashtree"
+	"github.com/tenderly/erigon/cl/utils"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 var globalHasher *merkleHasher

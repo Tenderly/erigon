@@ -6,15 +6,15 @@ import (
 	"time"
 
 	"github.com/RoaringBitmap/roaring/roaring64"
-	"github.com/idrecun/erigon/erigon-lib/common/datadir"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/bitmapdb"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/erigon-lib/common/datadir"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/bitmapdb"
 
-	"github.com/idrecun/erigon/core/state/temporal"
-	"github.com/idrecun/erigon/eth/stagedsync/stages"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/core/state/temporal"
+	"github.com/tenderly/erigon/eth/stagedsync/stages"
 )
 
 func genTestCallTraceSet(t *testing.T, tx kv.RwTx, to uint64) {

@@ -20,14 +20,14 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"math/big"
 	"sort"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/core/types/accounts"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/core/types/accounts"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 )
 
 type RetainDecider interface {

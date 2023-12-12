@@ -4,27 +4,27 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 
-	"github.com/idrecun/erigon/erigon-lib/txpool/txpoolcfg"
+	"github.com/tenderly/erigon/erigon-lib/txpool/txpoolcfg"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/rpc/rpccfg"
+	"github.com/tenderly/erigon/rpc/rpccfg"
 
 	"github.com/c2h5oh/datasize"
-	"github.com/idrecun/erigon/erigon-lib/etl"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/kvcache"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/spf13/pflag"
+	"github.com/tenderly/erigon/erigon-lib/etl"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/kvcache"
 	"github.com/urfave/cli/v2"
 
-	"github.com/idrecun/erigon/cmd/rpcdaemon/cli/httpcfg"
-	"github.com/idrecun/erigon/cmd/utils"
-	"github.com/idrecun/erigon/eth/ethconfig"
-	"github.com/idrecun/erigon/ethdb/prune"
-	"github.com/idrecun/erigon/node/nodecfg"
+	"github.com/tenderly/erigon/cmd/rpcdaemon/cli/httpcfg"
+	"github.com/tenderly/erigon/cmd/utils"
+	"github.com/tenderly/erigon/eth/ethconfig"
+	"github.com/tenderly/erigon/ethdb/prune"
+	"github.com/tenderly/erigon/node/nodecfg"
 )
 
 var (

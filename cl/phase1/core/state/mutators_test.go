@@ -3,11 +3,11 @@ package state_test
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	state2 "github.com/idrecun/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	state2 "github.com/tenderly/erigon/cl/phase1/core/state"
 
-	"github.com/idrecun/erigon/cl/clparams"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/clparams"
 )
 
 const (

@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/cl/phase1/core/state/shuffling"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/phase1/core/state/shuffling"
 
 	"github.com/Giulio2002/bls"
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/utils"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/utils"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 // these are view functions for the beacon state cache

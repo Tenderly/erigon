@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/memdb"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/stretchr/testify/assert"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/memdb"
 
-	"github.com/idrecun/erigon/eth/stagedsync/stages"
+	"github.com/tenderly/erigon/eth/stagedsync/stages"
 )
 
 func TestStagesSuccess(t *testing.T) {

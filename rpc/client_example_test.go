@@ -19,11 +19,11 @@ package rpc_test
 import (
 	"context"
 	"fmt"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutil"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutil"
 	"time"
 
-	"github.com/idrecun/erigon/rpc"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

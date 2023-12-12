@@ -10,17 +10,17 @@ import (
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/idrecun/erigon/cmd/utils"
-	"github.com/idrecun/erigon/common/debug"
-	"github.com/idrecun/erigon/core/forkid"
-	"github.com/idrecun/erigon/eth/protocols/eth"
-	"github.com/idrecun/erigon/p2p"
-	"github.com/idrecun/erigon/p2p/discover"
-	"github.com/idrecun/erigon/p2p/enode"
-	"github.com/idrecun/erigon/p2p/enr"
-	"github.com/idrecun/erigon/p2p/nat"
-	"github.com/idrecun/erigon/p2p/netutil"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/cmd/utils"
+	"github.com/tenderly/erigon/common/debug"
+	"github.com/tenderly/erigon/core/forkid"
+	"github.com/tenderly/erigon/eth/protocols/eth"
+	"github.com/tenderly/erigon/p2p"
+	"github.com/tenderly/erigon/p2p/discover"
+	"github.com/tenderly/erigon/p2p/enode"
+	"github.com/tenderly/erigon/p2p/enr"
+	"github.com/tenderly/erigon/p2p/nat"
+	"github.com/tenderly/erigon/p2p/netutil"
+	"github.com/tenderly/erigon/params"
 )
 
 type Server struct {

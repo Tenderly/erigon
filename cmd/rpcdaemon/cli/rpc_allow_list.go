@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/idrecun/erigon/rpc"
+	"github.com/tenderly/erigon/rpc"
 )
 
 type allowListFile struct {

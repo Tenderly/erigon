@@ -19,7 +19,7 @@ package crypto
 import (
 	"github.com/holiman/uint256"
 
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
 )
 
 var (

@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"math/big"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
 
-	"github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/core/vm"
+	"github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/core/vm"
 )
 
 var _ = (*structLogMarshaling)(nil)

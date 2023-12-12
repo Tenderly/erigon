@@ -33,13 +33,13 @@ import (
 
 	"github.com/edsrzf/mmap-go"
 	"github.com/hashicorp/golang-lru/v2/simplelru"
-	"github.com/idrecun/erigon/consensus/ethash/ethashcfg"
+	"github.com/tenderly/erigon/consensus/ethash/ethashcfg"
 
-	"github.com/idrecun/erigon/common/debug"
-	cmath "github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/consensus"
-	"github.com/idrecun/erigon/rpc"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/common/debug"
+	cmath "github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/consensus"
+	"github.com/tenderly/erigon/rpc"
 )
 
 const doNotStoreCachesOnDisk = ""

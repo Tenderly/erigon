@@ -5,24 +5,24 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
-	"github.com/idrecun/erigon/erigon-lib/chain/snapcfg"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/erigon-lib/chain/networkname"
+	"github.com/tenderly/erigon/erigon-lib/chain/snapcfg"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	types2 "github.com/idrecun/erigon/erigon-lib/types"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	types2 "github.com/tenderly/erigon/erigon-lib/types"
 
-	"github.com/idrecun/erigon/common/math"
-	"github.com/idrecun/erigon/core"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/ethdb/prune"
-	"github.com/idrecun/erigon/params"
-	"github.com/idrecun/erigon/rlp"
-	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
-	"github.com/idrecun/erigon/turbo/stages/mock"
+	"github.com/tenderly/erigon/common/math"
+	"github.com/tenderly/erigon/core"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/ethdb/prune"
+	"github.com/tenderly/erigon/params"
+	"github.com/tenderly/erigon/rlp"
+	"github.com/tenderly/erigon/turbo/snapshotsync/freezeblocks"
+	"github.com/tenderly/erigon/turbo/stages/mock"
 )
 
 func nonceRange(from, to int) []uint64 {

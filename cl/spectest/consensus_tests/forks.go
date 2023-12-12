@@ -2,14 +2,14 @@ package consensus_tests
 
 import (
 	"fmt"
-	"github.com/idrecun/erigon/spectest"
+	"github.com/tenderly/erigon/spectest"
 	"io/fs"
 	"os"
 	"testing"
 
-	"github.com/idrecun/erigon/cl/clparams"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/clparams"
 )
 
 var ForksFork = spectest.HandlerFunc(func(t *testing.T, root fs.FS, c spectest.TestCase) (err error) {

@@ -23,14 +23,14 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/idrecun/erigon/common/u256"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/core/types/accounts"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	types2 "github.com/idrecun/erigon/erigon-lib/types"
-	"github.com/idrecun/erigon/turbo/trie"
+	"github.com/tenderly/erigon/common/u256"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	types2 "github.com/tenderly/erigon/erigon-lib/types"
+	"github.com/tenderly/erigon/turbo/trie"
 )
 
 type revision struct {

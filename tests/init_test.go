@@ -28,7 +28,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/chain"
 	"golang.org/x/exp/slices"
 )
 

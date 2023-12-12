@@ -8,15 +8,15 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"github.com/urfave/cli/v2"
 
-	"github.com/idrecun/erigon/diagnostics"
-	"github.com/idrecun/erigon/erigon-lib/common/datadir"
-	"github.com/idrecun/erigon/erigon-lib/common/dbg"
-	"github.com/idrecun/erigon/erigon-lib/metrics"
-	"github.com/idrecun/erigon/params"
-	erigonapp "github.com/idrecun/erigon/turbo/app"
-	erigoncli "github.com/idrecun/erigon/turbo/cli"
-	"github.com/idrecun/erigon/turbo/debug"
-	"github.com/idrecun/erigon/turbo/node"
+	"github.com/tenderly/erigon/diagnostics"
+	"github.com/tenderly/erigon/erigon-lib/common/datadir"
+	"github.com/tenderly/erigon/erigon-lib/common/dbg"
+	"github.com/tenderly/erigon/erigon-lib/metrics"
+	"github.com/tenderly/erigon/params"
+	erigonapp "github.com/tenderly/erigon/turbo/app"
+	erigoncli "github.com/tenderly/erigon/turbo/cli"
+	"github.com/tenderly/erigon/turbo/debug"
+	"github.com/tenderly/erigon/turbo/node"
 )
 
 func main() {

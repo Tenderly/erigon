@@ -7,17 +7,17 @@ import (
 	"io"
 	"strings"
 
-	"github.com/idrecun/erigon/cl/sentinel/communication/ssz_snappy"
+	"github.com/tenderly/erigon/cl/sentinel/communication/ssz_snappy"
 	"go.uber.org/zap/buffer"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/persistence/beacon_indicies"
-	"github.com/idrecun/erigon/cl/phase1/execution_client"
-	"github.com/idrecun/erigon/cl/sentinel/peers"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/spf13/afero"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/persistence/beacon_indicies"
+	"github.com/tenderly/erigon/cl/phase1/execution_client"
+	"github.com/tenderly/erigon/cl/sentinel/peers"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 )
 
 const subDivisionFolderSize = 10_000

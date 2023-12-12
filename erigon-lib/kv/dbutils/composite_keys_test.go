@@ -3,9 +3,9 @@ package dbutils
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 func TestPlainParseStoragePrefix(t *testing.T) {

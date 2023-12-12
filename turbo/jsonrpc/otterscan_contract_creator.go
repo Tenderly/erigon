@@ -6,17 +6,17 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/cmp"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/bitmapdb"
-	"github.com/idrecun/erigon/erigon-lib/kv/order"
-	"github.com/idrecun/erigon/erigon-lib/kv/rawdbv3"
-	"github.com/idrecun/erigon/erigon-lib/kv/temporal/historyv2"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/cmp"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/bitmapdb"
+	"github.com/tenderly/erigon/erigon-lib/kv/order"
+	"github.com/tenderly/erigon/erigon-lib/kv/rawdbv3"
+	"github.com/tenderly/erigon/erigon-lib/kv/temporal/historyv2"
 
-	"github.com/idrecun/erigon/core/types/accounts"
-	"github.com/idrecun/erigon/turbo/rpchelper"
+	"github.com/tenderly/erigon/core/types/accounts"
+	"github.com/tenderly/erigon/turbo/rpchelper"
 )
 
 type ContractCreatorData struct {

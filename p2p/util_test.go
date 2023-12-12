@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idrecun/erigon/common/mclock"
+	"github.com/tenderly/erigon/common/mclock"
 )
 
 func TestExpHeap(t *testing.T) {

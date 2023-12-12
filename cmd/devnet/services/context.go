@@ -3,9 +3,9 @@ package services
 import (
 	"context"
 
-	"github.com/idrecun/erigon/cmd/devnet/devnet"
-	"github.com/idrecun/erigon/cmd/devnet/services/accounts"
-	"github.com/idrecun/erigon/cmd/devnet/services/polygon"
+	"github.com/tenderly/erigon/cmd/devnet/devnet"
+	"github.com/tenderly/erigon/cmd/devnet/services/accounts"
+	"github.com/tenderly/erigon/cmd/devnet/services/polygon"
 )
 
 type ctxKey int

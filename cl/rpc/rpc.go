@@ -8,22 +8,22 @@ import (
 	"io"
 	"time"
 
-	"github.com/idrecun/erigon/cl/sentinel/communication"
-	"github.com/idrecun/erigon/cl/sentinel/communication/ssz_snappy"
+	"github.com/tenderly/erigon/cl/sentinel/communication"
+	"github.com/tenderly/erigon/cl/sentinel/communication/ssz_snappy"
 
 	"github.com/c2h5oh/datasize"
 	"github.com/golang/snappy"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/sentinel"
 	"github.com/ledgerwatch/log/v3"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/sentinel"
 	"go.uber.org/zap/buffer"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/cl/fork"
-	"github.com/idrecun/erigon/cl/utils"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/fork"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 const maxMessageLength = 18 * datasize.MB

@@ -9,22 +9,22 @@ import (
 	"io"
 	"sync/atomic"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/remote"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/eth/ethconfig"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/remote"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/eth/ethconfig"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/ethdb/privateapi"
-	"github.com/idrecun/erigon/p2p"
-	"github.com/idrecun/erigon/rlp"
-	"github.com/idrecun/erigon/turbo/services"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/ethdb/privateapi"
+	"github.com/tenderly/erigon/p2p"
+	"github.com/tenderly/erigon/rlp"
+	"github.com/tenderly/erigon/turbo/services"
 )
 
 type RemoteBackend struct {

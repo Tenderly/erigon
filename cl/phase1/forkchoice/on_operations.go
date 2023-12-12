@@ -6,11 +6,11 @@ import (
 	"fmt"
 
 	"github.com/Giulio2002/bls"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/fork"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	"github.com/idrecun/erigon/cl/pool"
-	"github.com/idrecun/erigon/cl/utils"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/fork"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/pool"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 // NOTE: This file implements non-official handlers for other types of iterations. what it does is,using the forkchoices

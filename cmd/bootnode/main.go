@@ -24,15 +24,15 @@ import (
 	"net"
 	"os"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/turbo/logging"
+	"github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/turbo/logging"
 
-	"github.com/idrecun/erigon/cmd/utils"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/p2p/discover"
-	"github.com/idrecun/erigon/p2p/enode"
-	"github.com/idrecun/erigon/p2p/nat"
-	"github.com/idrecun/erigon/p2p/netutil"
+	"github.com/tenderly/erigon/cmd/utils"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/p2p/discover"
+	"github.com/tenderly/erigon/p2p/enode"
+	"github.com/tenderly/erigon/p2p/nat"
+	"github.com/tenderly/erigon/p2p/netutil"
 )
 
 func main() {

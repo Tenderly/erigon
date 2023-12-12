@@ -3,10 +3,10 @@ package cltypes_test
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/merkle_tree"
-	ssz2 "github.com/idrecun/erigon/cl/ssz"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/merkle_tree"
+	ssz2 "github.com/tenderly/erigon/cl/ssz"
 )
 
 func TestForkStatic(t *testing.T) {

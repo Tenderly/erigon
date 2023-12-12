@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/phase1/network"
-	"github.com/idrecun/erigon/cl/rpc"
-	"github.com/idrecun/erigon/cl/sentinel/peers"
-	"github.com/idrecun/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/phase1/network"
+	"github.com/tenderly/erigon/cl/rpc"
+	"github.com/tenderly/erigon/cl/sentinel/peers"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 	"github.com/tidwall/btree"
 )
 

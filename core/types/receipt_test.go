@@ -25,13 +25,13 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/common/u256"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/params"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/common/u256"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/params"
+	"github.com/tenderly/erigon/rlp"
 )
 
 func TestDecodeEmptyTypedReceipt(t *testing.T) {

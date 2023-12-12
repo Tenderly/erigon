@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/idrecun/erigon/turbo/cmdtest"
+	"github.com/tenderly/erigon/turbo/cmdtest"
 )
 
 func TestMain(m *testing.M) {

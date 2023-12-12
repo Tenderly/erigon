@@ -3,9 +3,9 @@ package cltypes
 import (
 	"testing"
 
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/erigon-lib/common"
 )
 
 func TestProposerSlashing(t *testing.T) {

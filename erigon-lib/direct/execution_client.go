@@ -19,8 +19,8 @@ package direct
 import (
 	"context"
 
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/execution"
-	"github.com/idrecun/erigon/erigon-lib/gointerfaces/types"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/execution"
+	"github.com/tenderly/erigon/erigon-lib/gointerfaces/types"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
 )

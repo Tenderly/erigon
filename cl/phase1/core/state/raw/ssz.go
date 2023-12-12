@@ -3,13 +3,13 @@ package raw
 import (
 	"fmt"
 
-	ssz2 "github.com/idrecun/erigon/cl/ssz"
+	ssz2 "github.com/tenderly/erigon/cl/ssz"
 
-	"github.com/idrecun/erigon/erigon-lib/types/clonable"
-	"github.com/idrecun/erigon/erigon-lib/types/ssz"
+	"github.com/tenderly/erigon/erigon-lib/types/clonable"
+	"github.com/tenderly/erigon/erigon-lib/types/ssz"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
 )
 
 // BlockRoot computes the block root for the state.

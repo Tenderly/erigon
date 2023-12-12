@@ -23,13 +23,13 @@ import (
 	"time"
 
 	"github.com/holiman/uint256"
-	"github.com/idrecun/erigon/core/state"
-	"github.com/idrecun/erigon/core/vm"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/memdb"
+	"github.com/tenderly/erigon/core/state"
+	"github.com/tenderly/erigon/core/vm"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/memdb"
 )
 
 // Config is a basic type specifying certain configuration flags for running

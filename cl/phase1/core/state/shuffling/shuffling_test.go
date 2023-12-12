@@ -4,15 +4,15 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/idrecun/erigon/erigon-lib/common/eth2shuffle"
+	"github.com/tenderly/erigon/erigon-lib/common/eth2shuffle"
 
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	"github.com/idrecun/erigon/cl/phase1/core/state/raw"
-	"github.com/idrecun/erigon/cl/phase1/core/state/shuffling"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/phase1/core/state/raw"
+	"github.com/tenderly/erigon/cl/phase1/core/state/shuffling"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/utils"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 func BenchmarkLambdaShuffledIndex(b *testing.B) {

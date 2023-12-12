@@ -7,10 +7,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/idrecun/erigon/accounts/abi"
-	"github.com/idrecun/erigon/core/types"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/length"
+	"github.com/tenderly/erigon/accounts/abi"
+	"github.com/tenderly/erigon/core/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/length"
 )
 
 // UnpackLog unpacks log

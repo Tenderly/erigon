@@ -1,10 +1,10 @@
 package execution_client
 
 import (
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/core/types"
 )
 
 var errContextExceeded = "rpc error: code = DeadlineExceeded desc = context deadline exceeded"

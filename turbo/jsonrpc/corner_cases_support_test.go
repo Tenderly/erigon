@@ -4,16 +4,16 @@ import (
 	"context"
 	"testing"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/cmd/rpcdaemon/rpcdaemontest"
-	"github.com/idrecun/erigon/rpc"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cmd/rpcdaemon/rpcdaemontest"
+	"github.com/tenderly/erigon/rpc"
 )
 
 // TestNotFoundMustReturnNil - next methods - when record not found in db - must return nil instead of error
-// see https://github.com/idrecun/erigon/issues/1645
+// see https://github.com/tenderly/erigon/issues/1645
 func TestNotFoundMustReturnNil(t *testing.T) {
 	require := require.New(t)
 	m, _, _ := rpcdaemontest.CreateTestSentry(t)

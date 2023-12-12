@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/idrecun/erigon/turbo/node"
+	"github.com/tenderly/erigon/turbo/node"
 )
 
 func SetupBootnodesAccess(metricsMux *http.ServeMux, node *node.ErigonNode) {

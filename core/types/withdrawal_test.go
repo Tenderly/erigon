@@ -3,8 +3,8 @@ package types
 import (
 	"testing"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/assert"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 func TestWithdrawalsHash(t *testing.T) {

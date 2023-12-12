@@ -3,11 +3,11 @@ package cltypes_test
 import (
 	"testing"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/cltypes"
 )
 
 var testEth1Data = &cltypes.Eth1Data{

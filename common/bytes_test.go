@@ -18,7 +18,7 @@ package common
 
 import (
 	"bytes"
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common"
 	"testing"
 )
 

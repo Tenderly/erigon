@@ -21,13 +21,13 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/common/u256"
-	"github.com/idrecun/erigon/core/vm/evmtypes"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/params"
+	"github.com/tenderly/erigon/common/u256"
+	"github.com/tenderly/erigon/core/vm/evmtypes"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/params"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already

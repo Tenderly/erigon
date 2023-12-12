@@ -1,9 +1,9 @@
 package span
 
 import (
-	"github.com/idrecun/erigon/consensus/bor/valset"
-	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/consensus/bor/valset"
+	"github.com/tenderly/erigon/erigon-lib/chain/networkname"
+	"github.com/tenderly/erigon/erigon-lib/common"
 )
 
 // NetworkNameVals is a map of network name to validator set for tests/devnets

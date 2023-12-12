@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	"github.com/idrecun/erigon/cl/persistence"
-	"github.com/idrecun/erigon/cl/persistence/beacon_indicies"
-	"github.com/idrecun/erigon/cl/persistence/format/snapshot_format"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
 	"github.com/pierrec/lz4"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	"github.com/tenderly/erigon/cl/persistence"
+	"github.com/tenderly/erigon/cl/persistence/beacon_indicies"
+	"github.com/tenderly/erigon/cl/persistence/format/snapshot_format"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
 )
 
 var buffersPool = sync.Pool{

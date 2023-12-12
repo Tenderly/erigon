@@ -3,12 +3,12 @@ package forkchoice
 import (
 	"fmt"
 
-	"github.com/idrecun/erigon/cl/transition"
+	"github.com/tenderly/erigon/cl/transition"
 
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 // Slot calculates the current slot number using the time and genesis slot.

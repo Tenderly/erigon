@@ -1,14 +1,14 @@
 package changeset
 
 import (
-	common2 "github.com/idrecun/erigon/erigon-lib/common"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	"github.com/idrecun/erigon/erigon-lib/etl"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/temporal/historyv2"
+	common2 "github.com/tenderly/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/erigon-lib/etl"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/temporal/historyv2"
 
-	"github.com/idrecun/erigon/ethdb"
+	"github.com/tenderly/erigon/ethdb"
 )
 
 // GetModifiedAccounts returns a list of addresses that were modified in the block range

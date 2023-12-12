@@ -5,14 +5,14 @@ import (
 	"errors"
 	"math/big"
 
-	ethereum "github.com/idrecun/erigon"
-	"github.com/idrecun/erigon/core/types"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/hexutility"
-	"github.com/idrecun/erigon/p2p"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/adapter/ethapi"
-	"github.com/idrecun/erigon/turbo/jsonrpc"
+	ethereum "github.com/tenderly/erigon"
+	"github.com/tenderly/erigon/core/types"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/hexutility"
+	"github.com/tenderly/erigon/p2p"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/adapter/ethapi"
+	"github.com/tenderly/erigon/turbo/jsonrpc"
 )
 
 var ErrNotImplemented = errors.New("not implemented")

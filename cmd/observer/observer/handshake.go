@@ -9,17 +9,17 @@ import (
 	"net"
 	"time"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/direct"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/direct"
 
-	"github.com/idrecun/erigon/common"
-	"github.com/idrecun/erigon/core/forkid"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/eth/protocols/eth"
-	"github.com/idrecun/erigon/p2p"
-	"github.com/idrecun/erigon/p2p/rlpx"
-	"github.com/idrecun/erigon/params"
-	"github.com/idrecun/erigon/rlp"
+	"github.com/tenderly/erigon/common"
+	"github.com/tenderly/erigon/core/forkid"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/eth/protocols/eth"
+	"github.com/tenderly/erigon/p2p"
+	"github.com/tenderly/erigon/p2p/rlpx"
+	"github.com/tenderly/erigon/params"
+	"github.com/tenderly/erigon/rlp"
 )
 
 // https://github.com/ethereum/devp2p/blob/master/rlpx.md#p2p-capability

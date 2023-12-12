@@ -10,16 +10,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/idrecun/erigon/cmd/utils"
+	"github.com/tenderly/erigon/cmd/utils"
 
-	devnet_args "github.com/idrecun/erigon/cmd/devnet/args"
-	"github.com/idrecun/erigon/cmd/devnet/requests"
-	"github.com/idrecun/erigon/core/types"
-	"github.com/idrecun/erigon/erigon-lib/common/dbg"
-	"github.com/idrecun/erigon/params"
-	erigonapp "github.com/idrecun/erigon/turbo/app"
-	erigoncli "github.com/idrecun/erigon/turbo/cli"
 	"github.com/ledgerwatch/log/v3"
+	devnet_args "github.com/tenderly/erigon/cmd/devnet/args"
+	"github.com/tenderly/erigon/cmd/devnet/requests"
+	"github.com/tenderly/erigon/core/types"
+	"github.com/tenderly/erigon/erigon-lib/common/dbg"
+	"github.com/tenderly/erigon/params"
+	erigonapp "github.com/tenderly/erigon/turbo/app"
+	erigoncli "github.com/tenderly/erigon/turbo/cli"
 	"github.com/urfave/cli/v2"
 )
 

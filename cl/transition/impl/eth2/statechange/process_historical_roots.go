@@ -1,8 +1,8 @@
 package statechange
 
 import (
-	"github.com/idrecun/erigon/cl/abstract"
-	"github.com/idrecun/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/abstract"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
 )
 
 func ProcessParticipationRecordUpdates(s abstract.BeaconState) error {

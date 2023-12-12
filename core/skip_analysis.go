@@ -19,8 +19,8 @@ package core
 import (
 	"sort"
 
-	"github.com/idrecun/erigon/erigon-lib/chain"
-	"github.com/idrecun/erigon/erigon-lib/chain/networkname"
+	"github.com/tenderly/erigon/erigon-lib/chain"
+	"github.com/tenderly/erigon/erigon-lib/chain/networkname"
 )
 
 // SkipAnalysis function tells us whether we can skip performing jumpdest analysis

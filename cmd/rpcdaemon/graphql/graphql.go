@@ -7,9 +7,9 @@ import (
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
 
-	"github.com/idrecun/erigon/cmd/rpcdaemon/graphql/graph"
-	"github.com/idrecun/erigon/rpc"
-	"github.com/idrecun/erigon/turbo/jsonrpc"
+	"github.com/tenderly/erigon/cmd/rpcdaemon/graphql/graph"
+	"github.com/tenderly/erigon/rpc"
+	"github.com/tenderly/erigon/turbo/jsonrpc"
 )
 
 const (

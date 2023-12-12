@@ -4,12 +4,12 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/idrecun/erigon/cl/abstract"
+	"github.com/tenderly/erigon/cl/abstract"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	"github.com/idrecun/erigon/cl/utils"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/utils"
 )
 
 type processFunc func(s abstract.BeaconState) error

@@ -25,18 +25,18 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common"
 
 	"github.com/ledgerwatch/log/v3"
 	"github.com/urfave/cli/v2"
 
-	"github.com/idrecun/erigon/accounts/abi"
-	"github.com/idrecun/erigon/accounts/abi/bind"
-	"github.com/idrecun/erigon/cmd/utils"
-	"github.com/idrecun/erigon/common/compiler"
-	"github.com/idrecun/erigon/crypto"
-	"github.com/idrecun/erigon/params"
-	cli2 "github.com/idrecun/erigon/turbo/cli"
+	"github.com/tenderly/erigon/accounts/abi"
+	"github.com/tenderly/erigon/accounts/abi/bind"
+	"github.com/tenderly/erigon/cmd/utils"
+	"github.com/tenderly/erigon/common/compiler"
+	"github.com/tenderly/erigon/crypto"
+	"github.com/tenderly/erigon/params"
+	cli2 "github.com/tenderly/erigon/turbo/cli"
 )
 
 var (

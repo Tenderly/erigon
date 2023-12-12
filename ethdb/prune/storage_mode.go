@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/params"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/params"
 )
 
 var DefaultMode = Mode{

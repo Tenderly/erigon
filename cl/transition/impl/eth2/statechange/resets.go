@@ -1,8 +1,8 @@
 package statechange
 
 import (
-	"github.com/idrecun/erigon/cl/abstract"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/cl/abstract"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
 )
 
 func ProcessEth1DataReset(s abstract.BeaconState) {

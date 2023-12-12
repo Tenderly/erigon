@@ -7,16 +7,16 @@ import (
 
 	_ "embed"
 
-	"github.com/idrecun/erigon/cl/antiquary/tests"
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes"
-	state_accessors "github.com/idrecun/erigon/cl/persistence/state"
-	"github.com/idrecun/erigon/cl/phase1/core/state"
-	"github.com/idrecun/erigon/erigon-lib/common/datadir"
-	"github.com/idrecun/erigon/erigon-lib/kv/memdb"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/spf13/afero"
 	"github.com/stretchr/testify/require"
+	"github.com/tenderly/erigon/cl/antiquary/tests"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes"
+	state_accessors "github.com/tenderly/erigon/cl/persistence/state"
+	"github.com/tenderly/erigon/cl/phase1/core/state"
+	"github.com/tenderly/erigon/erigon-lib/common/datadir"
+	"github.com/tenderly/erigon/erigon-lib/kv/memdb"
 )
 
 func runTest(t *testing.T, blocks []*cltypes.SignedBeaconBlock, preState, postState *state.CachingBeaconState) {

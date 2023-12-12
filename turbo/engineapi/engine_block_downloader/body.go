@@ -5,14 +5,14 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/idrecun/erigon/core/rawdb"
-	"github.com/idrecun/erigon/dataflow"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/common/dbg"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/eth/stagedsync/stages"
-	"github.com/idrecun/erigon/turbo/stages/bodydownload"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/core/rawdb"
+	"github.com/tenderly/erigon/dataflow"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/common/dbg"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/eth/stagedsync/stages"
+	"github.com/tenderly/erigon/turbo/stages/bodydownload"
 )
 
 // downloadBodies executes bodies download.

@@ -9,15 +9,15 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/idrecun/erigon/core/rawdb/blockio"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
-	"github.com/idrecun/erigon/erigon-lib/kv"
-	"github.com/idrecun/erigon/erigon-lib/kv/kvcfg"
-	"github.com/idrecun/erigon/erigon-lib/kv/mdbx"
-	"github.com/idrecun/erigon/eth/ethconfig"
-	"github.com/idrecun/erigon/turbo/services"
-	"github.com/idrecun/erigon/turbo/snapshotsync/freezeblocks"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/core/rawdb/blockio"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/erigon-lib/kv"
+	"github.com/tenderly/erigon/erigon-lib/kv/kvcfg"
+	"github.com/tenderly/erigon/erigon-lib/kv/mdbx"
+	"github.com/tenderly/erigon/eth/ethconfig"
+	"github.com/tenderly/erigon/turbo/services"
+	"github.com/tenderly/erigon/turbo/snapshotsync/freezeblocks"
 )
 
 func blocksIO(db kv.RoDB) (services.FullBlockReader, *blockio.BlockWriter) {

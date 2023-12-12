@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 
 	gokzg4844 "github.com/crate-crypto/go-kzg-4844"
-	"github.com/idrecun/erigon/cl/merkle_tree"
-	ssz2 "github.com/idrecun/erigon/cl/ssz"
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	"github.com/tenderly/erigon/cl/merkle_tree"
+	ssz2 "github.com/tenderly/erigon/cl/ssz"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 )
 
 type Blob gokzg4844.Blob

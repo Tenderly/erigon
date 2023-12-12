@@ -14,11 +14,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/idrecun/erigon/erigon-lib/common/dbg"
+	"github.com/tenderly/erigon/erigon-lib/common/dbg"
 
-	"github.com/idrecun/erigon/cmd/hack/tool"
-	"github.com/idrecun/erigon/common/debug"
-	"github.com/idrecun/erigon/core/vm"
+	"github.com/tenderly/erigon/cmd/hack/tool"
+	"github.com/tenderly/erigon/common/debug"
+	"github.com/tenderly/erigon/core/vm"
 )
 
 const (

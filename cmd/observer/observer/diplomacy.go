@@ -8,10 +8,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/idrecun/erigon/cmd/observer/database"
-	"github.com/idrecun/erigon/cmd/observer/observer/node_utils"
-	"github.com/idrecun/erigon/cmd/observer/utils"
 	"github.com/ledgerwatch/log/v3"
+	"github.com/tenderly/erigon/cmd/observer/database"
+	"github.com/tenderly/erigon/cmd/observer/observer/node_utils"
+	"github.com/tenderly/erigon/cmd/observer/utils"
 	"golang.org/x/sync/semaphore"
 )
 

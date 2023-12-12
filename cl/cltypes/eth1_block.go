@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"math/big"
 
-	libcommon "github.com/idrecun/erigon/erigon-lib/common"
+	libcommon "github.com/tenderly/erigon/erigon-lib/common"
 
-	"github.com/idrecun/erigon/cl/clparams"
-	"github.com/idrecun/erigon/cl/cltypes/solid"
-	"github.com/idrecun/erigon/cl/merkle_tree"
-	ssz2 "github.com/idrecun/erigon/cl/ssz"
-	"github.com/idrecun/erigon/consensus/merge"
-	"github.com/idrecun/erigon/core/types"
+	"github.com/tenderly/erigon/cl/clparams"
+	"github.com/tenderly/erigon/cl/cltypes/solid"
+	"github.com/tenderly/erigon/cl/merkle_tree"
+	ssz2 "github.com/tenderly/erigon/cl/ssz"
+	"github.com/tenderly/erigon/consensus/merge"
+	"github.com/tenderly/erigon/core/types"
 )
 
 // ETH1Block represents a block structure CL-side.
