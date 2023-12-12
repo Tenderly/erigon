@@ -878,6 +878,8 @@ github.com/tenderly/go-verkle v0.0.0-20231212093521-fbf9e5153193 h1:iuMUJy1IIgdx
 github.com/tenderly/go-verkle v0.0.0-20231212093521-fbf9e5153193/go.mod h1:8dZxsMisyHlc3rYcJZ0CScDou/UTOaplZi1PhA6/IY0=
 github.com/tenderly/secp256k1 v1.0.1-0.20231212100313-ba80f7997dba h1:baf5bMwKsD8Lp28DWQDMc8Mzuah6wpZ17s7jNgC7XHo=
 github.com/tenderly/secp256k1 v1.0.1-0.20231212100313-ba80f7997dba/go.mod h1:j21vVj9UCKtBrDY71a5htZBFLBaYS5BmwL2ueIP1pFo=
+github.com/tenderly/secp256k1 v1.0.1-0.20231212115822-31dacfc1e0c7 h1:dXoKNz5mRiDiLuxBAnM8voo1CIgEl1K87MuVQur6R2o=
+github.com/tenderly/secp256k1 v1.0.1-0.20231212115822-31dacfc1e0c7/go.mod h1:j21vVj9UCKtBrDY71a5htZBFLBaYS5BmwL2ueIP1pFo=
 github.com/thomaso-mirodin/intmath v0.0.0-20160323211736-5dc6d854e46e h1:cR8/SYRgyQCt5cNCMniB/ZScMkhI9nk8U5C7SbISXjo=
 github.com/thomaso-mirodin/intmath v0.0.0-20160323211736-5dc6d854e46e/go.mod h1:Tu4lItkATkonrYuvtVjG0/rhy15qrNGNTjPdaphtZ/8=
 github.com/tidwall/btree v1.6.0 h1:LDZfKfQIBHGHWSwckhXI0RPSXzlo+KYdjK7FWSqOzzg=
