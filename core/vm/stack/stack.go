@@ -82,10 +82,6 @@ func (st *Stack) Peek() *uint256.Int {
 	return &st.StackData[len(st.StackData)-1]
 }
 
-func (st *Stack) Peek(position int) *uint256.Int {
-	return &st.StackData[position]
-}
-
 // Back returns the n'th item in stack
 func (st *Stack) Back(n int) *uint256.Int {
 	return &st.StackData[len(st.StackData)-n-1]
