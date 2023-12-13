@@ -1155,7 +1155,7 @@ func (r *BlockReader) Span(ctx context.Context, tx kv.Getter, spanId uint64) ([]
 	return nil, fmt.Errorf("span %d not found (snapshots)", spanId)
 }
 
-// ---- Data Integrity part ----
+// ---- StackData Integrity part ----
 
 func (r *BlockReader) ensureHeaderNumber(n uint64, seg *HeaderSegment) error {
 	h, _, err := r.headerFromSnapshot(n, seg, nil)

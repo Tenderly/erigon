@@ -77,8 +77,8 @@ func (l *JSONLogger) CaptureState(pc uint64, op vm.OpCode, gas, cost uint64, sco
 	}
 	if !l.cfg.DisableStack {
 		//TODO(@holiman) improve this
-		logstack := make([]*big.Int, len(stack.Data))
-		for i, item := range stack.Data {
+		logstack := make([]*big.Int, len(stack.StackData))
+		for i, item := range stack.StackData {
 			logstack[i] = item.ToBig()
 		}
 		log.Stack = logstack

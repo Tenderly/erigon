@@ -38,7 +38,7 @@ type BeaconBlock struct {
 type BeaconBody struct {
 	// A byte array used for randomness in the beacon chain
 	RandaoReveal libcommon.Bytes96 `json:"randao_reveal"`
-	// Data related to the Ethereum 1.0 chain
+	// StackData related to the Ethereum 1.0 chain
 	Eth1Data *Eth1Data `json:"eth1_data"`
 	// A byte array used to customize validators' behavior
 	Graffiti libcommon.Hash `json:"graffit"`
@@ -54,7 +54,7 @@ type BeaconBody struct {
 	VoluntaryExits *solid.ListSSZ[*SignedVoluntaryExit] `json:"voluntary_exits"`
 	// A summary of the current state of the beacon chain
 	SyncAggregate *SyncAggregate `json:"sync_aggregate,omitempty"`
-	// Data related to crosslink records and executing operations on the Ethereum 2.0 chain
+	// StackData related to crosslink records and executing operations on the Ethereum 2.0 chain
 	ExecutionPayload *Eth1Block `json:"execution_payload,omitempty"`
 	// Withdrawals Diffs for Execution Layer
 	ExecutionChanges *solid.ListSSZ[*SignedBLSToExecutionChange] `json:"execution_changes,omitempty"`

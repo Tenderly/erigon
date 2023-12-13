@@ -94,7 +94,7 @@ func (r *beaconResponse) withVersion(version clparams.StateVersion) (out *beacon
 //		}
 //
 //		if isSSZ && supportSSZ {
-//			data := resp.Data
+//			data := resp.StackData
 //			// SSZ encoding
 //			encoded, err := data.(ssz.Marshaler).EncodeSSZ(nil)
 //			if err != nil {

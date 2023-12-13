@@ -709,7 +709,7 @@ func printSTX(stx *BlobTx) {
 	fmt.Printf("Gas: %v\n", stx.Gas)
 	fmt.Printf("To: %v\n", stx.To)
 	fmt.Printf("Value: %v\n", stx.Value)
-	fmt.Printf("Data: %v\n", stx.Data)
+	fmt.Printf("StackData: %v\n", stx.Data)
 	fmt.Printf("AccessList: %v\n", stx.AccessList)
 	fmt.Printf("MaxFeePerBlobGas: %v\n", stx.MaxFeePerBlobGas)
 	fmt.Printf("BlobVersionedHashes: %v\n", stx.BlobVersionedHashes)

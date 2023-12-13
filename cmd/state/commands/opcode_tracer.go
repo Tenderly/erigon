@@ -293,7 +293,7 @@ func (ot *opcodeTracer) CaptureState(pc uint64, op vm.OpCode, gas, cost uint64, 
 	}
 
 	// prepare the opcode's stack for saving
-	//stackTop := &stack.Stack{Data: make([]uint256.Int, 0, 7)}//stack.New()
+	//stackTop := &stack.Stack{StackData: make([]uint256.Int, 0, 7)}//stack.New()
 	// the most stack positions consumed by any opcode is 7
 	//for i:= min(7, st.Len()-1); i>=0; i-- {
 	//	stackTop.Push(st.Back(i))
@@ -303,8 +303,8 @@ func (ot *opcodeTracer) CaptureState(pc uint64, op vm.OpCode, gas, cost uint64, 
 	//sl := st.Len()
 	//minl := min(7, sl)
 	//startcopy := sl-minl
-	//stackTop := &stack.Stack{Data: make([]uint256.Int, minl, minl)}//stack.New()
-	//copy(stackTop.Data, st.Data[startcopy:sl])
+	//stackTop := &stack.Stack{StackData: make([]uint256.Int, minl, minl)}//stack.New()
+	//copy(stackTop.StackData, st.StackData[startcopy:sl])
 
 	//sanity check
 	if currentEntry.OpcodeFault != "" {

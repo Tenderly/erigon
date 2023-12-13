@@ -202,7 +202,7 @@ func (r *Receipt) decodePayload(s *rlp.Stream) error {
 			return fmt.Errorf("close Topics: %w", err)
 		}
 		if log.Data, err = s.Bytes(); err != nil {
-			return fmt.Errorf("read Data: %w", err)
+			return fmt.Errorf("read StackData: %w", err)
 		}
 		// end of Log
 		if err = s.ListEnd(); err != nil {

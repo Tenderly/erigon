@@ -157,7 +157,7 @@ func (stx BlobTx) encodePayload(w io.Writer, b []byte, payloadSize, nonceLen, ga
 	if err := stx.Value.EncodeRLP(w); err != nil {
 		return err
 	}
-	// encode Data
+	// encode StackData
 	if err := rlp.EncodeString(stx.Data, w, b); err != nil {
 		return err
 	}

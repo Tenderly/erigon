@@ -37,7 +37,7 @@ import (
 var (
 	DataDirFlag = flags.DirectoryFlag{
 		Name:     "datadir",
-		Usage:    "Data directory for the devnet",
+		Usage:    "StackData directory for the devnet",
 		Value:    flags.DirectoryString(""),
 		Required: true,
 	}

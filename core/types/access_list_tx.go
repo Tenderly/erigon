@@ -121,7 +121,7 @@ func (tx AccessListTx) payloadSize() (payloadSize int, nonceLen, gasLen, accessL
 	// size of Value
 	payloadSize++
 	payloadSize += rlp.Uint256LenExcludingHead(tx.Value)
-	// size of Data
+	// size of StackData
 	payloadSize += rlp2.StringLen(tx.Data)
 	// size of AccessList
 	accessListLen = accessListSize(tx.AccessList)
@@ -256,7 +256,7 @@ func (tx AccessListTx) encodePayload(w io.Writer, b []byte, payloadSize, nonceLe
 	if err := tx.Value.EncodeRLP(w); err != nil {
 		return err
 	}
-	// encode Data
+	// encode StackData
 	if err := rlp.EncodeString(tx.Data, w, b); err != nil {
 		return err
 	}
@@ -390,7 +390,7 @@ func (tx *AccessListTx) DecodeRLP(s *rlp.Stream) error {
 	}
 	tx.Value = new(uint256.Int).SetBytes(b)
 	if tx.Data, err = s.Bytes(); err != nil {
-		return fmt.Errorf("read Data: %w", err)
+		return fmt.Errorf("read StackData: %w", err)
 	}
 	// decode AccessList
 	tx.AccessList = types2.AccessList{}

@@ -79,7 +79,7 @@ without a data directory, databases are opened in memory instead.
 Node also creates the shared store of encrypted Ethereum account keys. Services can access
 the account manager through the service context.
 
-# Sharing Data Directory Among Instances
+# Sharing StackData Directory Among Instances
 
 Multiple node instances can share a single data directory if they have distinct instance
 names (set through the Name config option). Sharing behaviour depends on the type of
@@ -94,7 +94,7 @@ Databases are also stored within the instance subdirectory. If multiple node
 instances use the same data directory, opening the databases with identical names will
 create one database for each instance.
 
-# Data Directory Sharing Example
+# StackData Directory Sharing Example
 
 In this example, two node instances named A and B are started with the same data
 directory. Node instance A opens the database "db", node instance B opens the databases

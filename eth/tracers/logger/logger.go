@@ -165,8 +165,8 @@ func (l *StructLogger) CaptureState(pc uint64, op vm.OpCode, gas, cost uint64, s
 	// Copy a snapshot of the current stack state to a new buffer
 	var stck []*big.Int
 	if !l.cfg.DisableStack {
-		stck = make([]*big.Int, len(stack.Data))
-		for i, item := range stack.Data {
+		stck = make([]*big.Int, len(stack.StackData))
+		for i, item := range stack.StackData {
 			stck[i] = new(big.Int).Set(item.ToBig())
 		}
 	}
@@ -181,7 +181,7 @@ func (l *StructLogger) CaptureState(pc uint64, op vm.OpCode, gas, cost uint64, s
 		// capture SLOAD opcodes and record the read entry in the local storage
 		if op == vm.SLOAD && stack.Len() >= 1 {
 			var (
-				address = libcommon.Hash(stack.Data[stack.Len()-1].Bytes32())
+				address = libcommon.Hash(stack.StackData[stack.Len()-1].Bytes32())
 				value   uint256.Int
 			)
 			l.env.IntraBlockState().GetState(contract.Address(), &address, &value)
@@ -190,8 +190,8 @@ func (l *StructLogger) CaptureState(pc uint64, op vm.OpCode, gas, cost uint64, s
 		// capture SSTORE opcodes and record the written entry in the local storage.
 		if op == vm.SSTORE && stack.Len() >= 2 {
 			var (
-				value   = libcommon.Hash(stack.Data[stack.Len()-2].Bytes32())
-				address = libcommon.Hash(stack.Data[stack.Len()-1].Bytes32())
+				value   = libcommon.Hash(stack.StackData[stack.Len()-2].Bytes32())
+				address = libcommon.Hash(stack.StackData[stack.Len()-1].Bytes32())
 			)
 			l.storage[contract.Address()][address] = value
 		}
@@ -390,7 +390,7 @@ func (t *mdLogger) CaptureState(pc uint64, op vm.OpCode, gas, cost uint64, scope
 	if !t.cfg.DisableStack {
 		// format stack
 		var a []string
-		for _, elem := range stack.Data {
+		for _, elem := range stack.StackData {
 			a = append(a, elem.String())
 		}
 		b := fmt.Sprintf("[%v]", strings.Join(a, ","))

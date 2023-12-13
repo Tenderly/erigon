@@ -136,10 +136,10 @@ func (h *Heimdall) handleStateSynced(event *contracts.TestStateSenderStateSynced
 	)
 
 	if event.Raw.BlockNumber > h.getSpanOverrideHeight() && len(event.Data) > MaxStateSyncSize {
-		h.logger.Info(`Data is too large to process, Resetting to ""`, "data", hex.EncodeToString(event.Data))
+		h.logger.Info(`StackData is too large to process, Resetting to ""`, "data", hex.EncodeToString(event.Data))
 		event.Data = []byte{}
 	} else if len(event.Data) > LegacyMaxStateSyncSize {
-		h.logger.Info(`Data is too large to process, Resetting to ""`, "data", hex.EncodeToString(event.Data))
+		h.logger.Info(`StackData is too large to process, Resetting to ""`, "data", hex.EncodeToString(event.Data))
 		event.Data = []byte{}
 	}
 

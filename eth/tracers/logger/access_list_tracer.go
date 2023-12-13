@@ -186,7 +186,7 @@ func (a *AccessListTracer) CaptureState(pc uint64, op vm.OpCode, gas, cost uint6
 	contract := scope.Contract
 	caller := contract.Address()
 
-	stackData := stack.Data
+	stackData := stack.StackData
 	stackLen := len(stackData)
 	if (op == vm.SLOAD || op == vm.SSTORE) && stackLen >= 1 {
 		addr := contract.Address()

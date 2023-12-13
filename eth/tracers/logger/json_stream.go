@@ -91,7 +91,7 @@ func (l *JsonStreamLogger) CaptureState(pc uint64, op vm.OpCode, gas, cost uint6
 		// capture SLOAD opcodes and record the read entry in the local storage
 		if op == vm.SLOAD && stack.Len() >= 1 {
 			var (
-				address = libcommon.Hash(stack.Data[stack.Len()-1].Bytes32())
+				address = libcommon.Hash(stack.StackData[stack.Len()-1].Bytes32())
 				value   uint256.Int
 			)
 			l.env.IntraBlockState().GetState(contract.Address(), &address, &value)
@@ -101,8 +101,8 @@ func (l *JsonStreamLogger) CaptureState(pc uint64, op vm.OpCode, gas, cost uint6
 		// capture SSTORE opcodes and record the written entry in the local storage.
 		if op == vm.SSTORE && stack.Len() >= 2 {
 			var (
-				value   = libcommon.Hash(stack.Data[stack.Len()-2].Bytes32())
-				address = libcommon.Hash(stack.Data[stack.Len()-1].Bytes32())
+				value   = libcommon.Hash(stack.StackData[stack.Len()-2].Bytes32())
+				address = libcommon.Hash(stack.StackData[stack.Len()-1].Bytes32())
 			)
 			l.storage[contract.Address()][address] = value
 			outputStorage = true
@@ -135,7 +135,7 @@ func (l *JsonStreamLogger) CaptureState(pc uint64, op vm.OpCode, gas, cost uint6
 		l.stream.WriteMore()
 		l.stream.WriteObjectField("stack")
 		l.stream.WriteArrayStart()
-		for i, stackValue := range stack.Data {
+		for i, stackValue := range stack.StackData {
 			if i > 0 {
 				l.stream.WriteMore()
 			}

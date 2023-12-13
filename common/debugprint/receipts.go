@@ -64,12 +64,12 @@ func Receipts(rs1, rs2 types.Receipts) {
 			if l2 == nil {
 				fmt.Printf("  Logs[%d].Address: %x\n", j, l1.Address)
 				fmt.Printf("  Logs[%d].Topic:   %x\n", j, l1.Topics)
-				fmt.Printf("  Logs[%d].Data:    %x\n", j, l1.Data)
+				fmt.Printf("  Logs[%d].StackData:    %x\n", j, l1.Data)
 				continue
 			}
 			fmt.Printf("  Logs[%d].Address: %x, %x\n", j, l1.Address, l2.Address)
 			fmt.Printf("  Logs[%d].Topic:   %x, %x\n", j, l1.Topics, l2.Topics)
-			fmt.Printf("  Logs[%d].Data:    %x, %x\n", j, l1.Data, l2.Data)
+			fmt.Printf("  Logs[%d].StackData:    %x, %x\n", j, l1.Data, l2.Data)
 		}
 		//fmt.Printf(" Bloom: %x, %x\n", r1.Bloom, r1.Bloom)
 	}

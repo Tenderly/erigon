@@ -268,7 +268,7 @@ func (x *Log) CodecEncodeSelf(e *codec1978.Encoder) {
 				r.EncodeNil()
 			} else {
 				r.EncodeStringBytesRaw([]byte(x.Data))
-			} // end block: if x.Data slice == nil
+			} // end block: if x.StackData slice == nil
 			z.EncWriteArrayEnd()
 		}
 	}

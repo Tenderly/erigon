@@ -349,7 +349,7 @@ func gasCreate2Eip3860(_ *EVM, contract *Contract, stack *stack.Stack, mem *Memo
 }
 
 func gasExpFrontier(_ *EVM, contract *Contract, stack *stack.Stack, mem *Memory, memorySize uint64) (uint64, error) {
-	expByteLen := uint64(libcommon.BitLenToByteLen(stack.Data[stack.Len()-2].BitLen()))
+	expByteLen := uint64(libcommon.BitLenToByteLen(stack.StackData[stack.Len()-2].BitLen()))
 
 	var (
 		gas      = expByteLen * params.ExpByteFrontier // no overflow check required. Max is 256 * ExpByte gas
@@ -362,7 +362,7 @@ func gasExpFrontier(_ *EVM, contract *Contract, stack *stack.Stack, mem *Memory,
 }
 
 func gasExpEIP160(_ *EVM, contract *Contract, stack *stack.Stack, mem *Memory, memorySize uint64) (uint64, error) {
-	expByteLen := uint64(libcommon.BitLenToByteLen(stack.Data[stack.Len()-2].BitLen()))
+	expByteLen := uint64(libcommon.BitLenToByteLen(stack.StackData[stack.Len()-2].BitLen()))
 
 	var (
 		gas      = expByteLen * params.ExpByteEIP160 // no overflow check required. Max is 256 * ExpByte gas

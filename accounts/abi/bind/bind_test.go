@@ -1770,7 +1770,7 @@ var bindTests = []struct {
 			iter2, _ := c.FilterFallback(nil)
 			defer iter2.Close()
 			for iter2.Next() {
-				if !bytes.Equal(iter2.Event.Data, calldata) {
+				if !bytes.Equal(iter2.Event.StackData, calldata) {
 					t.Fatal("calldata mismatch")
 				}
 				gotEvent = true
